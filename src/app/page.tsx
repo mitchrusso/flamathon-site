@@ -17,7 +17,7 @@ const navItems = [
   { href: "/contact", label: "Contact" },
 ];
 
-const heroImage = "https://images.unsplash.com/photo-1760783320455-f7092d00fade?auto=format&fit=crop&w=1600&q=80";
+const heroImage = "/images/flamathon-night-food-festival.png";
 const sauceImage = "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80";
 
 const categoryGuides = [
@@ -82,13 +82,18 @@ export default function Home() {
       </header>
 
       <section id="top" className="relative isolate min-h-[720px] overflow-hidden bg-[#101614] text-white">
-        <Image src={heroImage} alt="Friends dining outdoors under string lights at night" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority />
+        <Image src={heroImage} alt="Nighttime outdoor spicy food festival with people eating and celebrating" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority />
         <div className="absolute inset-0 -z-10 bg-[#07100d]/25" aria-hidden />
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/70 via-black/35 to-black/5" aria-hidden />
         <div className="mx-auto flex min-h-[720px] max-w-7xl items-center px-5 py-16">
-          <div className="max-w-3xl">
+          <div className="max-w-2xl">
             <p className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-3 py-2 text-xs font-black uppercase tracking-[0.18em] text-[#ffd1c2] backdrop-blur"><Sparkles className="h-4 w-4" aria-hidden /> Hot sauce and spicy food shopping guide</p>
-            <h1 className="mt-6 text-5xl font-black leading-[0.98] tracking-normal text-white drop-shadow-xl sm:text-6xl lg:text-7xl">Run the gauntlet of heat, flavor, and fire.</h1>
+            <h1 className="mt-6 text-5xl font-black leading-[0.98] tracking-normal text-white drop-shadow-xl sm:text-6xl lg:text-7xl">
+              <span className="block">Run the</span>
+              <span className="block">gauntlet of</span>
+              <span className="block">heat, flavor,</span>
+              <span className="block">and fire.</span>
+            </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/90 drop-shadow">Flamathon helps heat seekers compare hot sauce challenge sets, superhot sauces, spicy ramen, chili crisp, BBQ heat, and tasting gear with safety-aware buying checklists.</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a href="#reviews" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-[#e4461c] px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white shadow-lg shadow-black/30 hover:bg-[#b93213]">Explore heat picks <ArrowRight className="h-4 w-4" aria-hidden /></a>

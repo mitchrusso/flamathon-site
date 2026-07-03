@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     description: defaultDescription,
     url: siteUrl,
     siteName,
-    images: [{ url: "https://images.unsplash.com/photo-1760783320455-f7092d00fade?auto=format&fit=crop&w=1600&q=80", width: 1600, height: 1000, alt: "Friends dining outdoors under string lights at night" }],
+    images: [{ url: "/images/flamathon-night-food-festival.png", width: 1672, height: 941, alt: "Nighttime outdoor spicy food festival with people eating and celebrating" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Flamathon | Hot Sauce and Spicy Food Shopping Guide", description: defaultDescription, images: ["https://images.unsplash.com/photo-1760783320455-f7092d00fade?auto=format&fit=crop&w=1600&q=80"] },
+  twitter: { card: "summary_large_image", title: "Flamathon | Hot Sauce and Spicy Food Shopping Guide", description: defaultDescription, images: ["/images/flamathon-night-food-festival.png"] },
 };
 
 const websiteJsonLd = {
