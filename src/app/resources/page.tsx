@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowRight, CalendarDays, Search, SearchCheck } from "lucide-react";
+import { bestGuides } from "@/lib/best-guides";
+import { glossaryTerms } from "@/lib/glossary";
 import { topicHubs } from "@/lib/hubs";
 import { formatArticleDate, getNextScheduledArticle, getPublishedArticles, keywordPlan } from "@/lib/resources";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
@@ -205,6 +207,44 @@ export default async function ResourcesPage({ searchParams }: ResourcesPageProps
       </section>
 
       <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-5 py-14">
+          <div className="mb-8">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0e7a5f]">Authority Pages</p>
+            <h2 className="mt-3 text-3xl font-black">Best guides, glossary terms, and printable tools.</h2>
+            <p className="mt-3 max-w-3xl text-base leading-8 text-[#5d6d66]">
+              These pages target common comparison and definition searches while helping readers make better spicy-food buying decisions.
+            </p>
+          </div>
+          <div className="grid gap-5 lg:grid-cols-[1fr_0.85fr]">
+            <div className="grid gap-4 md:grid-cols-2">
+              {bestGuides.map((guide) => (
+                <Link key={guide.slug} href={`/best/${guide.slug}`} className="group rounded-lg border border-[#dce5dc] bg-[#fbfcf8] p-5 shadow-sm hover:border-[#0e7a5f]">
+                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">{guide.eyebrow}</p>
+                  <h3 className="mt-3 text-xl font-black leading-tight group-hover:text-[#0e7a5f]">{guide.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-[#5d6d66]">{guide.description}</p>
+                </Link>
+              ))}
+            </div>
+            <div className="rounded-lg border border-[#dce5dc] bg-[#fbfcf8] p-5 shadow-sm">
+              <h3 className="text-xl font-black">Spicy glossary</h3>
+              <p className="mt-2 text-sm leading-7 text-[#5d6d66]">Plain-English definitions for common heat-shopping terms.</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {glossaryTerms.slice(0, 8).map((term) => (
+                  <Link key={term.slug} href={`/glossary#${term.slug}`} className="rounded-md bg-white px-3 py-2 text-xs font-bold text-[#40514b] shadow-sm hover:text-[#0e7a5f]">
+                    {term.term}
+                  </Link>
+                ))}
+              </div>
+              <Link href="/hot-sauce-tasting-scorecard" className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-md bg-[#0e7a5f] px-4 py-2 text-sm font-black text-white hover:bg-[#0a5d49]">
+                Open tasting scorecard
+                <ArrowRight className="h-4 w-4" aria-hidden />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#f3f4f6]">
         <div className="mx-auto max-w-7xl px-5 py-14">
           <div className="mb-8 flex items-center gap-3">
             <CalendarDays className="h-7 w-7 text-[#0e7a5f]" aria-hidden />

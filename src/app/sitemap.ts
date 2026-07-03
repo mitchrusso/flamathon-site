@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { bestGuides } from "@/lib/best-guides";
 import { comparisonPages } from "@/lib/comparisons";
 import { topicHubs } from "@/lib/hubs";
 import { getPublishedArticles } from "@/lib/resources";
@@ -16,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/cookie-policy",
     "/editorial-policy",
     "/faq",
+    "/glossary",
+    "/hot-sauce-tasting-scorecard",
     "/privacy-policy",
     "/review-methodology",
     "/resources",
@@ -41,6 +44,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.75,
+    })),
+    ...bestGuides.map((guide) => ({
+      url: absoluteUrl(`/best/${guide.slug}`),
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
     })),
     ...reviewProducts.map((product) => ({
       url: absoluteUrl(`/reviews/${product.slug}`),

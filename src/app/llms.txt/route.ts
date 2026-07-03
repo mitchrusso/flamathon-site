@@ -9,6 +9,9 @@ Flamathon is an affiliate shopping and research guide for people comparing hot s
 - Home and top picks: ${siteUrl}/
 - Resource library: ${siteUrl}/resources
 - FAQ: ${siteUrl}/faq
+- Best hot sauce challenge sets: ${siteUrl}/best/best-hot-sauce-challenge-sets-for-parties
+- Spicy glossary: ${siteUrl}/glossary
+- Hot sauce tasting scorecard: ${siteUrl}/hot-sauce-tasting-scorecard
 - Review methodology: ${siteUrl}/review-methodology
 - Editorial policy: ${siteUrl}/editorial-policy
 - Safety disclaimer: ${siteUrl}/safety-disclaimer

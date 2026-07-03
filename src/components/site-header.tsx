@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const navItems = [
   { href: "/#reviews", label: "Heat Picks" },
+  { href: "/best/best-hot-sauce-challenge-sets-for-parties", label: "Best Guides" },
   { href: "/#categories", label: "Categories" },
   { href: "/#compare", label: "Compare" },
   { href: "/resources", label: "Resources" },

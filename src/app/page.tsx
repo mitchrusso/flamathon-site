@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useMemo } from "react";
 import { ArrowRight, BadgeCheck, Check, ClipboardCheck, Flame, Gift, ShieldCheck, Soup, Sparkles, Utensils } from "lucide-react";
+import { bestGuides } from "@/lib/best-guides";
 import { comparisonPages } from "@/lib/comparisons";
 import { reviewProducts } from "@/lib/reviews";
 import { siteFaqs } from "@/lib/trust";
@@ -140,6 +141,28 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-[#f3f4f6] py-14">
+        <div className="mx-auto max-w-7xl px-5">
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.18em] text-[#b63a16]">Best Guides</p>
+              <h2 className="mt-3 text-3xl font-black leading-tight sm:text-4xl">High-intent buying guides for common spicy searches.</h2>
+            </div>
+            <Link href="/glossary" className="text-sm font-black text-[#e4461c] hover:text-[#b93213]">Open glossary</Link>
+          </div>
+          <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {bestGuides.map((guide) => (
+              <Link key={guide.slug} href={`/best/${guide.slug}`} className="group rounded-lg border border-[#d7ded9] bg-white p-5 shadow-sm hover:border-[#e4461c]">
+                <p className="text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">{guide.eyebrow}</p>
+                <h3 className="mt-3 text-xl font-black leading-tight group-hover:text-[#b93213]">{guide.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-[#5f6966]">{guide.description}</p>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-[#e4461c]">Compare picks <ArrowRight className="h-4 w-4" aria-hidden /></span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section id="compare" className="mx-auto grid max-w-7xl gap-8 px-5 py-14 lg:grid-cols-[0.75fr_1fr]">
         <div className="rounded-lg bg-[#202625] p-7 text-white">
           <BadgeCheck className="h-8 w-8 text-[#ffb38f]" aria-hidden />
@@ -183,7 +206,7 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-[1.2fr_1fr]">
             <div><div className="flex items-center gap-3"><span className="grid h-10 w-10 place-items-center rounded-md bg-[#e4461c] text-white"><Flame className="h-5 w-5" aria-hidden /></span><span className="text-lg font-black">Flamathon</span></div><p className="mt-4 max-w-2xl text-sm leading-7 text-[#c7d2ce]">Flamathon is a participant in the Amazon Services LLC Associates Program. We may earn from qualifying purchases. Spicy food content is general shopping information; always follow ingredient labels, serving instructions, and medical guidance when relevant.</p></div>
             <div className="grid grid-cols-2 gap-3 text-sm font-bold text-[#c7d2ce]">
-              {[['Resources','/resources'],['FAQ','/faq'],['Contact Us','/contact'],['Editorial Policy','/editorial-policy'],['Review Methodology','/review-methodology'],['Safety Disclaimer','/safety-disclaimer'],['Privacy Policy','/privacy-policy'],['Cookie Policy','/cookie-policy'],['TOS','/terms-and-conditions'],['Accessibility','/accessibility-statement'],['Amazon Disclosure','/amazon-disclosure']].map(([label,href]) => <Link key={href} href={href} className="hover:text-[#ffb199]">{label}</Link>)}
+              {[['Resources','/resources'],['Best Guides','/best/best-hot-sauce-challenge-sets-for-parties'],['Glossary','/glossary'],['Tasting Scorecard','/hot-sauce-tasting-scorecard'],['FAQ','/faq'],['Contact Us','/contact'],['Editorial Policy','/editorial-policy'],['Review Methodology','/review-methodology'],['Safety Disclaimer','/safety-disclaimer'],['Privacy Policy','/privacy-policy'],['Cookie Policy','/cookie-policy'],['TOS','/terms-and-conditions'],['Accessibility','/accessibility-statement'],['Amazon Disclosure','/amazon-disclosure']].map(([label,href]) => <Link key={href} href={href} className="hover:text-[#ffb199]">{label}</Link>)}
             </div>
           </div>
           <p className="mt-8 border-t border-[#26342f] pt-5 text-xs text-[#91a19b]">Copyright 2026 Flamathon.</p>
