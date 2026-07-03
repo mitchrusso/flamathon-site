@@ -18,12 +18,13 @@ const navItems = [
 ];
 
 const heroImage = "/images/flamathon-night-food-festival.png";
-const sauceImage = "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80";
+const sauceImage = "/images/flamathon-hot-sauce-flight.png";
+const ramenImage = "/images/flamathon-spicy-ramen.png";
 
 const categoryGuides = [
   { title: "Challenge Sets", image: sauceImage, href: "/resources/topics/hot-sauce-challenge-sets", copy: "Mild-to-wild flights, gift sets, bottle order, and responsible tasting rules." },
   { title: "Superhot Sauces", image: sauceImage, href: "/resources/topics/superhot-sauces", copy: "Ghost pepper, Carolina Reaper, Scoville claims, tiny portions, and flavor balance." },
-  { title: "Spicy Ramen", image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1200&q=80", href: "/resources/topics/spicy-ramen", copy: "Noodle flights, flavor rankings, sodium checks, allergens, and party serving ideas." },
+  { title: "Spicy Ramen", image: ramenImage, href: "/resources/topics/spicy-ramen", copy: "Noodle flights, flavor rankings, sodium checks, allergens, and party serving ideas." },
   { title: "Chili Crisp", image: sauceImage, href: "/resources/topics/chili-crisp-and-oils", copy: "Crunchy chili oils, pantry gifts, sesame checks, storage, and weeknight uses." },
 ];
 

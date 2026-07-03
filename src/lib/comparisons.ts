@@ -10,10 +10,10 @@ export type ComparisonPage = {
   rows: { label: string; left: string; right: string; note: string }[];
 };
 
-const sauceImage = "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80";
-const ramenImage = "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1200&q=80";
-const chiliOilImage = "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80";
-const grillImage = "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80";
+const sauceImage = "/images/flamathon-hot-sauce-flight.png";
+const ramenImage = "/images/flamathon-spicy-ramen.png";
+const chiliOilImage = "/images/flamathon-hot-sauce-flight.png";
+const grillImage = "/images/flamathon-bbq-wings.png";
 
 export const comparisonPages: ComparisonPage[] = [
   {

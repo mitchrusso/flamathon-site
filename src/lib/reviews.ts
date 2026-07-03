@@ -24,12 +24,12 @@ const tag = "mitchellrusso-20";
 const amazonProduct = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=${tag}`;
 const amazonSearch = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`;
 
-const sauceImage = "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80";
-const wingsImage = "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=1200&q=80";
-const ramenImage = "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1200&q=80";
-const chiliOilImage = "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80";
-const grillImage = "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80";
-const milkImage = "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80";
+const sauceImage = "/images/flamathon-hot-sauce-flight.png";
+const wingsImage = "/images/flamathon-bbq-wings.png";
+const ramenImage = "/images/flamathon-spicy-ramen.png";
+const chiliOilImage = "/images/flamathon-hot-sauce-flight.png";
+const grillImage = "/images/flamathon-bbq-wings.png";
+const milkImage = "/images/flamathon-hot-sauce-flight.png";
 
 export const reviewProducts: ReviewProduct[] = [
   {

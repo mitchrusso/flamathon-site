@@ -21,12 +21,12 @@ export const keywordPlan = [
 ];
 
 const images = {
-  sauce: "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80",
-  wings: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=1200&q=80",
-  ramen: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1200&q=80",
-  chili: "https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80",
-  grill: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
-  party: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1200&q=80",
+  sauce: "/images/flamathon-hot-sauce-flight.png",
+  wings: "/images/flamathon-bbq-wings.png",
+  ramen: "/images/flamathon-spicy-ramen.png",
+  chili: "/images/flamathon-hot-sauce-flight.png",
+  grill: "/images/flamathon-bbq-wings.png",
+  party: "/images/flamathon-night-food-festival.png",
 };
 
 const articlePlan = [
