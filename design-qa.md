@@ -1,6 +1,6 @@
 # Design QA
 
-Site reviewed: https://flamathon.com/
+Site reviewed: https://flameathon.com/
 
 ## Verification
 

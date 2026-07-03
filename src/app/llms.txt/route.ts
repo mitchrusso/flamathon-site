@@ -1,4 +1,4 @@
-const siteUrl = "https://flamathon.com";
+const siteUrl = "https://flameathon.com";
 
 export function GET() {
   const body = `# Flamathon
