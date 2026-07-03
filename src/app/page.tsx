@@ -81,26 +81,26 @@ export default function Home() {
         )}
       </header>
 
-      <section id="top" className="bg-[#101614] text-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 lg:grid-cols-[1fr_0.9fr] lg:items-center lg:py-16">
-          <div>
-            <p className="inline-flex items-center gap-2 rounded-md border border-[#fb6b3d] bg-[#1e2925] px-3 py-2 text-xs font-black uppercase tracking-[0.18em] text-[#ffb199]"><Sparkles className="h-4 w-4" aria-hidden /> Hot sauce and spicy food shopping guide</p>
-            <h1 className="mt-6 max-w-3xl text-5xl font-black leading-[0.98] tracking-normal sm:text-6xl lg:text-7xl">Run the gauntlet of heat, flavor, and fire.</h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-[#c7d2ce]">Flamathon helps heat seekers compare hot sauce challenge sets, superhot sauces, spicy ramen, chili crisp, BBQ heat, and tasting gear with safety-aware buying checklists.</p>
+      <section id="top" className="relative isolate min-h-[720px] overflow-hidden bg-[#101614] text-white">
+        <Image src={heroImage} alt="Friends dining outdoors under string lights at night" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority />
+        <div className="absolute inset-0 -z-10 bg-[#07100d]/70" aria-hidden />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/55 to-black/20" aria-hidden />
+        <div className="mx-auto flex min-h-[720px] max-w-7xl items-center px-5 py-16">
+          <div className="max-w-3xl">
+            <p className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-3 py-2 text-xs font-black uppercase tracking-[0.18em] text-[#ffd1c2] backdrop-blur"><Sparkles className="h-4 w-4" aria-hidden /> Hot sauce and spicy food shopping guide</p>
+            <h1 className="mt-6 text-5xl font-black leading-[0.98] tracking-normal text-white drop-shadow-xl sm:text-6xl lg:text-7xl">Run the gauntlet of heat, flavor, and fire.</h1>
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/90 drop-shadow">Flamathon helps heat seekers compare hot sauce challenge sets, superhot sauces, spicy ramen, chili crisp, BBQ heat, and tasting gear with safety-aware buying checklists.</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href="#reviews" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-[#e4461c] px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white hover:bg-[#b93213]">Explore heat picks <ArrowRight className="h-4 w-4" aria-hidden /></a>
-              <Link href="/resources/how-to-host-a-hot-sauce-challenge-safely" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-[#43524d] bg-[#1b2421] px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white hover:border-[#ff8b68]">Safe tasting guide <ArrowRight className="h-4 w-4" aria-hidden /></Link>
+              <a href="#reviews" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-[#e4461c] px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white shadow-lg shadow-black/30 hover:bg-[#b93213]">Explore heat picks <ArrowRight className="h-4 w-4" aria-hidden /></a>
+              <Link href="/resources/how-to-host-a-hot-sauce-challenge-safely" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/35 bg-white/10 px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white backdrop-blur hover:border-[#ffb199]">Safe tasting guide <ArrowRight className="h-4 w-4" aria-hidden /></Link>
             </div>
             <div className="mt-8 grid max-w-2xl gap-3 sm:grid-cols-3">
               {["Amazon-tagged picks", "Safety sources linked", "Affiliate disclosure visible"].map((item) => (
-                <div key={item} className="rounded-md border border-[#34443f] bg-[#1b2421] px-3 py-3 text-sm font-black text-[#dce5e1]">
-                  <Check className="mb-2 h-4 w-4 text-[#ff8b68]" aria-hidden />{item}
+                <div key={item} className="rounded-md border border-white/20 bg-black/35 px-3 py-3 text-sm font-black text-white backdrop-blur">
+                  <Check className="mb-2 h-4 w-4 text-[#ffb199]" aria-hidden />{item}
                 </div>
               ))}
             </div>
-          </div>
-          <div className="flex h-[320px] items-center justify-center rounded-lg border border-[#34443f] bg-[#1b2421] p-3 shadow-2xl shadow-black/30 sm:h-[390px] lg:h-[460px]">
-            <Image src={heroImage} alt="Friends dining outdoors under string lights at night" width={1600} height={1000} className="h-full w-full rounded-md object-cover" priority />
           </div>
         </div>
       </section>
