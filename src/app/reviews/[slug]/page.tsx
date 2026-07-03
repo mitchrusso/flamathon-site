@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: ReviewPageProps): Promise<Met
 
   return {
     title: `${product.name} Buying Checklist`,
-    description: `${product.name}: ${product.bestFor}. Compare safety checks, pros, cons, fit notes, and buying considerations.`,
+    description: `${product.name}: ${product.bestFor}. Compare heat level, label checks, pros, cons, serving notes, and buying considerations.`,
     alternates: {
       canonical: `/reviews/${product.slug}`,
     },
@@ -176,7 +176,7 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
           <section>
             <h2 className="mt-8 text-2xl font-black">Who this heat pick is best for</h2>
             <p className="mt-4 text-base leading-8 text-[#4c5d56]">
-              This pick is best for shoppers looking for: {product.bestFor.toLowerCase()}. Compare the age range, installation requirements, fit limits, recall status, and manufacturer safety instructions before buying.
+              This pick is best for shoppers looking for: {product.bestFor.toLowerCase()}. Compare the current ingredient label, allergen notes, heat level, pack contents, seller details, serving size, and return policy before buying.
             </p>
             <p className="mt-4 rounded-lg bg-[#eef6ed] p-4 text-sm font-bold leading-7 text-[#40514b]">
               Setup tip: {decision.setupTip}
@@ -203,11 +203,11 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
                   <dd className="mt-1 text-[#5d6d66]">{product.category}</dd>
                 </div>
                 <div>
-                  <dt className="font-black">Fit / install note</dt>
+                  <dt className="font-black">Heat / serving note</dt>
                   <dd className="mt-1 text-[#5d6d66]">{product.weight}</dd>
                 </div>
                 <div>
-                  <dt className="font-black">Capacity / note</dt>
+                  <dt className="font-black">Label / buying note</dt>
                   <dd className="mt-1 text-[#5d6d66]">{product.capacity}</dd>
                 </div>
               </dl>
@@ -255,7 +255,7 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
         <aside className="rounded-lg border border-[#dce5dc] bg-white p-5 shadow-sm">
           <h2 className="text-sm font-black uppercase tracking-[0.14em] text-[#0e7a5f]">Before buying</h2>
           <p className="mt-3 text-sm leading-7 text-[#5d6d66]">
-            Verify current specifications, age range, fit limits, included parts, warranty, return policy, recall status, and safety instructions with the retailer or manufacturer.
+            Verify current ingredients, allergens, heat level, pack contents, seller details, serving guidance, storage instructions, and return policy with the retailer or manufacturer.
           </p>
           <a
             href={product.amazon}

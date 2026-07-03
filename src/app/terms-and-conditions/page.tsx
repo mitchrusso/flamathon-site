@@ -13,7 +13,7 @@ const sections = [
   { title: "Affiliate links", body: "Flamathon participates in affiliate programs, including the Amazon Services LLC Associates Program. We may earn commissions from qualifying purchases made through affiliate links on this site, at no additional cost to you." },
   { title: "Product information", body: "Product details, availability, prices, ratings, accessories, and specifications can change. Verify current information directly with the retailer or manufacturer before buying or using a product." },
   { title: "Third-party websites", body: "This site links to third-party websites. We are not responsible for their content, policies, pricing, fulfillment, product claims, or safety instructions." },
-  { title: "Limitation of liability", body: "To the fullest extent allowed by law, Flamathon is not liable for damages arising from your use of the site, reliance on site content, third-party websites, product purchases, product use, installation decisions, or safety outcomes." },
+  { title: "Limitation of liability", body: "To the fullest extent allowed by law, Flamathon is not liable for damages arising from your use of the site, reliance on site content, third-party websites, product purchases, product use, ingredient decisions, serving decisions, or safety outcomes." },
 ];
 
 export default function TermsPage() {

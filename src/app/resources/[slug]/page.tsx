@@ -72,7 +72,7 @@ function getArticleFaqs(article: ResourceArticle) {
     },
     {
       question: "Should I buy from the article image alone?",
-      answer: "No. Use the article to narrow the right product category, then open the buying checklist and retailer listing to confirm current specs, age guidance, seller details, recalls, and return policy.",
+      answer: "No. Use the article to narrow the right product category, then open the buying checklist and retailer listing to confirm current ingredients, allergens, heat level, seller details, pack contents, and return policy.",
     },
     {
       question: "What is the safest first step before buying?",

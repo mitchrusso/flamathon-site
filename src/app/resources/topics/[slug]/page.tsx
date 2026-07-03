@@ -213,7 +213,7 @@ export default async function HubPage({ params }: HubPageProps) {
             </p>
           </div>
           <Link href="/" className="mt-5 inline-flex items-center gap-2 text-sm font-black text-[#0e7a5f]">
-            Compare safety picks
+            Compare heat picks
             <ArrowRight className="h-4 w-4" aria-hidden />
           </Link>
           <div className="mt-5 border-t border-[#e6ece5] pt-5">

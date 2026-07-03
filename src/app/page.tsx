@@ -110,10 +110,16 @@ export default function Home() {
               <div className="mt-4 grid gap-2 text-sm text-[#5f6966]">
                 {product.pros.slice(0, 2).map((pro) => <p key={pro} className="flex gap-2"><Check className="mt-1 h-4 w-4 flex-none text-[#e4461c]" aria-hidden />{pro}</p>)}
               </div>
+              <p className="mt-4 rounded-md bg-[#fff8f1] px-3 py-2 text-xs font-bold leading-5 text-[#7b4b2d]">
+                Keep comparing if: {product.cons[0]}
+              </p>
               <div className="mt-5 flex gap-2"><Link href={`/reviews/${product.slug}`} className="inline-flex min-h-11 flex-1 items-center justify-center rounded-md border border-[#d7ded9] px-4 py-2 text-sm font-black hover:border-[#e4461c]">Review</Link><a href={product.amazon} target="_blank" rel="sponsored nofollow noreferrer" className="inline-flex min-h-11 flex-1 items-center justify-center rounded-md bg-[#111817] px-4 py-2 text-sm font-black text-white hover:bg-[#26342f]">Amazon</a></div>
             </article>
           ))}
         </div>
+        <p className="mt-5 text-xs font-bold leading-6 text-[#5f6966]">
+          As an Amazon Associate, Flamathon may earn from qualifying purchases. Product prices, pack contents, ingredients, and availability can change.
+        </p>
       </section>
 
       <section id="categories" className="bg-white py-14">

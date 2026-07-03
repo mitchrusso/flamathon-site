@@ -130,7 +130,7 @@ export default async function ComparePage({ params }: ComparePageProps) {
               <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
             <Link href="/#reviews" className="inline-flex min-h-11 items-center gap-2 rounded-md bg-[#0e7a5f] px-4 py-2 text-sm font-black text-white hover:bg-[#0a5d49]">
-              Safety picks
+              Heat picks
               <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
           </div>

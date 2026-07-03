@@ -15,7 +15,7 @@ export default function SafetyDisclaimerPage() {
         <h1 className="mt-8 text-4xl font-black">Safety Disclaimer</h1>
         <p className="mt-6 text-base leading-8 text-[#536166]">Flamathon provides general buying information about hot sauce, spicy ramen, chili crisp, BBQ heat, spicy gifts, and tasting supplies. It is not medical, dietary, allergy, legal, manufacturer, or professional advice.</p>
         <p className="mt-4 text-base leading-8 text-[#536166]">People differ in spice tolerance, allergies, health conditions, medications, and comfort with capsaicin. A product that is fun for one group may be wrong for another if the heat level, ingredients, or serving context does not match.</p>
-        <p className="mt-4 text-base leading-8 text-[#536166]">Before purchase or use, verify product specifications, age ranges, fit limits, certifications, warnings, recalls, included parts, warranty, return policy, and compatibility directly with the retailer or manufacturer.</p>
+        <p className="mt-4 text-base leading-8 text-[#536166]">Before purchase or use, verify current ingredients, allergen statements, heat level, pack contents, serving guidance, storage instructions, warnings, seller details, warranty, and return policy directly with the retailer or manufacturer.</p>
       </article>
     </main>
   );
