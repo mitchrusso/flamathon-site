@@ -68,13 +68,6 @@ export default function Home() {
               <a href="#reviews" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-[#e4461c] px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white shadow-lg shadow-black/30 hover:bg-[#b93213]">Explore heat picks <ArrowRight className="h-4 w-4" aria-hidden /></a>
               <Link href="/resources/how-to-host-a-hot-sauce-challenge-safely" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/35 bg-white/10 px-5 py-3 text-sm font-black uppercase tracking-[0.12em] text-white backdrop-blur hover:border-[#ffb199]">Safe tasting guide <ArrowRight className="h-4 w-4" aria-hidden /></Link>
             </div>
-            <div className="mt-8 grid max-w-2xl gap-3 sm:grid-cols-3">
-              {["Amazon-tagged picks", "Safety sources linked", "Affiliate disclosure visible"].map((item) => (
-                <div key={item} className="rounded-md border border-white/20 bg-black/35 px-3 py-3 text-sm font-black text-white backdrop-blur">
-                  <Check className="mb-2 h-4 w-4 text-[#ffb199]" aria-hidden />{item}
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
