@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, Check, Minus, ShieldCheck, ShoppingBag, X } from "lucide-react";
+import { ArrowRight, Check, Minus, ShieldCheck, ShoppingBag, X } from "lucide-react";
 import { getProductDecision, getProductFaqs, getRelatedProducts, getReviewProductBySlug, reviewProducts } from "@/lib/reviews";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
 
@@ -112,21 +112,6 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
   return (
     <main className="min-h-screen bg-[#f3f4f6] text-[#18211f]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(productJsonLd)} />
-      <header className="border-b border-[#dce5dc] bg-white">
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-5 px-5 py-4">
-          <Link href="/" className="flex items-center gap-3" aria-label="Flamathon home">
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-md bg-[#dff5eb] text-[#0e7a5f]">
-              <ShieldCheck className="h-6 w-6" aria-hidden />
-            </span>
-            <span className="text-lg font-black tracking-tight">Flamathon</span>
-          </Link>
-          <Link href="/#reviews" className="inline-flex min-h-11 items-center gap-2 rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]">
-            <ArrowLeft className="h-4 w-4" aria-hidden />
-            Reviews
-          </Link>
-        </div>
-      </header>
-
       <section className="bg-[#eef6ed]">
         <div className="mx-auto grid max-w-5xl gap-8 px-5 py-12 lg:grid-cols-[1fr_320px] lg:items-center">
           <div>

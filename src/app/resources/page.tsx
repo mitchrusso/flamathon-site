@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ArrowRight, CalendarDays, SearchCheck, ShieldCheck } from "lucide-react";
+import { ArrowRight, CalendarDays, SearchCheck } from "lucide-react";
 import { topicHubs } from "@/lib/hubs";
 import { formatArticleDate, getNextScheduledArticle, getPublishedArticles, keywordPlan } from "@/lib/resources";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
@@ -91,23 +91,6 @@ export default function ResourcesPage() {
   return (
     <main className="min-h-screen bg-[#f3f4f6] text-[#18211f]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(resourcesJsonLd)} />
-      <header className="border-b border-[#dce5dc] bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4">
-          <Link href="/" className="flex items-center gap-3" aria-label="Flamathon home">
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-md bg-[#dff5eb] text-[#0e7a5f]">
-              <ShieldCheck className="h-6 w-6" aria-hidden />
-            </span>
-            <span className="text-lg font-black tracking-tight">Flamathon</span>
-          </Link>
-          <Link
-            href="/"
-            className="inline-flex min-h-11 items-center rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]"
-          >
-            Back to heat picks
-          </Link>
-        </div>
-      </header>
-
       <section className="border-b border-[#dce5dc] bg-[#eef6ed]">
         <div className="mx-auto max-w-7xl px-5 py-16">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0e7a5f]">Spicy Food Resource Library</p>

@@ -2,20 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import { ArrowRight, BadgeCheck, Check, ClipboardCheck, Flame, Gift, Menu, ShieldCheck, ShoppingBag, Soup, Sparkles, Utensils, X } from "lucide-react";
+import { useMemo } from "react";
+import { ArrowRight, BadgeCheck, Check, ClipboardCheck, Flame, Gift, ShieldCheck, Soup, Sparkles, Utensils } from "lucide-react";
 import { comparisonPages } from "@/lib/comparisons";
 import { reviewProducts } from "@/lib/reviews";
 import { siteFaqs } from "@/lib/trust";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
-
-const navItems = [
-  { href: "#reviews", label: "Heat Picks" },
-  { href: "#categories", label: "Categories" },
-  { href: "#compare", label: "Compare" },
-  { href: "/resources", label: "Resources" },
-  { href: "/contact", label: "Contact" },
-];
 
 const heroImage = "/images/flamathon-night-food-festival.png";
 const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
@@ -45,7 +37,6 @@ const heatRules = [
 ];
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const topProducts = reviewProducts.slice(0, 6);
   const pageJsonLd = useMemo(() => ({
     "@context": "https://schema.org",
@@ -59,31 +50,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#f3f4f6] text-[#1b2321]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(pageJsonLd)} />
-      <header className="sticky top-0 z-50 border-b border-[#26342f] bg-[#111817]/95 text-white backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3">
-          <a href="#top" className="flex items-center gap-3" aria-label="Flamathon home">
-            <span className="grid h-10 w-10 place-items-center rounded-md bg-[#e4461c] text-white"><Flame className="h-5 w-5" aria-hidden /></span>
-            <span className="text-lg font-black tracking-tight">Flamathon</span>
-          </a>
-          <nav className="hidden items-center gap-6 text-sm font-bold text-[#cbd5d1] lg:flex" aria-label="Primary navigation">
-            {navItems.map((item) => <a key={item.href} href={item.href} className="hover:text-[#ffb199]">{item.label}</a>)}
-          </nav>
-          <a href="#reviews" className="hidden min-h-11 items-center gap-2 rounded-md bg-[#e4461c] px-4 py-2 text-sm font-black text-white hover:bg-[#b93213] sm:inline-flex">
-            <ShoppingBag className="h-4 w-4" aria-hidden /> Shop Heat Picks
-          </a>
-          <button type="button" onClick={() => setMenuOpen((open) => !open)} className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-[#34443f] bg-[#1b2421] text-white lg:hidden" aria-label="Open menu" aria-expanded={menuOpen}>
-            {menuOpen ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
-          </button>
-        </div>
-        {menuOpen && (
-          <div className="border-t border-[#26342f] bg-[#111817] px-5 py-4 lg:hidden">
-            <nav className="grid gap-2 text-base font-black" aria-label="Mobile navigation">
-              {navItems.map((item) => <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="rounded-md border border-[#34443f] bg-[#1b2421] px-4 py-3 text-white">{item.label}</a>)}
-            </nav>
-          </div>
-        )}
-      </header>
-
       <section id="top" className="relative isolate min-h-[720px] overflow-hidden bg-[#101614] text-white">
         <Image src={heroImage} alt="Nighttime outdoor spicy food festival with people eating and celebrating" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority />
         <div className="absolute inset-0 -z-10 bg-[#07100d]/25" aria-hidden />

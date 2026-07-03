@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { getTopicHubBySlug, topicHubs } from "@/lib/hubs";
 import { getArticleBySlug, isArticlePublished, type ResourceArticle } from "@/lib/resources";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
@@ -12,6 +12,22 @@ type HubPageProps = {
     slug: string;
   }>;
 };
+
+function getKeywordLink(keyword: string, hubSlug: string, relatedArticles: ResourceArticle[]) {
+  const normalized = keyword.toLowerCase();
+  const article = relatedArticles.find((candidate) =>
+    candidate.keywords.some((articleKeyword) => articleKeyword.toLowerCase() === normalized),
+  );
+
+  if (article) return `/resources/${article.slug}`;
+  if (normalized.includes("ghost") || normalized.includes("reaper") || normalized.includes("superhot")) return "/compare/ghost-pepper-vs-carolina-reaper-sauce";
+  if (normalized.includes("challenge") || normalized.includes("mild to wild") || normalized.includes("gift set")) return "/compare/hot-sauce-challenge-set-vs-gourmet-flight";
+  if (normalized.includes("ramen") || normalized.includes("noodle")) return "/compare/spicy-ramen-variety-pack-vs-hot-sauce-flight";
+  if (normalized.includes("chili crisp") || normalized.includes("chili oil")) return "/compare/chili-crisp-vs-traditional-hot-sauce";
+  if (normalized.includes("bbq") || normalized.includes("wing") || normalized.includes("grilling")) return "/compare/spicy-bbq-rub-vs-wing-sauce";
+  if (normalized.includes("tasting") || normalized.includes("recovery") || normalized.includes("spoon")) return "/resources/how-to-host-a-hot-sauce-challenge-safely";
+  return `/resources/topics/${hubSlug}`;
+}
 
 export function generateStaticParams() {
   return topicHubs.map((hub) => ({ slug: hub.slug }));
@@ -65,6 +81,10 @@ export default async function HubPage({ params }: HubPageProps) {
   const relatedArticles = hub.relatedArticleSlugs
     .map((articleSlug) => getArticleBySlug(articleSlug))
     .filter((article): article is ResourceArticle => Boolean(article && isArticlePublished(article)));
+  const keywordLinks = hub.keywords.map((keyword) => ({
+    keyword,
+    href: getKeywordLink(keyword, hub.slug, relatedArticles),
+  }));
   const hubUrl = absoluteUrl(`/resources/topics/${hub.slug}`);
   const hubJsonLd = {
     "@context": "https://schema.org",
@@ -121,21 +141,6 @@ export default async function HubPage({ params }: HubPageProps) {
   return (
     <main className="min-h-screen bg-[#f3f4f6] text-[#18211f]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(hubJsonLd)} />
-      <header className="border-b border-[#dce5dc] bg-white">
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-5 px-5 py-4">
-          <Link href="/" className="flex items-center gap-3" aria-label="Flamathon home">
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-md bg-[#dff5eb] text-[#0e7a5f]">
-              <ShieldCheck className="h-6 w-6" aria-hidden />
-            </span>
-            <span className="text-lg font-black tracking-tight">Flamathon</span>
-          </Link>
-          <Link href="/resources" className="inline-flex min-h-11 items-center gap-2 rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]">
-            <ArrowLeft className="h-4 w-4" aria-hidden />
-            Resources
-          </Link>
-        </div>
-      </header>
-
       <section className="bg-[#eef6ed]">
         <div className="mx-auto grid max-w-5xl gap-8 px-5 py-12 lg:grid-cols-[1fr_320px] lg:items-center">
           <div>
@@ -143,10 +148,10 @@ export default async function HubPage({ params }: HubPageProps) {
             <h1 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">{hub.title}</h1>
             <p className="mt-5 text-lg leading-8 text-[#40514b]">{hub.description}</p>
             <div className="mt-6 flex flex-wrap gap-2">
-              {hub.keywords.map((keyword) => (
-                <span key={keyword} className="rounded-md bg-white px-3 py-2 text-xs font-bold text-[#40514b] shadow-sm">
-                  {keyword}
-                </span>
+              {keywordLinks.map((item) => (
+                <Link key={item.keyword} href={item.href} className="rounded-md bg-white px-3 py-2 text-xs font-bold text-[#40514b] shadow-sm hover:text-[#0e7a5f]">
+                  {item.keyword}
+                </Link>
               ))}
             </div>
           </div>

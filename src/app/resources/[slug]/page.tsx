@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight, ExternalLink, ShieldCheck, ShoppingBag } from "lucide-react";
+import { ArrowRight, ExternalLink, ShoppingBag } from "lucide-react";
 import { topicHubs } from "@/lib/hubs";
 import { formatArticleDate, getArticleBySlug, isArticlePublished, resourceArticles, type ResourceArticle } from "@/lib/resources";
 import { reviewProducts, type ReviewProduct } from "@/lib/reviews";
@@ -226,21 +226,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   return (
     <main className="min-h-screen bg-[#f3f4f6] text-[#18211f]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(articleJsonLd)} />
-      <header className="border-b border-[#dce5dc] bg-white">
-        <div className="mx-auto flex max-w-4xl items-center justify-between gap-5 px-5 py-4">
-          <Link href="/" className="flex items-center gap-3" aria-label="Flamathon home">
-            <span className="inline-flex h-11 w-11 items-center justify-center rounded-md bg-[#dff5eb] text-[#0e7a5f]">
-              <ShieldCheck className="h-6 w-6" aria-hidden />
-            </span>
-            <span className="text-lg font-black tracking-tight">Flamathon</span>
-          </Link>
-          <Link href="/resources" className="inline-flex min-h-11 items-center gap-2 rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]">
-            <ArrowLeft className="h-4 w-4" aria-hidden />
-            Resources
-          </Link>
-        </div>
-      </header>
-
       <article>
         <section className="bg-[#eef6ed]">
           <div className="mx-auto max-w-4xl px-5 py-12">
