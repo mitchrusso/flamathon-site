@@ -83,8 +83,8 @@ export default function Home() {
 
       <section id="top" className="relative isolate min-h-[720px] overflow-hidden bg-[#101614] text-white">
         <Image src={heroImage} alt="Friends dining outdoors under string lights at night" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority />
-        <div className="absolute inset-0 -z-10 bg-[#07100d]/70" aria-hidden />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/55 to-black/20" aria-hidden />
+        <div className="absolute inset-0 -z-10 bg-[#07100d]/25" aria-hidden />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/70 via-black/35 to-black/5" aria-hidden />
         <div className="mx-auto flex min-h-[720px] max-w-7xl items-center px-5 py-16">
           <div className="max-w-3xl">
             <p className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-3 py-2 text-xs font-black uppercase tracking-[0.18em] text-[#ffd1c2] backdrop-blur"><Sparkles className="h-4 w-4" aria-hidden /> Hot sauce and spicy food shopping guide</p>
