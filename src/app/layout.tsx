@@ -47,6 +47,7 @@ const websiteJsonLd = {
       name: siteName,
       url: siteUrl,
       description: defaultDescription,
+      logo: absoluteUrl("/images/flamathon-night-food-festival.png"),
       sameAs: [],
     },
     {
@@ -57,6 +58,14 @@ const websiteJsonLd = {
       description: defaultDescription,
       publisher: { "@id": absoluteUrl("/#organization") },
       inLanguage: "en-US",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${siteUrl}/resources?query={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
     },
   ],
 };

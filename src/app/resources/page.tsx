@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ArrowRight, CalendarDays, SearchCheck } from "lucide-react";
+import { ArrowRight, CalendarDays, Search, SearchCheck } from "lucide-react";
 import { topicHubs } from "@/lib/hubs";
 import { formatArticleDate, getNextScheduledArticle, getPublishedArticles, keywordPlan } from "@/lib/resources";
 import { absoluteUrl, jsonLd } from "@/lib/seo";
@@ -31,8 +31,31 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ResourcesPage() {
+type ResourcesPageProps = {
+  searchParams?: Promise<{
+    query?: string;
+  }>;
+};
+
+function includesQuery(values: string[], query: string) {
+  const normalizedQuery = query.trim().toLowerCase();
+  return values.some((value) => value.toLowerCase().includes(normalizedQuery));
+}
+
+export default async function ResourcesPage({ searchParams }: ResourcesPageProps) {
+  const { query = "" } = (await searchParams) ?? {};
+  const searchQuery = query.trim();
   const publishedArticles = getPublishedArticles();
+  const displayedArticles = searchQuery
+    ? publishedArticles.filter((article) =>
+        includesQuery([article.title, article.excerpt, article.category, ...article.keywords], searchQuery),
+      )
+    : publishedArticles;
+  const displayedHubs = searchQuery
+    ? topicHubs.filter((hub) =>
+        includesQuery([hub.title, hub.description, hub.eyebrow, ...hub.keywords], searchQuery),
+      )
+    : topicHubs;
   const nextArticle = getNextScheduledArticle();
   const resourcesJsonLd = {
     "@context": "https://schema.org",
@@ -101,6 +124,28 @@ export default function ResourcesPage() {
             This section starts with the keyword plan, then releases one new article every weekday:
             with the first guide live now and the rest scheduled for weekdays through the next month.
           </p>
+          <form action="/resources" className="mt-8 flex max-w-2xl flex-col gap-3 rounded-lg border border-[#cbd8cf] bg-white p-3 shadow-sm sm:flex-row">
+            <label className="sr-only" htmlFor="resource-search">Search Flamathon resources</label>
+            <div className="flex min-h-12 flex-1 items-center gap-3 rounded-md border border-[#dce5dc] px-4">
+              <Search className="h-5 w-5 text-[#0e7a5f]" aria-hidden />
+              <input
+                id="resource-search"
+                name="query"
+                type="search"
+                defaultValue={searchQuery}
+                placeholder="Search hot sauce, ramen, chili crisp..."
+                className="h-full w-full bg-transparent text-base outline-none"
+              />
+            </div>
+            <button className="inline-flex min-h-12 items-center justify-center rounded-md bg-[#0e7a5f] px-5 py-2 text-sm font-black uppercase tracking-[0.08em] text-white hover:bg-[#0a5d49]">
+              Search
+            </button>
+          </form>
+          {searchQuery && (
+            <p className="mt-4 text-sm font-bold text-[#40514b]">
+              Showing results for <span className="text-[#18211f]">{searchQuery}</span>. <Link href="/resources" className="text-[#0e7a5f] hover:text-[#0a5d49]">Clear search</Link>
+            </p>
+          )}
         </div>
       </section>
 
@@ -140,7 +185,7 @@ export default function ResourcesPage() {
             </p>
           </div>
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-            {topicHubs.map((hub) => (
+            {displayedHubs.map((hub) => (
               <Link key={hub.slug} href={`/resources/topics/${hub.slug}`} className="group rounded-lg border border-[#dce5dc] bg-white p-5 shadow-sm hover:border-[#0e7a5f]">
                 <p className="text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">{hub.eyebrow}</p>
                 <h3 className="mt-3 text-xl font-black leading-tight group-hover:text-[#0e7a5f]">{hub.title}</h3>
@@ -151,6 +196,11 @@ export default function ResourcesPage() {
               </Link>
             ))}
           </div>
+          {displayedHubs.length === 0 && (
+            <p className="rounded-lg border border-[#dce5dc] bg-white p-5 text-base font-bold text-[#5d6d66]">
+              No topic hubs matched that search. Try a broader term such as hot sauce, ramen, chili crisp, BBQ, or tasting.
+            </p>
+          )}
         </div>
       </section>
 
@@ -164,9 +214,9 @@ export default function ResourcesPage() {
             </div>
           </div>
 
-          {publishedArticles.length > 0 ? (
+          {displayedArticles.length > 0 ? (
             <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-              {publishedArticles.map((article) => (
+              {displayedArticles.map((article) => (
                 <article key={article.slug} className="flex h-full flex-col overflow-hidden rounded-lg border border-[#dce5dc] bg-white shadow-sm">
                   <div className="flex h-44 items-center justify-center border-b border-[#e6ece5] bg-white p-4">
                     <Image
@@ -202,6 +252,13 @@ export default function ResourcesPage() {
                   </div>
                 </article>
               ))}
+            </div>
+          ) : searchQuery ? (
+            <div className="rounded-lg border border-[#dce5dc] bg-white p-8 shadow-sm">
+              <h3 className="text-2xl font-black">No published articles matched {searchQuery}.</h3>
+              <p className="mt-3 max-w-2xl text-base leading-8 text-[#5d6d66]">
+                Try a broader search such as hot sauce, ramen, chili crisp, BBQ, tasting, or capsaicin.
+              </p>
             </div>
           ) : (
             <div className="rounded-lg border border-[#dce5dc] bg-white p-8 shadow-sm">
