@@ -22,20 +22,23 @@ export type ProductDecision = {
 
 const tag = "mitchellrusso-20";
 const amazonProduct = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=${tag}`;
-const amazonSearch = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`;
 
-const sauceImage = "/images/flamathon-hot-sauce-flight.png";
-const wingsImage = "/images/flamathon-bbq-wings.png";
-const ramenImage = "/images/flamathon-spicy-ramen.png";
-const chiliOilImage = "/images/flamathon-hot-sauce-flight.png";
-const grillImage = "/images/flamathon-bbq-wings.png";
-const milkImage = "/images/flamathon-hot-sauce-flight.png";
+const thoughtfullyChallengeImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const whoopAssGiftSetImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
+const assKickinBookImage = "/images/products/ass-kickin-hot-sauce-challenge-book.jpg";
+const flyByJingImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
+const sauceUpImage = "/images/products/sauce-up-extra-spicy-chili-crisp.jpg";
+const kfGoodiesRamenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
+const samyangRamenImage = "/images/products/samyang-buldak-hot-chicken-ramen-variety-pack.jpg";
+const elijahsImage = "/images/products/elijahs-xtreme-hot-sauce-gift-pack.jpg";
+const bbqRubImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
+const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings.jpg";
 
 export const reviewProducts: ReviewProduct[] = [
   {
     name: "Thoughtfully Hot Sauce Challenge 10 Pack",
     slug: "thoughtfully-hot-sauce-challenge-10-pack",
-    image: sauceImage,
+    image: thoughtfullyChallengeImage,
     bestFor: "Best mild-to-extreme party flight",
     category: "Hot Sauce Challenge Sets",
     weight: "Heat profile: mild to ghost pepper",
@@ -49,7 +52,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "Premium Ghost Pepper and Carolina Reaper Gift Set",
     slug: "ghost-pepper-carolina-reaper-gift-set",
-    image: sauceImage,
+    image: whoopAssGiftSetImage,
     bestFor: "Best superhot two-bottle sampler",
     category: "Superhot Sauces",
     weight: "Heat profile: ghost pepper and reaper",
@@ -63,7 +66,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "Ass Kickin' Hot Sauce Challenge Book",
     slug: "ass-kickin-hot-sauce-challenge-book",
-    image: sauceImage,
+    image: assKickinBookImage,
     bestFor: "Best novelty challenge gift",
     category: "Hot Sauce Challenge Sets",
     weight: "Heat profile: staged novelty challenge",
@@ -77,7 +80,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "Fly By Jing Chili Crisp Starter Set",
     slug: "fly-by-jing-chili-crisp-starter-set",
-    image: chiliOilImage,
+    image: flyByJingImage,
     bestFor: "Best flavor-first chili crisp bundle",
     category: "Chili Crisp and Oils",
     weight: "Heat profile: savory, tingly, crunchy",
@@ -91,7 +94,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "SAUCE UP Extra Spicy Chili Crisp",
     slug: "sauce-up-extra-spicy-chili-crisp",
-    image: chiliOilImage,
+    image: sauceUpImage,
     bestFor: "Best single-jar extra spicy crisp",
     category: "Chili Crisp and Oils",
     weight: "Heat profile: crunchy, oily, extra spicy",
@@ -105,7 +108,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "KF Goodies Buldak Spicy Ramen Variety Box",
     slug: "buldak-spicy-ramen-variety-box",
-    image: ramenImage,
+    image: kfGoodiesRamenImage,
     bestFor: "Best spicy ramen sampler",
     category: "Spicy Ramen",
     weight: "Heat profile: Korean spicy noodle variety",
@@ -119,7 +122,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "Samyang Buldak Hot Chicken Ramen Variety Pack",
     slug: "samyang-buldak-hot-chicken-ramen-variety-pack",
-    image: ramenImage,
+    image: samyangRamenImage,
     bestFor: "Best broad ramen heat flight",
     category: "Spicy Ramen",
     weight: "Heat profile: multiple Buldak flavors",
@@ -133,7 +136,7 @@ export const reviewProducts: ReviewProduct[] = [
   {
     name: "Elijah's Xtreme Hot Sauce Gift Pack",
     slug: "elijahs-xtreme-hot-sauce-gift-pack",
-    image: wingsImage,
+    image: elijahsImage,
     bestFor: "Best flavor-forward hot sauce gift",
     category: "Gourmet Hot Sauce",
     weight: "Heat profile: mild to wild",
@@ -142,12 +145,12 @@ export const reviewProducts: ReviewProduct[] = [
     features: ["Sampler format", "Fruit and pepper blends", "Gift-ready", "Wing-friendly", "Flavor range"],
     pros: ["More versatile than novelty heat", "Good for cooks and grillers", "Works for repeat meals"],
     cons: ["Exact bundle can change", "Heat lovers may still want superhots"],
-    amazon: amazonSearch("Elijah's Xtreme hot sauce gift pack"),
+    amazon: amazonProduct("B09G9HD2N5"),
   },
   {
-    name: "Spicy BBQ Rub and Wing Sauce Kit",
+    name: "Thoughtfully Gourmet Wild Western BBQ Sauce and Rubs Gift Set",
     slug: "spicy-bbq-rub-wing-sauce-kit",
-    image: grillImage,
+    image: bbqRubImage,
     bestFor: "Best grilling and wing-night category",
     category: "BBQ Heat",
     weight: "Heat profile: rubs, marinades, and wing sauces",
@@ -156,21 +159,21 @@ export const reviewProducts: ReviewProduct[] = [
     features: ["Dry rub options", "Wing sauces", "Marinade potential", "Party-friendly", "Heat layering"],
     pros: ["Broad use cases", "Good for BBQ shoppers", "Less stunt-oriented"],
     cons: ["Many products are high in sugar or sodium", "Heat claims are inconsistent"],
-    amazon: amazonSearch("spicy BBQ rub wing sauce gift set"),
+    amazon: amazonProduct("B0B1QWLWZM"),
   },
   {
-    name: "Spicy Tasting Recovery Pairings",
+    name: "RimCereal Hot Sauce Tasting Party Cups and Spoons",
     slug: "spicy-tasting-recovery-pairings",
-    image: milkImage,
+    image: tastingSuppliesImage,
     bestFor: "Best responsible tasting support",
     category: "Tasting Gear",
     weight: "Use case: palate relief and cleanup",
     capacity: "Plan before serving extreme heat",
-    summary: "A tasting setup category for milk, yogurt, bread, gloves, tasting spoons, plates, napkins, and clear house rules before any spicy flight.",
-    features: ["Dairy or non-dairy pairings", "Disposable tasting spoons", "Gloves", "Serving boards", "Napkins and cleanup"],
-    pros: ["Encourages responsible hosting", "Useful for parties", "Reduces messy tasting setups"],
-    cons: ["Not a substitute for medical care", "Allergen-friendly alternatives matter"],
-    amazon: amazonSearch("hot sauce tasting spoons gloves milk powder party set"),
+    summary: "A practical party-supply kit for people who want small tasting portions, cleaner serving, and a more organized hot sauce flight.",
+    features: ["Disposable tasting cups", "Small tasting spoons", "Party-friendly layout", "Useful for sauce flights", "Cleanup support"],
+    pros: ["Encourages small portions", "Useful for parties", "Reduces messy tasting setups"],
+    cons: ["Not a substitute for food-safety planning", "Hosts still need allergen-friendly alternatives"],
+    amazon: amazonProduct("B0DZMLFW63"),
   },
 ];
 

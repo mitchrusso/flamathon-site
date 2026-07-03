@@ -142,7 +142,7 @@ export default function Home() {
           {topProducts.map((product, index) => (
             <article key={product.slug} className="rounded-lg border border-[#d7ded9] bg-white p-5 shadow-sm">
               <div className="flex items-start justify-between gap-3"><span className="rounded-md bg-[#ffe8df] px-3 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#b93213]">#{index + 1} Heat Pick</span><span className="text-xs font-bold text-[#6d7774]">{product.category}</span></div>
-              <div className="mt-4 flex h-56 items-center justify-center overflow-hidden rounded-md bg-[#eef1ed]"><Image src={product.image} alt={product.name} width={520} height={390} className="h-full w-full rounded-md object-cover" /></div>
+              <div className="mt-4 flex h-56 items-center justify-center overflow-hidden rounded-md bg-white p-3 ring-1 ring-[#edf1ed]"><Image src={product.image} alt={product.name} width={520} height={390} className="h-full w-full rounded-md object-contain" /></div>
               <h3 className="mt-5 text-xl font-black leading-tight">{product.name}</h3>
               <p className="mt-2 text-sm font-black text-[#e4461c]">{product.bestFor}</p>
               <p className="mt-3 text-sm leading-6 text-[#5f6966]">{product.summary}</p>
