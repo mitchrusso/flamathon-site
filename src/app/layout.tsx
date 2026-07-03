@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     description: defaultDescription,
     url: siteUrl,
     siteName,
-    images: [{ url: "https://images.unsplash.com/photo-1600175074948-6f6b7f72a5cf?auto=format&fit=crop&w=1200&q=80", width: 1200, height: 800, alt: "Hot sauce bottles ready for tasting" }],
+    images: [{ url: "https://images.unsplash.com/photo-1760783320455-f7092d00fade?auto=format&fit=crop&w=1600&q=80", width: 1600, height: 1000, alt: "Friends dining outdoors under string lights at night" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Flamathon | Hot Sauce and Spicy Food Shopping Guide", description: defaultDescription, images: ["https://images.unsplash.com/photo-1600175074948-6f6b7f72a5cf?auto=format&fit=crop&w=1200&q=80"] },
+  twitter: { card: "summary_large_image", title: "Flamathon | Hot Sauce and Spicy Food Shopping Guide", description: defaultDescription, images: ["https://images.unsplash.com/photo-1760783320455-f7092d00fade?auto=format&fit=crop&w=1600&q=80"] },
 };
 
 const websiteJsonLd = {

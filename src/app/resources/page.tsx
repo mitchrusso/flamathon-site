@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Spicy Food Resources | Flamathon",
     description:
       "Hot sauce challenge guides, spicy ramen articles, chili crisp comparisons, BBQ heat tips, allergen checks, and safety-aware tasting resources.",
-    images: ["https://images.unsplash.com/photo-1600175074948-6f6b7f72a5cf?auto=format&fit=crop&w=1200&q=80"],
+    images: ["https://images.unsplash.com/photo-1700619773778-f02b45ca0616?auto=format&fit=crop&w=1200&q=80"],
   },
 };
 
