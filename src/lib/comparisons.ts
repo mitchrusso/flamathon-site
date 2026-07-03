@@ -10,17 +10,18 @@ export type ComparisonPage = {
   rows: { label: string; left: string; right: string; note: string }[];
 };
 
-const sauceImage = "/images/flamathon-hot-sauce-flight.png";
-const ramenImage = "/images/flamathon-spicy-ramen.png";
-const chiliOilImage = "/images/flamathon-hot-sauce-flight.png";
-const grillImage = "/images/flamathon-bbq-wings.png";
+const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
+const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
+const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
+const grillImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
 
 export const comparisonPages: ComparisonPage[] = [
   {
     title: "Hot Sauce Challenge Set vs Gourmet Hot Sauce Flight",
     slug: "hot-sauce-challenge-set-vs-gourmet-flight",
     description: "Compare party-friendly heat ladders with flavor-first sauce samplers before buying a spicy gift.",
-    image: sauceImage,
+    image: challengeSetImage,
     keywords: ["hot sauce challenge set", "gourmet hot sauce gift set", "mild to wild hot sauce"],
     left: "Challenge set",
     right: "Gourmet flight",
@@ -35,7 +36,7 @@ export const comparisonPages: ComparisonPage[] = [
     title: "Ghost Pepper vs Carolina Reaper Sauce",
     slug: "ghost-pepper-vs-carolina-reaper-sauce",
     description: "Understand two famous superhot pepper styles before gifting or serving extreme hot sauce.",
-    image: sauceImage,
+    image: superhotSauceImage,
     keywords: ["ghost pepper sauce", "Carolina Reaper sauce", "superhot hot sauce"],
     left: "Ghost pepper",
     right: "Carolina Reaper",

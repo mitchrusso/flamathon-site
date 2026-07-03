@@ -10,11 +10,12 @@ export type TopicHub = {
   relatedArticleSlugs: string[];
 };
 
-const sauceImage = "/images/flamathon-hot-sauce-flight.png";
-const ramenImage = "/images/flamathon-spicy-ramen.png";
-const chiliOilImage = "/images/flamathon-hot-sauce-flight.png";
-const grillImage = "/images/flamathon-bbq-wings.png";
-const partyImage = "/images/flamathon-night-food-festival.png";
+const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
+const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
+const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
+const grillImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
+const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings.jpg";
 
 export const topicHubs: TopicHub[] = [
   {
@@ -22,7 +23,7 @@ export const topicHubs: TopicHub[] = [
     slug: "hot-sauce-challenge-sets",
     eyebrow: "Mild to Wild",
     description: "Choose hot sauce challenge kits by heat ladder, label clarity, serving rules, and gift value.",
-    image: sauceImage,
+    image: challengeSetImage,
     keywords: ["hot sauce challenge set", "mild to wild hot sauce", "hot sauce gift set"],
     relatedArticleSlugs: ["how-to-host-a-hot-sauce-challenge-safely", "best-hot-sauce-challenge-set-features", "ghost-pepper-vs-carolina-reaper"],
     sections: [
@@ -39,7 +40,7 @@ export const topicHubs: TopicHub[] = [
     slug: "superhot-sauces",
     eyebrow: "Ghost Pepper and Reaper",
     description: "Compare ghost pepper, Carolina Reaper, scorpion pepper, and other superhot sauces by flavor and responsible serving.",
-    image: sauceImage,
+    image: superhotSauceImage,
     keywords: ["ghost pepper sauce", "Carolina Reaper sauce", "superhot hot sauce"],
     relatedArticleSlugs: ["ghost-pepper-vs-carolina-reaper", "how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans"],
     sections: [
@@ -107,7 +108,7 @@ export const topicHubs: TopicHub[] = [
     slug: "tasting-gear-and-recovery",
     eyebrow: "Host Better",
     description: "Build a responsible spicy tasting setup with spoons, gloves, plain foods, dairy or alternatives, labels, and cleanup.",
-    image: partyImage,
+    image: tastingSuppliesImage,
     keywords: ["hot sauce tasting party", "spicy challenge recovery", "hot sauce tasting spoons"],
     relatedArticleSlugs: ["how-to-host-a-hot-sauce-challenge-safely", "what-to-serve-with-hot-sauce-flights", "capsaicin-safety-for-spicy-food-fans"],
     sections: [
