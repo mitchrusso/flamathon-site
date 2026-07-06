@@ -35,6 +35,22 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "famousbbq.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.yellowbirdfoods.com",
+      },
+      {
+        protocol: "https",
+        hostname: "davesgourmet.com",
+      },
+      {
+        protocol: "https",
+        hostname: "elijahsxtreme.com",
+      },
+      {
+        protocol: "https",
+        hostname: "bravadospice.com",
+      },
     ],
   },
   async headers() {

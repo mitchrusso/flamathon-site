@@ -40,6 +40,14 @@ const mikesHotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12o
 const flatironFourPepperImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
 const kosmosHotRubImage = "https://kosmosq.com/cdn/shop/files/kosmo-s-q-barbecue-rubs-dirty-bird-hot-rub-1186367442_600x.png?v=1755715741";
 const famousDavesPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
+const yellowbirdGhostImage = "https://www.yellowbirdfoods.com/cdn/shop/files/YB_9OZ_ORGANIC_GHOST-PEPPER_PDP-HEADER-1_V2_2x_59606460-c843-40e4-9a92-8f43e3747eb6.png?v=1701581315";
+const melindasGhostImage = "https://melindas.com/cdn/shop/products/5ozbhutghost.png?v=1667166680";
+const melindasGhostWingImage = "https://melindas.com/cdn/shop/products/GhostPepperSauce.png?v=1674072983";
+const melindasGhostTruffleImage = "https://melindas.com/cdn/shop/files/Melindas_GhostTruffle_db1056a2-1436-4d00-bfc9-38f61631225b.png?v=1704994470";
+const melindasGhostHotHoneyImage = "https://melindas.com/cdn/shop/files/Melindas-Ghost-Hot-Honey.png?v=1705017494";
+const davesGhostImage = "https://davesgourmet.com/cdn/shop/products/DAGPHS.png?crop=center&height=1200&v=1747667306&width=1200";
+const elijahsGhostImage = "https://elijahsxtreme.com/cdn/shop/files/elijahs-xtreme-ghost-pepper-hot-sauce.webp?v=1775753793";
+const bravadoGhostBlueberryImage = "https://bravadospice.com/cdn/shop/files/Ghost_Blueberry_Hero_H1S.png?v=1762910949";
 
 export const reviewProducts: ReviewProduct[] = [
   {
@@ -211,6 +219,118 @@ export const reviewProducts: ReviewProduct[] = [
     amazon: amazonProduct("B09GGDLHSZ"),
   },
   {
+    name: "Yellowbird Classic Ghost Pepper Hot Sauce",
+    slug: "yellowbird-classic-ghost-pepper-hot-sauce",
+    image: yellowbirdGhostImage,
+    bestFor: "Best everyday squeeze-bottle ghost sauce",
+    category: "Ghost Pepper Sauces",
+    weight: "Heat profile: smoky ghost pepper condiment",
+    capacity: "9.8 oz bottle; verify current ingredients and seller",
+    summary: "A practical ghost pepper bottle for people who want smoky heat on tacos, eggs, burgers, bowls, grilled food, and party plates without buying a novelty challenge box.",
+    features: ["Squeeze-bottle format", "Ghost pepper identity", "Tomato-garlic style base", "Good everyday condiment use", "Made-for-food positioning"],
+    pros: ["Easy portion control", "More useful after the tasting night", "Strong fit for tacos, eggs, and burgers"],
+    cons: ["Still too hot for mixed groups", "Current formula and seller details should be checked"],
+    amazon: amazonProduct("B06XX4R3GX"),
+  },
+  {
+    name: "Melinda's Ghost Pepper Hot Sauce",
+    slug: "melindas-ghost-pepper-hot-sauce",
+    image: melindasGhostImage,
+    bestFor: "Best classic ghost pepper bottle",
+    category: "Ghost Pepper Sauces",
+    weight: "Heat profile: Bhut Jolokia with vegetable base",
+    capacity: "5 oz bottle; verify current label and heat level",
+    summary: "A straightforward ghost pepper sauce for experienced heat fans who want the pepper named clearly and enough savory base to use tiny amounts on real food.",
+    features: ["Ghost pepper label focus", "Fresh-ingredient style positioning", "5 oz bottle", "Works as drops or thin streaks", "Good benchmark bottle"],
+    pros: ["Clear category fit", "Easy to compare against habanero or reaper", "Useful for small-dose cooking"],
+    cons: ["Not beginner-friendly", "Needs clear warnings at parties"],
+    amazon: amazonProduct("B0F5X83BXB"),
+  },
+  {
+    name: "Dave's Gourmet Ghost Pepper Naga Jolokia Hot Sauce",
+    slug: "daves-gourmet-ghost-pepper-jolokia-sauce",
+    image: davesGhostImage,
+    bestFor: "Best intense drop-at-a-time ghost sauce",
+    category: "Ghost Pepper Sauces",
+    weight: "Heat profile: intense Naga Jolokia heat",
+    capacity: "5 oz bottle; use very small amounts",
+    summary: "A long-running extreme-heat pick for people who want a hotter, more caution-heavy ghost pepper bottle for wings, stews, chili, and tiny tasting drops.",
+    features: ["Naga Jolokia naming", "Extreme-heat positioning", "5 oz bottle", "Drip-style use", "Good for chili and stew dosing"],
+    pros: ["Strong ghost pepper identity", "Useful when a little heat should go far", "Recognizable extreme-sauce brand"],
+    cons: ["Too intense for beginners", "Easy to overuse without portion rules"],
+    amazon: amazonProduct("B001PQTYN2"),
+  },
+  {
+    name: "Elijah's Xtreme Ghost Pepper Hot Sauce",
+    slug: "elijahs-xtreme-ghost-pepper-hot-sauce",
+    image: elijahsGhostImage,
+    bestFor: "Best balanced ghost pepper gift bottle",
+    category: "Ghost Pepper Sauces",
+    weight: "Heat profile: ghost, habanero, garlic, lime",
+    capacity: "5 oz bottle; verify current ingredients",
+    summary: "A ghost pepper bottle that leans into flavor notes like garlic, lime, and fruit alongside serious heat, making it better for gift buyers who want more than raw burn.",
+    features: ["Ghost and habanero pepper blend", "Garlic and lime flavor lane", "Gift-friendly bottle", "Food-first use", "Award-positioned brand"],
+    pros: ["More flavor-forward than many stunt sauces", "Good for wings and grilled food", "Strong standalone review candidate"],
+    cons: ["Still an advanced heat level", "Fruit/garlic profile may not fit every dish"],
+    amazon: amazonProduct("B00OG1OUSM"),
+  },
+  {
+    name: "Bravado Spice Ghost Pepper and Blueberry Hot Sauce",
+    slug: "bravado-ghost-pepper-blueberry-hot-sauce",
+    image: bravadoGhostBlueberryImage,
+    bestFor: "Best fruit-forward ghost pepper sauce",
+    category: "Ghost Pepper Sauces",
+    weight: "Heat profile: sweet-tart berry with ghost pepper",
+    capacity: "5 oz bottle; verify current ingredients",
+    summary: "A distinctive ghost pepper sauce for shoppers who want fruit contrast instead of only vinegar and fire. It fits grilled chicken, vegetables, breakfast plates, and tasting flights.",
+    features: ["Blueberry and ghost pepper pairing", "Fruit-forward flavor", "Small bottle format", "Good contrast sauce", "Works in comparison content"],
+    pros: ["Memorable flavor lane", "Useful for food pairings", "Breaks up a shelf of similar red sauces"],
+    cons: ["Fruit profile is not for every heat fan", "Still needs tiny tasting portions"],
+    amazon: amazonProduct("B00XZZRI1Q"),
+  },
+  {
+    name: "Melinda's Creamy Style Ghost Pepper Wing Sauce",
+    slug: "melindas-creamy-ghost-pepper-wing-sauce",
+    image: melindasGhostWingImage,
+    bestFor: "Best ghost pepper wing sauce",
+    category: "Ghost Pepper Wing Sauce",
+    weight: "Heat profile: creamy ghost pepper wing heat",
+    capacity: "12 oz bottle; verify current nutrition and allergens",
+    summary: "A sauce for buyers who specifically want wings, wraps, sandwiches, shrimp, or chicken instead of a tiny-drop tasting bottle.",
+    features: ["Wing-sauce format", "Ghost pepper plus supporting peppers", "Creamy-style texture", "Larger bottle", "Good for coating food"],
+    pros: ["More obvious meal use", "Better for wing-night intent", "Larger format than tiny hot sauce bottles"],
+    cons: ["Coating wings can make heat harder to control", "Check allergens and nutrition before serving"],
+    amazon: amazonSearch("Melinda's Creamy Ghost Pepper Wing Sauce"),
+  },
+  {
+    name: "Melinda's Ghost Pepper Black Truffle Hot Sauce",
+    slug: "melindas-ghost-pepper-black-truffle-hot-sauce",
+    image: melindasGhostTruffleImage,
+    bestFor: "Best rich ghost pepper finishing sauce",
+    category: "Ghost Pepper Sauces",
+    weight: "Heat profile: ghost pepper with black truffle",
+    capacity: "12 oz bottle; verify current ingredients",
+    summary: "A richer ghost pepper option for fries, burgers, eggs, pizza, pasta, fried chicken, and shoppers who want a premium savory angle.",
+    features: ["Black truffle flavor lane", "Ghost pepper heat", "Larger bottle", "Finishing-sauce use", "Good for fries and burgers"],
+    pros: ["Distinctive premium positioning", "Useful beyond party challenges", "Adds variety to the Ghost Pepper page"],
+    cons: ["Truffle flavor is polarizing", "Not the cleanest pick for simple pepper comparison"],
+    amazon: amazonProduct("B0CJDW347Q"),
+  },
+  {
+    name: "Melinda's Ghost Hot Honey",
+    slug: "melindas-ghost-hot-honey",
+    image: melindasGhostHotHoneyImage,
+    bestFor: "Best sweet ghost pepper drizzle",
+    category: "Ghost Hot Honey",
+    weight: "Heat profile: honey sweetness with ghost pepper",
+    capacity: "12 oz bottle; verify honey and sugar details",
+    summary: "A crossover pick for pizza, fried chicken, BBQ, cheese boards, marinades, and people who want ghost pepper heat in a sweet drizzle rather than a vinegar sauce.",
+    features: ["Hot honey format", "Ghost pepper infusion", "Squeeze or drizzle use", "Pizza and chicken pairing", "Giftable pantry angle"],
+    pros: ["Expands beyond standard hot sauce", "Approachable serving format", "Strong recipe and party fit"],
+    cons: ["Not vegan", "Added sugar and honey may not fit every buyer"],
+    amazon: amazonSearch("Melinda's Ghost Hot Honey"),
+  },
+  {
     name: "Mike's Hot Honey Original and Extra Hot Combo",
     slug: "mikes-hot-honey-original-extra-hot-combo",
     image: mikesHotHoneyImage,
@@ -274,6 +394,15 @@ export function getReviewProductBySlug(slug: string) {
 
 export function getProductDecision(product: ReviewProduct): ProductDecision {
   const category = product.category.toLowerCase();
+
+  if (category.includes("ghost") || product.slug.includes("ghost-pepper")) {
+    return {
+      bestWhen: ["You are shopping for experienced heat fans.", "You want a clear ghost pepper identity rather than a vague extreme sauce.", "You will serve drops, thin streaks, or clearly labeled side portions."],
+      considerAnotherWhen: ["The group includes spice-sensitive guests or children.", "The listing does not make ingredients, allergens, or bottle size clear.", "You need a mild table sauce for everyone."],
+      setupTip: "Build a tasting ladder: habanero first, ghost pepper second, and Reaper only if people still want to continue.",
+      searchIntent: "best ghost pepper sauce smoky hot sauce",
+    };
+  }
 
   if (category.includes("superhot") || product.slug.includes("reaper") || product.slug.includes("challenge")) {
     return {
