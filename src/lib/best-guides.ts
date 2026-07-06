@@ -44,6 +44,22 @@ export const bestGuides: BestGuide[] = [
     ],
   },
   {
+    title: "Best Ghost Pepper Sauces for Smoky Superhot Heat",
+    slug: "best-ghost-pepper-sauces",
+    eyebrow: "Ghost Pepper Guide",
+    description: "Compare ghost pepper sauces and gift sets by heat, smoke, flavor balance, serving caution, and repeat-use potential.",
+    keywords: ["best ghost pepper sauce", "ghost pepper hot sauce", "ghost pepper sauce gift set"],
+    intro:
+      "Ghost pepper sauce is a strong standalone category because shoppers search for it directly. The best ghost pepper picks are not just painfully hot; they give buyers a clear pepper identity, enough smoke or fruit to stay useful on food, and a responsible serving path for tiny portions.",
+    criteria: ["Ghost pepper is clearly named", "Flavor profile goes beyond pain", "Small serving control", "Readable ingredient and allergen details", "Useful on wings, tacos, eggs, chili, or grilled food"],
+    productSlugs: ["ghost-pepper-carolina-reaper-gift-set", "melindas-pepper-sauce-challenge-collection", "thoughtfully-hot-sauce-challenge-10-pack"],
+    faqs: [
+      { question: "Is ghost pepper sauce beginner-friendly?", answer: "Usually no. Ghost pepper sauces are better for experienced heat fans or cooks using very small amounts." },
+      { question: "What does ghost pepper sauce taste like?", answer: "Many ghost pepper sauces have a smoky or slow-building heat, but vinegar, fruit, garlic, sugar, extracts, and pepper concentration can change the experience dramatically." },
+      { question: "What should I compare ghost pepper sauce against?", answer: "Compare it with habanero for a lower step and Carolina Reaper for a hotter step. That creates a more useful heat ladder." },
+    ],
+  },
+  {
     title: "Best Spicy Ramen Variety Packs for Heat Flights",
     slug: "best-spicy-ramen-variety-packs-for-heat-flights",
     eyebrow: "Spicy Noodle Guide",

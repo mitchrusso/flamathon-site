@@ -56,6 +56,24 @@ export const topicHubs: TopicHub[] = [
     ],
   },
   {
+    title: "Ghost Pepper Sauces",
+    slug: "ghost-pepper-sauces",
+    eyebrow: "Smoky Superhot",
+    description: "Shop ghost pepper sauces by heat, smoke, fruit, vinegar balance, extract use, and safer tiny-portion serving.",
+    image: superhotSauceImage,
+    keywords: ["ghost pepper sauce", "best ghost pepper hot sauce", "ghost pepper gift set"],
+    relatedArticleSlugs: ["ghost-pepper-vs-carolina-reaper", "how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans"],
+    sections: [
+      { heading: "Ghost pepper is advanced, but not all ghost sauces taste the same", body: ["Ghost pepper sauces are usually for experienced heat fans, but they can range from smoky and slow-building to sharp, vinegary, and extract-heavy. Look for sauces that name the pepper, explain the flavor base, and give enough context to serve tiny amounts responsibly.", "A good ghost pepper category should help shoppers avoid buying only by pain claims. Garlic, fruit, smoke, vinegar, salt, and sweetness can all change whether a sauce is useful after the challenge is over."] },
+      { heading: "Use ghost pepper as a controlled tasting lane", body: ["Ghost pepper products are best served as drops or side sauces, not forced dares. Keep them away from children, label them clearly, and avoid surprise serving on shared food.", "For parties, pair a ghost pepper sauce with milder sauces so guests can understand the climb before deciding whether to try the hottest bottle."] },
+    ],
+    faqs: [
+      { question: "Is ghost pepper sauce hotter than habanero sauce?", answer: "Usually yes, but the sauce formula matters. A diluted ghost pepper sauce may feel gentler than a concentrated habanero sauce." },
+      { question: "Who should buy ghost pepper sauce?", answer: "Experienced heat fans, cooks who use tiny amounts in recipes, and gift buyers shopping for someone who already enjoys superhot products." },
+      { question: "Is ghost pepper sauce safer than Carolina Reaper sauce?", answer: "Not automatically. Ghost pepper is generally less intense than Carolina Reaper, but serving size, extracts, and individual tolerance matter more than the label alone." },
+    ],
+  },
+  {
     title: "Spicy Ramen",
     slug: "spicy-ramen",
     eyebrow: "Noodle Flights",

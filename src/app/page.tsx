@@ -22,6 +22,7 @@ const spicyPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pick
 const categoryGuides = [
   { title: "Challenge Sets", image: challengeSetImage, href: "/resources/topics/hot-sauce-challenge-sets", copy: "Mild-to-wild flights, gift sets, bottle order, and responsible tasting rules." },
   { title: "Superhot Sauces", image: superhotSauceImage, href: "/resources/topics/superhot-sauces", copy: "Ghost pepper, Carolina Reaper, Scoville claims, tiny portions, and flavor balance." },
+  { title: "Ghost Pepper", image: superhotSauceImage, href: "/resources/topics/ghost-pepper-sauces", copy: "Smoky superhot sauces, gift sets, Scoville context, and safer serving guidance." },
   { title: "Spicy Ramen", image: ramenImage, href: "/resources/topics/spicy-ramen", copy: "Noodle flights, flavor rankings, sodium checks, allergens, and party serving ideas." },
   { title: "Chili Crisp", image: chiliCrispImage, href: "/resources/topics/chili-crisp-and-oils", copy: "Crunchy chili oils, pantry gifts, sesame checks, storage, and weeknight uses." },
   { title: "Hot Honey", image: hotHoneyImage, href: "/resources/topics/hot-honey", copy: "Sweet heat for pizza, chicken, BBQ, cheese boards, cocktails, and gift baskets." },

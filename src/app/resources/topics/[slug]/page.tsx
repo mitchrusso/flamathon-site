@@ -19,6 +19,7 @@ function getKeywordLink(keyword: string, hubSlug: string, relatedArticles: Resou
     candidate.keywords.some((articleKeyword) => articleKeyword.toLowerCase() === normalized),
   );
 
+  if (hubSlug === "ghost-pepper-sauces" && normalized.includes("ghost")) return `/resources/topics/${hubSlug}`;
   if (article) return `/resources/${article.slug}`;
   if (normalized.includes("ghost") || normalized.includes("reaper") || normalized.includes("superhot")) return "/compare/ghost-pepper-vs-carolina-reaper-sauce";
   if (normalized.includes("challenge") || normalized.includes("mild to wild") || normalized.includes("gift set")) return "/compare/hot-sauce-challenge-set-vs-gourmet-flight";
