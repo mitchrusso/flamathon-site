@@ -15,12 +15,18 @@ const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-
 const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
 const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
 const chiliCrispImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
+const hotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
+const pepperFlakesImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
+const spicyPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
 
 const categoryGuides = [
   { title: "Challenge Sets", image: challengeSetImage, href: "/resources/topics/hot-sauce-challenge-sets", copy: "Mild-to-wild flights, gift sets, bottle order, and responsible tasting rules." },
   { title: "Superhot Sauces", image: superhotSauceImage, href: "/resources/topics/superhot-sauces", copy: "Ghost pepper, Carolina Reaper, Scoville claims, tiny portions, and flavor balance." },
   { title: "Spicy Ramen", image: ramenImage, href: "/resources/topics/spicy-ramen", copy: "Noodle flights, flavor rankings, sodium checks, allergens, and party serving ideas." },
   { title: "Chili Crisp", image: chiliCrispImage, href: "/resources/topics/chili-crisp-and-oils", copy: "Crunchy chili oils, pantry gifts, sesame checks, storage, and weeknight uses." },
+  { title: "Hot Honey", image: hotHoneyImage, href: "/resources/topics/hot-honey", copy: "Sweet heat for pizza, chicken, BBQ, cheese boards, cocktails, and gift baskets." },
+  { title: "Pepper Flakes", image: pepperFlakesImage, href: "/resources/topics/pepper-flakes-and-powders", copy: "Dry pantry heat for pizza, eggs, noodles, grilling, and serious chile fans." },
+  { title: "Spicy Pickles", image: spicyPicklesImage, href: "/resources/topics/spicy-pickles-and-snacks", copy: "Crunchy sweet heat for burgers, sandwiches, BBQ sides, and snack boards." },
 ];
 
 const quickMatchCards = [
@@ -38,7 +44,7 @@ const heatRules = [
 ];
 
 export default function Home() {
-  const topProducts = reviewProducts.slice(0, 6);
+  const topProducts = reviewProducts.slice(0, 15);
   const pageJsonLd = useMemo(() => ({
     "@context": "https://schema.org",
     "@graph": [
@@ -127,7 +133,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-5">
           <p className="text-sm font-black uppercase tracking-[0.18em] text-[#b63a16]">Category guides</p>
           <h2 className="mt-3 text-3xl font-black leading-tight sm:text-4xl">Shop by the heat experience you want.</h2>
-          <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {categoryGuides.map((item) => (
               <Link key={item.title} href={item.href} className="group rounded-lg border border-[#d7ded9] bg-[#f8faf8] p-4 shadow-sm hover:border-[#e4461c]">
                 <div className="flex h-44 items-center justify-center rounded-md bg-white p-3 ring-1 ring-[#edf1ed]">

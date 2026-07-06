@@ -73,6 +73,51 @@ export const bestGuides: BestGuide[] = [
       { question: "What foods work well with chili crisp?", answer: "Noodles, rice bowls, eggs, dumplings, roasted vegetables, pizza, grilled meat, and tofu are common uses." },
     ],
   },
+  {
+    title: "Best Hot Honey for Pizza, Chicken, and BBQ",
+    slug: "best-hot-honey-for-pizza-chicken-and-bbq",
+    eyebrow: "Sweet Heat Guide",
+    description: "Compare hot honey bottles and combo packs by heat level, drizzle control, gift value, and everyday food fit.",
+    keywords: ["best hot honey", "hot honey for pizza", "hot honey for chicken"],
+    intro:
+      "Hot honey is one of Flamathon's best expansion categories because it is approachable, giftable, and useful on real food. The best picks make it easy to drizzle a controlled amount of sweet heat on pizza, chicken, BBQ, biscuits, cheese boards, roasted vegetables, and cocktails.",
+    criteria: ["Clear original vs extra-hot option", "Easy squeeze or drizzle bottle", "Ingredient transparency", "Good everyday food fit", "Gift or combo-pack value"],
+    productSlugs: ["mikes-hot-honey-original-extra-hot-combo", "spicy-bbq-rub-wing-sauce-kit", "kosmos-q-hot-dirty-bird-bbq-rub"],
+    faqs: [
+      { question: "Is hot honey a good gift?", answer: "Yes. It is easier to use than many extreme sauces and fits pizza, chicken, BBQ, cheese boards, biscuits, and cocktails." },
+      { question: "Should I buy original or extra hot honey?", answer: "Original is safer for mixed groups. Extra hot is better for people who already like chili oil, hot sauce, or spicy BBQ." },
+    ],
+  },
+  {
+    title: "Best Hot Pepper Flakes and Powders for Serious Heat",
+    slug: "best-hot-pepper-flakes-and-powders",
+    eyebrow: "Pantry Fire Guide",
+    description: "Choose pepper flakes and powders for pizza, eggs, ramen, BBQ, and cooking by pepper blend, heat level, and safe handling.",
+    keywords: ["best hot pepper flakes", "ghost pepper flakes", "Carolina Reaper powder"],
+    intro:
+      "Dry pepper flakes and powders are repeat-use products for serious heat fans. They are stronger and less forgiving than a table sauce, but they can add clean pepper heat to pizza, eggs, ramen, chili, pasta, grilled vegetables, and BBQ rub blends.",
+    criteria: ["Pepper varieties are named", "No vague filler-heavy blend", "Clear heat expectations", "Practical shaker format", "Safe handling and storage"],
+    productSlugs: ["flatiron-pepper-co-four-pepper-blend", "ghost-pepper-carolina-reaper-gift-set", "spicy-tasting-recovery-pairings"],
+    faqs: [
+      { question: "Are superhot flakes safe to leave on the table?", answer: "Only if they are clearly labeled and kept away from children. Dry pepper dust can irritate eyes and skin." },
+      { question: "What foods work best with hot pepper flakes?", answer: "Pizza, eggs, noodles, pasta, chili, grilled vegetables, tacos, and BBQ rub blends are strong fits." },
+    ],
+  },
+  {
+    title: "Best Spicy Pickles and Snacks for Heat-Loving Parties",
+    slug: "best-spicy-pickles-and-snacks-for-parties",
+    eyebrow: "Snack Board Guide",
+    description: "Build spicy snack boards and BBQ sides with pickles, chips, nuts, jerky, and crunchy heat that people can opt into.",
+    keywords: ["best spicy pickles", "spicy snack box", "hot chips variety pack"],
+    intro:
+      "Spicy snacks and pickles turn Flamathon from a bottle-only guide into a fuller party-shopping guide. They are useful for burgers, sandwiches, BBQ plates, tailgates, snack boards, and gift baskets when people want crunch and heat without another sauce bottle.",
+    criteria: ["Clear heat level", "Crunch or snack value", "Sodium and sugar transparency", "Good party serving format", "Easy separation from mild snacks"],
+    productSlugs: ["famous-daves-sweet-spicy-pickle-chips", "mikes-hot-honey-original-extra-hot-combo", "spicy-tasting-recovery-pairings"],
+    faqs: [
+      { question: "Are spicy pickles usually extreme?", answer: "Most are not superhot. They usually bring vinegar, sweetness, salt, crunch, and moderate heat." },
+      { question: "How should I serve spicy snacks at a party?", answer: "Keep spicy snacks labeled and separate from mild snacks so guests can opt in without surprises." },
+    ],
+  },
 ];
 
 export function getBestGuideBySlug(slug: string) {

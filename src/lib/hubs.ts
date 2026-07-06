@@ -16,6 +16,9 @@ const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.j
 const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
 const grillImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
 const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings.jpg";
+const hotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
+const pepperFlakesImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
+const spicyPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
 
 export const topicHubs: TopicHub[] = [
   {
@@ -118,6 +121,57 @@ export const topicHubs: TopicHub[] = [
     faqs: [
       { question: "Does water stop hot sauce burn?", answer: "Water may not help much because capsaicin is oil-soluble. Dairy or fatty foods often work better for many people." },
       { question: "Should people wear gloves?", answer: "For superhot sauces or powders, gloves can prevent accidental eye or skin exposure." },
+    ],
+  },
+  {
+    title: "Hot Honey",
+    slug: "hot-honey",
+    eyebrow: "Sweet Heat",
+    description: "Compare hot honey bottles and combos for pizza, fried chicken, BBQ, cheese boards, cocktails, and easy gifting.",
+    image: hotHoneyImage,
+    keywords: ["best hot honey", "hot honey for pizza", "spicy honey gift"],
+    relatedArticleSlugs: ["spicy-bbq-rub-vs-wing-sauce", "what-to-serve-with-hot-sauce-flights", "mild-to-wild-hot-sauce-gifts"],
+    sections: [
+      { heading: "Hot honey is the bridge between mild and spicy", body: ["Hot honey works for shoppers who want a sweet-spicy pantry staple rather than a dare. Pizza, chicken, BBQ, biscuits, cheese boards, roasted vegetables, and cocktails are all natural use cases.", "Because it is still honey, check sugar content, bottle size, and whether the buyer avoids animal products."] },
+      { heading: "Look for drizzle control", body: ["A squeeze bottle makes it easier to add just a little heat at the table. Combo packs also let a household compare original and extra-hot versions without committing to a single heat level.", "Serve it on the side for mixed groups so everyone controls their own sweetness and heat."] },
+    ],
+    faqs: [
+      { question: "Is hot honey very spicy?", answer: "Usually it is more sweet-heat than extreme heat, but extra-hot versions can still surprise spice-sensitive eaters." },
+      { question: "What foods work best with hot honey?", answer: "Pizza, chicken, BBQ, cheese boards, biscuits, roasted vegetables, sandwiches, and cocktails are common uses." },
+    ],
+  },
+  {
+    title: "Pepper Flakes and Powders",
+    slug: "pepper-flakes-and-powders",
+    eyebrow: "Pantry Fire",
+    description: "Shop dry pepper flakes, ghost pepper blends, Carolina Reaper powders, and pizza-ready shakers by heat, flavor, and handling caution.",
+    image: pepperFlakesImage,
+    keywords: ["ghost pepper flakes", "Carolina Reaper powder", "best hot pepper flakes"],
+    relatedArticleSlugs: ["how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans", "chili-crisp-vs-hot-sauce"],
+    sections: [
+      { heading: "Dry heat is different from sauce", body: ["Pepper flakes and powders are concentrated, shelf-stable, and easy to overuse. They are ideal for pizza, eggs, pasta, ramen, chili, grilled vegetables, and rub blends when the cook wants heat without extra vinegar or oil.", "Treat superhot powders and flakes carefully. Avoid eye contact, label the shaker, and keep them away from children."] },
+      { heading: "Flavor still matters", body: ["A good pepper blend is not just the hottest powder available. Habanero fruitiness, ghost pepper smokiness, arbol brightness, and jalapeno flavor can make a blend more useful.", "Buyers should check whether the product is pure pepper, blended, smoked, salted, or mixed with fillers."] },
+    ],
+    faqs: [
+      { question: "Are pepper flakes hotter than hot sauce?", answer: "They can feel hotter because they are dry and concentrated, but perceived heat depends on the pepper blend and serving amount." },
+      { question: "Should I wear gloves with superhot powders?", answer: "Gloves are wise when handling very hot powders or flakes, especially during cooking or refilling shakers." },
+    ],
+  },
+  {
+    title: "Spicy Pickles and Snacks",
+    slug: "spicy-pickles-and-snacks",
+    eyebrow: "Crunchy Heat",
+    description: "Build snack boards, burger sides, and party spreads with spicy pickles, chips, nuts, jerky, and heat-forward pantry snacks.",
+    image: spicyPicklesImage,
+    keywords: ["spicy pickles", "spicy snack box", "hot chips variety pack"],
+    relatedArticleSlugs: ["allergen-checks-for-spicy-snacks", "what-to-serve-with-hot-sauce-flights", "food-safety-for-spicy-wing-night"],
+    sections: [
+      { heading: "Not every heat product needs to be a sauce", body: ["Spicy snacks and pickles expand Flamathon beyond bottles. They work for BBQ sides, burger nights, tailgates, snack boards, and people who want something crunchy with a little kick.", "This category is also strong for gift baskets and party planning because shoppers often buy multiple items at once."] },
+      { heading: "Snack labels matter", body: ["Check sodium, sugar, allergens, serving size, and whether the product is mild, medium, hot, or novelty-extreme. Avoid serving spicy snacks as surprise foods.", "For mixed groups, keep spicy snacks clearly separated from mild snacks."] },
+    ],
+    faqs: [
+      { question: "Are spicy pickles usually superhot?", answer: "Most are milder than superhot sauces, but they can still be salty, vinegary, sweet, and spicy enough to surprise guests." },
+      { question: "What belongs in a spicy snack board?", answer: "Spicy pickles, chips, nuts, jerky, chili crisp crackers, plain bread, cheese, fruit, and clearly labeled sauces can work well." },
     ],
   },
 ];

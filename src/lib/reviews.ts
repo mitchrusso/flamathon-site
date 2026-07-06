@@ -22,6 +22,7 @@ export type ProductDecision = {
 
 const tag = "mitchellrusso-20";
 const amazonProduct = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=${tag}`;
+const amazonSearch = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`;
 
 const thoughtfullyChallengeImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
 const whoopAssGiftSetImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
@@ -33,6 +34,12 @@ const samyangRamenImage = "/images/products/samyang-buldak-hot-chicken-ramen-var
 const elijahsImage = "/images/products/elijahs-xtreme-hot-sauce-gift-pack.jpg";
 const bbqRubImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
 const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings.jpg";
+const torchbearerImage = "https://www.torchbearersauces.com/cdn/shop/files/Best_Sellers_Mini_Bottle_8-Pack_600x.jpg?v=1763578196";
+const melindasChallengeImage = "https://melindas.com/cdn/shop/files/Pepper-sauce-challenge-gift-set.png?v=1707325563";
+const mikesHotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
+const flatironFourPepperImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
+const kosmosHotRubImage = "https://kosmosq.com/cdn/shop/files/kosmo-s-q-barbecue-rubs-dirty-bird-hot-rub-1186367442_600x.png?v=1755715741";
+const famousDavesPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
 
 export const reviewProducts: ReviewProduct[] = [
   {
@@ -175,6 +182,90 @@ export const reviewProducts: ReviewProduct[] = [
     cons: ["Not a substitute for food-safety planning", "Hosts still need allergen-friendly alternatives"],
     amazon: amazonProduct("B0DZMLFW63"),
   },
+  {
+    name: "Torchbearer Sauces Best Sellers Mini Bottle Pack",
+    slug: "torchbearer-best-sellers-mini-bottle-pack",
+    image: torchbearerImage,
+    bestFor: "Best flavor-forward mini hot sauce flight",
+    category: "Gourmet Hot Sauce",
+    weight: "Heat profile: mild through superhot",
+    capacity: "Verify current bottle lineup and pepper labels",
+    summary: "A more culinary tasting set for people who want respected hot sauce flavors in small bottles rather than a pure pain challenge.",
+    features: ["Mini bottle format", "Includes milder and hotter sauces", "Gift-ready", "Recognizable specialty brand", "Good for wing and pizza tastings"],
+    pros: ["Better flavor range than many novelty kits", "Small bottles help portion control", "Strong gift and party fit"],
+    cons: ["Bottle lineup can change", "Still too intense at the top end for beginners"],
+    amazon: amazonProduct("B07STX34WD"),
+  },
+  {
+    name: "Melinda's Pepper Sauce Challenge Collection",
+    slug: "melindas-pepper-sauce-challenge-collection",
+    image: melindasChallengeImage,
+    bestFor: "Best recognizable mild-to-superhot brand ladder",
+    category: "Hot Sauce Challenge Sets",
+    weight: "Heat profile: jalapeno to scorpion pepper",
+    capacity: "Check current sauces, ingredients, and Scoville claims",
+    summary: "A six-bottle challenge collection that lets tasters climb from approachable pepper sauces into much hotter territory with a brand people recognize.",
+    features: ["Six 5 oz bottles", "Jalapeno through scorpion pepper", "Clear gift set format", "Useful after tasting", "Good for sauce-by-sauce notes"],
+    pros: ["Known hot sauce brand", "Useful bottle sizes", "Better repeat-use potential than tiny novelty bottles"],
+    cons: ["Superhot end needs tiny servings", "Challenge language still needs host rules"],
+    amazon: amazonProduct("B09GGDLHSZ"),
+  },
+  {
+    name: "Mike's Hot Honey Original and Extra Hot Combo",
+    slug: "mikes-hot-honey-original-extra-hot-combo",
+    image: mikesHotHoneyImage,
+    bestFor: "Best sweet-heat pantry upgrade",
+    category: "Hot Honey",
+    weight: "Heat profile: sweet chili honey",
+    capacity: "Verify honey source, bottle size, and dietary fit",
+    summary: "A mainstream sweet-heat option for pizza, fried chicken, BBQ, cheese boards, cocktails, and people who want heat without a challenge format.",
+    features: ["Original and hotter option", "Squeeze bottle format", "Pizza and chicken use", "Giftable pantry staple", "Easy drizzle control"],
+    pros: ["Very broad food fit", "Good entry point for mild heat fans", "Supports many recipe/article angles"],
+    cons: ["Not vegan", "Honey and sugar content may not fit every shopper"],
+    amazon: amazonSearch("Mike's Hot Honey Original Extra Hot Combo"),
+  },
+  {
+    name: "Flatiron Pepper Co Four Pepper Blend",
+    slug: "flatiron-pepper-co-four-pepper-blend",
+    image: flatironFourPepperImage,
+    bestFor: "Best upgrade from ordinary red pepper flakes",
+    category: "Pepper Flakes and Powders",
+    weight: "Heat profile: arbol, ghost, habanero, jalapeno",
+    capacity: "Use sparingly and keep away from eyes",
+    summary: "A practical pantry product for people who want serious pepper flavor on pizza, eggs, ramen, pasta, grilled vegetables, and BBQ without opening a sauce bottle.",
+    features: ["Dry pepper flake blend", "No sauce refrigeration", "Easy sprinkle format", "Everyday cooking use", "Stronger than standard flakes"],
+    pros: ["Repeat-use pantry item", "Good for cooks and pizza fans", "Small amount goes a long way"],
+    cons: ["Dry pepper dust can irritate eyes and skin", "Not ideal for shared tables without warnings"],
+    amazon: amazonProduct("B075X2RFXM"),
+  },
+  {
+    name: "Kosmos Q Hot Dirty Bird BBQ Rub",
+    slug: "kosmos-q-hot-dirty-bird-bbq-rub",
+    image: kosmosHotRubImage,
+    bestFor: "Best spicy poultry and wing rub",
+    category: "BBQ Heat",
+    weight: "Heat profile: spicy-sweet BBQ seasoning",
+    capacity: "Check sodium, sugar, and serving size",
+    summary: "A grill-friendly rub for wings, chicken, turkey, pork, and smoked party food when people want heat built into the cook instead of only bottled sauce.",
+    features: ["Dry BBQ rub", "Poultry-forward", "Works before grilling or smoking", "Sweet heat profile", "Useful for wing-night guides"],
+    pros: ["Good BBQ category depth", "Pairs naturally with sauce recommendations", "Useful beyond one tasting event"],
+    cons: ["Dry rubs can be sodium-heavy", "Heat level depends on quantity used"],
+    amazon: amazonProduct("B00XZ1O4LW"),
+  },
+  {
+    name: "Famous Dave's Sweet 'n Spicy Pickle Chips",
+    slug: "famous-daves-sweet-spicy-pickle-chips",
+    image: famousDavesPicklesImage,
+    bestFor: "Best spicy sandwich and BBQ side",
+    category: "Spicy Pickles and Snacks",
+    weight: "Heat profile: sweet pickle heat",
+    capacity: "Verify jar size, sugar, sodium, and spice level",
+    summary: "A snack-and-side category that fits BBQ parties, burgers, sandwiches, and heat lovers who want something crunchy instead of another sauce.",
+    features: ["Pickle chip format", "Sweet-spicy profile", "BBQ and burger pairing", "Party snack use", "Shelf-stable before opening"],
+    pros: ["Good adjacent category", "Easy party food pairing", "Adds texture and snack intent"],
+    cons: ["Sodium and sugar need label checks", "Heat is milder than superhot sauces"],
+    amazon: amazonProduct("B0D2ZSGR6P"),
+  },
 ];
 
 export function getReviewProductBySlug(slug: string) {
@@ -208,6 +299,33 @@ export function getProductDecision(product: ReviewProduct): ProductDecision {
       considerAnotherWhen: ["You dislike oil-based condiments.", "You need a clean-label allergen fit that the current listing does not clearly support."],
       setupTip: "Stir well, start with a small spoonful, and refrigerate or store exactly as the label requires.",
       searchIntent: "best chili crisp spicy oil gift set",
+    };
+  }
+
+  if (category.includes("hot honey")) {
+    return {
+      bestWhen: ["You want sweet heat for pizza, chicken, BBQ, cheese boards, or cocktails.", "You are buying for people who like flavor more than extreme challenges.", "You can verify honey, sugar, and ingredient details."],
+      considerAnotherWhen: ["The shopper avoids honey or added sugars.", "You need an extremely hot product rather than a versatile drizzle."],
+      setupTip: "Serve hot honey on the side first, then drizzle lightly once you know how sweet and spicy the dish should be.",
+      searchIntent: "best hot honey for pizza chicken bbq",
+    };
+  }
+
+  if (category.includes("pepper flakes") || category.includes("powders")) {
+    return {
+      bestWhen: ["You want repeat-use pantry heat for pizza, eggs, noodles, pasta, or grilling.", "You prefer dry seasoning over oil or vinegar-based sauces.", "You can keep the flakes clearly labeled for guests."],
+      considerAnotherWhen: ["Children may handle the shaker unsupervised.", "You need a mild table condiment for mixed groups."],
+      setupTip: "Use dry pepper flakes sparingly and avoid touching your eyes after handling superhot blends.",
+      searchIntent: "best hot pepper flakes ghost pepper pizza",
+    };
+  }
+
+  if (category.includes("pickles") || category.includes("snacks")) {
+    return {
+      bestWhen: ["You want crunchy spicy sides for burgers, BBQ plates, sandwiches, or snack boards.", "You are building a party spread rather than a sauce flight.", "You can verify sodium, sugar, and serving size."],
+      considerAnotherWhen: ["The shopper avoids pickled foods, vinegar, sodium, or added sugar.", "You need superhot intensity."],
+      setupTip: "Serve spicy pickles separately from mild sides so guests can choose their own heat level.",
+      searchIntent: "best spicy pickles for burgers bbq",
     };
   }
 

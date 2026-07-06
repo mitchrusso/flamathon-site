@@ -11,6 +11,30 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.torchbearersauces.com",
+      },
+      {
+        protocol: "https",
+        hostname: "melindas.com",
+      },
+      {
+        protocol: "https",
+        hostname: "mikeshothoney.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.flatironpepper.com",
+      },
+      {
+        protocol: "https",
+        hostname: "kosmosq.com",
+      },
+      {
+        protocol: "https",
+        hostname: "famousbbq.com",
+      },
     ],
   },
   async headers() {
