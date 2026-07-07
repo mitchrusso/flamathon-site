@@ -10,12 +10,12 @@ export type TopicHub = {
   relatedArticleSlugs: string[];
 };
 
-const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg";
 const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
 const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
 const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
 const grillImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
-const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings.jpg";
+const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings-optimized.jpg";
 const hotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
 const pepperFlakesImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
 const spicyPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";

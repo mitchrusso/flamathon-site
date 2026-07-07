@@ -94,7 +94,7 @@ export default async function ComparePage({ params }: ComparePageProps) {
             <p className="mt-5 text-lg leading-8 text-[#40514b]">{page.description}</p>
           </div>
           <div className="flex h-[260px] items-center justify-center rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dce5dc] sm:h-[300px] lg:h-[340px]">
-            <Image src={page.image} alt={`${page.title} comparison image`} width={520} height={520} className="h-full w-full object-contain" priority />
+            <Image src={page.image} alt={`${page.title} comparison image`} width={520} height={520} sizes="(min-width: 1024px) 320px, 90vw" className="h-full w-full object-contain" priority />
           </div>
         </div>
       </section>

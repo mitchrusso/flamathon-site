@@ -24,7 +24,7 @@ const tag = "mitchellrusso-20";
 const amazonProduct = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=${tag}`;
 const amazonSearch = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`;
 
-const thoughtfullyChallengeImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const thoughtfullyChallengeImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg";
 const whoopAssGiftSetImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
 const assKickinBookImage = "/images/products/ass-kickin-hot-sauce-challenge-book.jpg";
 const flyByJingImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
@@ -33,7 +33,7 @@ const kfGoodiesRamenImage = "/images/products/kf-goodies-buldak-spicy-ramen-vari
 const samyangRamenImage = "/images/products/samyang-buldak-hot-chicken-ramen-variety-pack.jpg";
 const elijahsImage = "/images/products/elijahs-xtreme-hot-sauce-gift-pack.jpg";
 const bbqRubImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
-const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings.jpg";
+const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings-optimized.jpg";
 const torchbearerImage = "https://www.torchbearersauces.com/cdn/shop/files/Best_Sellers_Mini_Bottle_8-Pack_600x.jpg?v=1763578196";
 const melindasChallengeImage = "https://melindas.com/cdn/shop/files/Pepper-sauce-challenge-gift-set.png?v=1707325563";
 const mikesHotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";

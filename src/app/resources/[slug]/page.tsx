@@ -251,6 +251,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               alt={`${article.title} resource image`}
               width={1200}
               height={760}
+              sizes="(min-width: 1024px) 800px, 90vw"
               className="h-full w-full object-contain"
               priority
             />
@@ -305,7 +306,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               {recommendedProducts.map((product) => (
                 <article key={product.slug} className="flex h-full flex-col rounded-lg border border-[#e6ece5] bg-[#fbfcf8] p-4">
                   <div className="flex h-32 items-center justify-center rounded-md bg-white p-3">
-                    <Image src={product.image} alt={product.name} width={360} height={240} className="h-full w-full object-contain" />
+                    <Image src={product.image} alt={product.name} width={360} height={240} sizes="(min-width: 768px) 30vw, 90vw" className="h-full w-full object-contain" />
                   </div>
                   <h3 className="mt-4 text-base font-black leading-tight">{product.name}</h3>
                   <p className="mt-2 text-xs font-black uppercase tracking-[0.08em] text-[#0e7a5f]">{product.bestFor}</p>

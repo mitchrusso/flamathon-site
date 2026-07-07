@@ -135,7 +135,7 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
             </div>
           </div>
           <div className="flex h-[260px] items-center justify-center rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dce5dc] sm:h-[300px] lg:h-[340px]">
-            <Image src={product.image} alt={product.name} width={520} height={520} className="h-full w-full object-contain" priority />
+            <Image src={product.image} alt={product.name} width={520} height={520} sizes="(min-width: 1024px) 320px, 90vw" className="h-full w-full object-contain" priority />
           </div>
         </div>
       </section>

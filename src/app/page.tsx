@@ -1,8 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo } from "react";
 import { ArrowRight, BadgeCheck, Check, ClipboardCheck, Flame, Gift, ShieldCheck, Soup, Sparkles, Utensils } from "lucide-react";
 import { bestGuides } from "@/lib/best-guides";
 import { comparisonPages } from "@/lib/comparisons";
@@ -10,8 +7,8 @@ import { reviewProducts } from "@/lib/reviews";
 import { siteFaqs } from "@/lib/trust";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
 
-const heroImage = "/images/flamathon-night-food-festival.png";
-const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const heroImage = "/images/flamathon-night-food-festival-optimized.jpg";
+const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg";
 const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
 const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
 const chiliCrispImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
@@ -46,20 +43,20 @@ const heatRules = [
 
 export default function Home() {
   const topProducts = reviewProducts.slice(0, 15);
-  const pageJsonLd = useMemo(() => ({
+  const pageJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       { "@type": "WebPage", "@id": absoluteUrl("/#webpage"), name: `${siteName} | Hot Sauce and Spicy Food Shopping Guide`, description: "Hot sauce challenge sets, superhot sauces, spicy ramen, chili crisp, BBQ heat, and safer tasting guides.", url: absoluteUrl("/") },
       { "@type": "ItemList", "@id": absoluteUrl("/#heat-picks"), name: "Flamathon spicy shopping picks", itemListElement: topProducts.map((product, index) => ({ "@type": "ListItem", position: index + 1, url: absoluteUrl(`/reviews/${product.slug}`), name: product.name })) },
       { "@type": "FAQPage", mainEntity: siteFaqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) },
     ],
-  }), [topProducts]);
+  };
 
   return (
     <main className="min-h-screen bg-[#f3f4f6] text-[#1b2321]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(pageJsonLd)} />
       <section id="top" className="relative isolate min-h-[720px] overflow-hidden bg-[#101614] text-white">
-        <Image src={heroImage} alt="Nighttime outdoor spicy food festival with people eating and celebrating" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority />
+        <Image src={heroImage} alt="Nighttime outdoor spicy food festival with people eating and celebrating" fill sizes="100vw" className="absolute inset-0 -z-20 object-cover" priority quality={82} />
         <div className="absolute inset-0 -z-10 bg-[#07100d]/25" aria-hidden />
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/70 via-black/35 to-black/5" aria-hidden />
         <div className="mx-auto flex min-h-[720px] max-w-7xl items-center px-5 py-16">
@@ -111,7 +108,7 @@ export default function Home() {
           {topProducts.map((product, index) => (
             <article key={product.slug} className="rounded-lg border border-[#d7ded9] bg-white p-5 shadow-sm">
               <div className="flex items-start justify-between gap-3"><span className="rounded-md bg-[#ffe8df] px-3 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#b93213]">#{index + 1} Heat Pick</span><span className="text-xs font-bold text-[#6d7774]">{product.category}</span></div>
-              <div className="mt-4 flex h-56 items-center justify-center overflow-hidden rounded-md bg-white p-3 ring-1 ring-[#edf1ed]"><Image src={product.image} alt={product.name} width={520} height={390} className="h-full w-full rounded-md object-contain" /></div>
+              <div className="mt-4 flex h-56 items-center justify-center overflow-hidden rounded-md bg-white p-3 ring-1 ring-[#edf1ed]"><Image src={product.image} alt={product.name} width={520} height={390} sizes="(min-width: 1280px) 30vw, (min-width: 768px) 45vw, 90vw" className="h-full w-full rounded-md object-contain" /></div>
               <h3 className="mt-5 text-xl font-black leading-tight">{product.name}</h3>
               <p className="mt-2 text-sm font-black text-[#e4461c]">{product.bestFor}</p>
               <p className="mt-3 text-sm leading-6 text-[#5f6966]">{product.summary}</p>
@@ -138,7 +135,7 @@ export default function Home() {
             {categoryGuides.map((item) => (
               <Link key={item.title} href={item.href} className="group rounded-lg border border-[#d7ded9] bg-[#f8faf8] p-4 shadow-sm hover:border-[#e4461c]">
                 <div className="flex h-44 items-center justify-center rounded-md bg-white p-3 ring-1 ring-[#edf1ed]">
-                  <Image src={item.image} alt={`${item.title} guide`} width={600} height={380} className="h-full w-full rounded-md object-contain" />
+                  <Image src={item.image} alt={`${item.title} guide`} width={600} height={380} sizes="(min-width: 1280px) 30vw, (min-width: 768px) 45vw, 90vw" className="h-full w-full rounded-md object-contain" />
                 </div>
                 <h3 className="mt-4 text-xl font-black group-hover:text-[#b93213]">{item.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-[#5f6966]">{item.copy}</p>

@@ -128,7 +128,7 @@ export default async function BestGuidePage({ params }: BestGuidePageProps) {
           {products.map((product, index) => (
             <article key={product.slug} className="grid gap-5 rounded-lg border border-[#dce5dc] bg-white p-5 shadow-sm md:grid-cols-[220px_1fr]">
               <div className="flex h-56 items-center justify-center rounded-md bg-white p-3 ring-1 ring-[#edf1ed]">
-                <Image src={product.image} alt={product.name} width={440} height={320} className="h-full w-full object-contain" />
+                <Image src={product.image} alt={product.name} width={440} height={320} sizes="(min-width: 768px) 220px, 90vw" className="h-full w-full object-contain" />
               </div>
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">#{index + 1} pick - {product.bestFor}</p>

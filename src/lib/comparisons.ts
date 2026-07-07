@@ -10,7 +10,7 @@ export type ComparisonPage = {
   rows: { label: string; left: string; right: string; note: string }[];
 };
 
-const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg";
+const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg";
 const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
 const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
 const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";

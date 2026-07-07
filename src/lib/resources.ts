@@ -21,17 +21,17 @@ export const keywordPlan = [
 ];
 
 const images = {
-  challenge: "/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg",
+  challenge: "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg",
   superhot: "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg",
   sauceGift: "/images/products/elijahs-xtreme-hot-sauce-gift-pack.jpg",
-  tasting: "/images/products/spicy-tasting-recovery-pairings.jpg",
+  tasting: "/images/products/spicy-tasting-recovery-pairings-optimized.jpg",
   wings: "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg",
   ramen: "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg",
   ramenVariety: "/images/products/samyang-buldak-hot-chicken-ramen-variety-pack.jpg",
   chili: "/images/products/fly-by-jing-chili-crisp-starter-set.jpg",
   chiliJar: "/images/products/sauce-up-extra-spicy-chili-crisp.jpg",
   grill: "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg",
-  party: "/images/flamathon-night-food-festival.png",
+  party: "/images/flamathon-night-food-festival-optimized.jpg",
 };
 
 const articlePlan = [

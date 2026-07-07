@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Spicy Food Resources | Flamathon",
     description:
       "Hot sauce challenge guides, spicy ramen articles, chili crisp comparisons, BBQ heat tips, allergen checks, and safety-aware tasting resources.",
-    images: ["/images/products/thoughtfully-hot-sauce-challenge-10-pack.jpg"],
+    images: ["/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg"],
   },
 };
 
@@ -264,6 +264,7 @@ export default async function ResourcesPage({ searchParams }: ResourcesPageProps
                       alt={`${article.title} resource image`}
                       width={640}
                       height={420}
+                      sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 90vw"
                       className="h-full w-full object-contain"
                     />
                   </div>
