@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ExternalLink, ShoppingBag } from "lucide-react";
 import { topicHubs } from "@/lib/hubs";
-import { formatArticleDate, getArticleBySlug, isArticlePublished, resourceArticles, type ResourceArticle } from "@/lib/resources";
+import { formatArticleDate, getArticleBySlug, getPublishedArticles, isArticlePublished, type ResourceArticle } from "@/lib/resources";
 import { reviewProducts, type ReviewProduct } from "@/lib/reviews";
 import { articleSources } from "@/lib/sources";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
@@ -50,8 +50,8 @@ function getRecommendedProducts(article: ResourceArticle) {
 }
 
 function getRelatedArticles(article: ResourceArticle) {
-  return resourceArticles
-    .filter((candidate) => candidate.slug !== article.slug && isArticlePublished(candidate))
+  return getPublishedArticles()
+    .filter((candidate) => candidate.slug !== article.slug)
     .map((candidate) => {
       const sharedKeywords = candidate.keywords.filter((keyword) =>
         article.keywords.some((articleKeyword) => articleKeyword.includes(keyword) || keyword.includes(articleKeyword)),
@@ -88,7 +88,7 @@ function getArticleSources(article: ResourceArticle) {
 }
 
 export function generateStaticParams() {
-  return resourceArticles.map((article) => ({
+  return getPublishedArticles().map((article) => ({
     slug: article.slug,
   }));
 }
