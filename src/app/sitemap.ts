@@ -6,6 +6,9 @@ import { getPublishedArticles } from "@/lib/resources";
 import { reviewProducts } from "@/lib/reviews";
 import { absoluteUrl } from "@/lib/seo";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const staticRoutes = [
