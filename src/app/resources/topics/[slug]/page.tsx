@@ -7,6 +7,8 @@ import { getTopicHubBySlug, topicHubs } from "@/lib/hubs";
 import { getArticleBySlug, isArticlePublished, type ResourceArticle } from "@/lib/resources";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
 
+export const dynamic = "force-dynamic";
+
 type HubPageProps = {
   params: Promise<{
     slug: string;
