@@ -104,7 +104,7 @@ export async function generateMetadata({ params }: ArticlePageProps) {
   }
 
   return {
-    title: `${article.title} | Flamathon`,
+    title: article.title,
     description: article.excerpt,
     alternates: {
       canonical: `/resources/${article.slug}`,
