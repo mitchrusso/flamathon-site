@@ -1,3 +1,5 @@
+import { approvedResourceArticles } from "./approved-articles";
+
 export type ResourceArticle = {
   title: string;
   slug: string;
@@ -109,7 +111,7 @@ function articleSections(title: string, category: string, keywords: readonly str
   ];
 }
 
-export const resourceArticles: ResourceArticle[] = articlePlan.map(([title, slug, publishDate, category, image, keywords]) => {
+const generatedResourceArticles: ResourceArticle[] = articlePlan.map(([title, slug, publishDate, category, image, keywords]) => {
   const sourceIds = [...new Set(categorySources[category] ?? ["poison-control-capsaicin", "fda-food-allergies"])];
   return {
     title,
@@ -124,6 +126,11 @@ export const resourceArticles: ResourceArticle[] = articlePlan.map(([title, slug
     takeaway: "The best spicy purchase balances heat, flavor, label clarity, serving control, and the comfort level of the people eating it.",
   };
 });
+
+export const resourceArticles: ResourceArticle[] = [
+  ...generatedResourceArticles,
+  ...approvedResourceArticles,
+];
 
 export function getArticleBySlug(slug: string) {
   return resourceArticles.find((article) => article.slug === slug);
