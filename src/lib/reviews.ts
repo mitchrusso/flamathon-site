@@ -34,20 +34,20 @@ const samyangRamenImage = "/images/products/samyang-buldak-hot-chicken-ramen-var
 const elijahsImage = "/images/products/elijahs-xtreme-hot-sauce-gift-pack.jpg";
 const bbqRubImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
 const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings-optimized.jpg";
-const torchbearerImage = "https://www.torchbearersauces.com/cdn/shop/files/Best_Sellers_Mini_Bottle_8-Pack_600x.jpg?v=1763578196";
-const melindasChallengeImage = "https://melindas.com/cdn/shop/files/Pepper-sauce-challenge-gift-set.png?v=1707325563";
-const mikesHotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
-const flatironFourPepperImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
-const kosmosHotRubImage = "https://kosmosq.com/cdn/shop/files/kosmo-s-q-barbecue-rubs-dirty-bird-hot-rub-1186367442_600x.png?v=1755715741";
-const famousDavesPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
-const yellowbirdGhostImage = "https://www.yellowbirdfoods.com/cdn/shop/files/YB_9OZ_ORGANIC_GHOST-PEPPER_PDP-HEADER-1_V2_2x_59606460-c843-40e4-9a92-8f43e3747eb6.png?v=1701581315";
-const melindasGhostImage = "https://melindas.com/cdn/shop/products/5ozbhutghost.png?v=1667166680";
-const melindasGhostWingImage = "https://melindas.com/cdn/shop/products/GhostPepperSauce.png?v=1674072983";
-const melindasGhostTruffleImage = "https://melindas.com/cdn/shop/files/Melindas_GhostTruffle_db1056a2-1436-4d00-bfc9-38f61631225b.png?v=1704994470";
-const melindasGhostHotHoneyImage = "https://melindas.com/cdn/shop/files/Melindas-Ghost-Hot-Honey.png?v=1705017494";
-const davesGhostImage = "https://davesgourmet.com/cdn/shop/products/DAGPHS.png?crop=center&height=1200&v=1747667306&width=1200";
-const elijahsGhostImage = "https://elijahsxtreme.com/cdn/shop/files/elijahs-xtreme-ghost-pepper-hot-sauce.webp?v=1775753793";
-const bravadoGhostBlueberryImage = "https://bravadospice.com/cdn/shop/files/Ghost_Blueberry_Hero_H1S.png?v=1762910949";
+const torchbearerImage = "/images/products/torchbearer-best-sellers-mini-bottle-pack.jpg";
+const melindasChallengeImage = "/images/products/melindas-pepper-sauce-challenge-collection.jpg";
+const mikesHotHoneyImage = "/images/products/mikes-hot-honey-original-extra-hot-combo.jpg";
+const flatironFourPepperImage = "/images/products/flatiron-pepper-co-four-pepper-blend.jpg";
+const kosmosHotRubImage = "/images/products/kosmos-q-hot-dirty-bird-bbq-rub.jpg";
+const famousDavesPicklesImage = "/images/products/famous-daves-sweet-spicy-pickle-chips.jpg";
+const yellowbirdGhostImage = "/images/products/yellowbird-classic-ghost-pepper-hot-sauce.jpg";
+const melindasGhostImage = "/images/products/melindas-ghost-pepper-hot-sauce.jpg";
+const melindasGhostWingImage = "/images/products/melindas-creamy-ghost-pepper-wing-sauce.jpg";
+const melindasGhostTruffleImage = "/images/products/melindas-ghost-pepper-black-truffle-hot-sauce.jpg";
+const melindasGhostHotHoneyImage = "/images/products/melindas-ghost-hot-honey.jpg";
+const davesGhostImage = "/images/products/daves-gourmet-ghost-pepper-jolokia-sauce.jpg";
+const elijahsGhostImage = "/images/products/elijahs-xtreme-ghost-pepper-hot-sauce.jpg";
+const bravadoGhostBlueberryImage = "/images/products/bravado-ghost-pepper-blueberry-hot-sauce.jpg";
 
 export const reviewProducts: ReviewProduct[] = [
   {

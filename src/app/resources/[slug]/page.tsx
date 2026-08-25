@@ -298,7 +298,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 <p className="text-sm font-black uppercase tracking-[0.14em] text-[#0e7a5f]">Recommended Next Step</p>
                 <h2 className="mt-2 text-2xl font-black">Compare heat picks that fit this topic.</h2>
               </div>
-              <Link href="/#reviews" target="_blank" rel="noreferrer" className="text-sm font-black text-[#0e7a5f] hover:text-[#0a5d49]">
+              <Link href="/#reviews" className="text-sm font-black text-[#0e7a5f] hover:text-[#0a5d49]">
                 View all picks
               </Link>
             </div>
@@ -312,7 +312,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   <p className="mt-2 text-xs font-black uppercase tracking-[0.08em] text-[#0e7a5f]">{product.bestFor}</p>
                   <p className="mt-3 text-sm leading-6 text-[#5d6d66]">{product.summary}</p>
                   <div className="mt-auto flex flex-col gap-2 pt-4">
-                    <Link href={`/reviews/${product.slug}`} target="_blank" rel="noreferrer" className="inline-flex min-h-10 items-center justify-center rounded-md border border-[#cbd8cf] bg-white px-3 py-2 text-xs font-black uppercase tracking-[0.08em] text-[#10231f] hover:border-[#0e7a5f]">
+                    <Link href={`/reviews/${product.slug}`} className="inline-flex min-h-10 items-center justify-center rounded-md border border-[#cbd8cf] bg-white px-3 py-2 text-xs font-black uppercase tracking-[0.08em] text-[#10231f] hover:border-[#0e7a5f]">
                       Read buying checklist
                     </Link>
                     <a href={product.amazon} target="_blank" rel="sponsored nofollow noreferrer" className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md bg-[#20292b] px-3 py-2 text-xs font-black uppercase tracking-[0.08em] text-white hover:bg-[#334044]">
@@ -343,7 +343,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div className="mt-4 grid gap-3">
                 {relatedHubs.length > 0 ? (
                   relatedHubs.map((hub) => (
-                    <Link key={hub.slug} href={`/resources/topics/${hub.slug}`} target="_blank" rel="noreferrer" className="group rounded-lg border border-[#e6ece5] p-4 hover:border-[#0e7a5f]">
+                    <Link key={hub.slug} href={`/resources/topics/${hub.slug}`} className="group rounded-lg border border-[#e6ece5] p-4 hover:border-[#0e7a5f]">
                       <p className="text-sm font-black group-hover:text-[#0e7a5f]">{hub.title}</p>
                       <p className="mt-2 text-xs leading-5 text-[#5d6d66]">{hub.description}</p>
                       <span className="mt-3 inline-flex items-center gap-2 text-xs font-black text-[#0e7a5f]">
@@ -352,7 +352,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     </Link>
                   ))
                 ) : (
-                  <Link href="/resources" target="_blank" rel="noreferrer" className="text-sm font-black text-[#0e7a5f]">
+                  <Link href="/resources" className="text-sm font-black text-[#0e7a5f]">
                     Browse all resources
                   </Link>
                 )}
@@ -364,7 +364,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div className="mt-4 grid gap-3">
                 {relatedArticles.length > 0 ? (
                   relatedArticles.map((relatedArticle) => (
-                    <Link key={relatedArticle.slug} href={`/resources/${relatedArticle.slug}`} target="_blank" rel="noreferrer" className="group rounded-lg border border-[#e6ece5] p-4 hover:border-[#0e7a5f]">
+                    <Link key={relatedArticle.slug} href={`/resources/${relatedArticle.slug}`} className="group rounded-lg border border-[#e6ece5] p-4 hover:border-[#0e7a5f]">
                       <p className="text-sm font-black group-hover:text-[#0e7a5f]">{relatedArticle.title}</p>
                       <p className="mt-2 text-xs leading-5 text-[#5d6d66]">{relatedArticle.excerpt}</p>
                       <span className="mt-3 inline-flex items-center gap-2 text-xs font-black text-[#0e7a5f]">
@@ -373,7 +373,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     </Link>
                   ))
                 ) : (
-                  <Link href="/resources" target="_blank" rel="noreferrer" className="text-sm font-black text-[#0e7a5f]">
+                  <Link href="/resources" className="text-sm font-black text-[#0e7a5f]">
                     Browse all articles
                   </Link>
                 )}

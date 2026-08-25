@@ -7,7 +7,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-27",
     "publishAt": "2026-07-27T13:55:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/flamathon-night-food-festival-optimized.jpg",
     "excerpt": "A practical guide to build a hot sauce tasting flight without overdoing it, with clear decisions, cautions, and next steps.",
     "keywords": [
       "build a hot sauce tasting flight without overdoing it"
@@ -546,7 +546,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-28",
     "publishAt": "2026-07-28T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/torchbearer-best-sellers-mini-bottle-pack.jpg",
     "excerpt": "What Are Spicy Sauces: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for spicy sauces gu...",
     "keywords": [
       "what are spicy sauces"
@@ -1064,7 +1064,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-29",
     "publishAt": "2026-07-29T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/melindas-pepper-sauce-challenge-collection.jpg",
     "excerpt": "5 Types of Sauces Explained: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for spicy sau...",
     "keywords": [
       "5 types of sauces explained"
@@ -1582,7 +1582,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-30",
     "publishAt": "2026-07-30T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/yellowbird-classic-ghost-pepper-hot-sauce.jpg",
     "excerpt": "Hot Sauce Scoville Scale Explained: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for sp...",
     "keywords": [
       "hot sauce scoville scale explained"
@@ -2100,7 +2100,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-31",
     "publishAt": "2026-07-31T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg",
     "excerpt": "Mild vs Medium vs Hot Sauce: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for spicy sau...",
     "keywords": [
       "mild vs medium vs hot sauce"
@@ -2618,7 +2618,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-03",
     "publishAt": "2026-08-03T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/flamathon-night-food-festival-optimized.jpg",
     "excerpt": "Most Popular Spicy Foods Around the World: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
     "keywords": [
       "most popular spicy foods around the world"
@@ -3136,7 +3136,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-04",
     "publishAt": "2026-08-04T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/spicy-tasting-recovery-pairings-optimized.jpg",
     "excerpt": "Side Effects of Eating Too Much Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklis...",
     "keywords": [
       "side effects of eating too much spicy food"
@@ -3654,7 +3654,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-05",
     "publishAt": "2026-08-05T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/spicy-tasting-recovery-pairings-optimized.jpg",
     "excerpt": "Best Drink to Drink with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for d...",
     "keywords": [
       "best drink to drink with spicy food"
@@ -4172,7 +4172,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-06",
     "publishAt": "2026-08-06T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/melindas-creamy-ghost-pepper-wing-sauce.jpg",
     "excerpt": "Does Milk Help with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for drinks...",
     "keywords": [
       "does milk help with spicy food"
@@ -4690,7 +4690,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-07",
     "publishAt": "2026-08-07T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/bravado-ghost-pepper-blueberry-hot-sauce.jpg",
     "excerpt": "Wine Pairing with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for drinks w...",
     "keywords": [
       "wine pairing with spicy food"
@@ -5208,7 +5208,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-10",
     "publishAt": "2026-08-10T09:00:00-04:00",
     "category": "Spicy Sauces",
-    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/products/mikes-hot-honey-original-extra-hot-combo.jpg",
     "excerpt": "Non-Alcoholic Drinks with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for...",
     "keywords": [
       "non-alcoholic drinks with spicy food"

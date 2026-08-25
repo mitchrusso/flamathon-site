@@ -12,9 +12,9 @@ const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-
 const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
 const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
 const chiliCrispImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
-const hotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
-const pepperFlakesImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
-const spicyPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
+const hotHoneyImage = "/images/products/mikes-hot-honey-original-extra-hot-combo.jpg";
+const pepperFlakesImage = "/images/products/flatiron-pepper-co-four-pepper-blend.jpg";
+const spicyPicklesImage = "/images/products/famous-daves-sweet-spicy-pickle-chips.jpg";
 
 const categoryGuides = [
   { title: "Challenge Sets", image: challengeSetImage, href: "/resources/topics/hot-sauce-challenge-sets", copy: "Mild-to-wild flights, gift sets, bottle order, and responsible tasting rules." },

@@ -16,9 +16,9 @@ const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.j
 const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
 const grillImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
 const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings-optimized.jpg";
-const hotHoneyImage = "https://mikeshothoney.com/cdn/shop/products/Combo12oz.jpg?v=1620069730";
-const pepperFlakesImage = "https://www.flatironpepper.com/cdn/shop/products/Crop_210623_FlatIronPepperCo_38_d9a635e9-8f78-4e13-91de-81a0e2d0e977.jpg?v=1625156633";
-const spicyPicklesImage = "https://famousbbq.com/wp-content/uploads/2025/04/Pickle-Chips-SweetSpicy-24oz_Final-copy-scaled.jpg";
+const hotHoneyImage = "/images/products/mikes-hot-honey-original-extra-hot-combo.jpg";
+const pepperFlakesImage = "/images/products/flatiron-pepper-co-four-pepper-blend.jpg";
+const spicyPicklesImage = "/images/products/famous-daves-sweet-spicy-pickle-chips.jpg";
 
 export const topicHubs: TopicHub[] = [
   {

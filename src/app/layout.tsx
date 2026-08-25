@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import { SiteHeader } from "@/components/site-header";
 import { absoluteUrl, defaultDescription, jsonLd, siteName, siteUrl } from "@/lib/seo";
 import "./globals.css";
@@ -74,8 +73,10 @@ const websiteJsonLd = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
+      <head>
+        <script src="https://app.rybbit.io/api/script.js" data-site-id="59397d9e6976" defer />
+      </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
-        <Script src="https://app.rybbit.io/api/script.js" data-site-id="59397d9e6976" strategy="afterInteractive" />
         <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />
         <SiteHeader />
         {children}
