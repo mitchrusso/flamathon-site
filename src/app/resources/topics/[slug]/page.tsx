@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { getTopicHubBySlug, topicHubs } from "@/lib/hubs";
+import { getReviewProductBySlug, type ReviewProduct } from "@/lib/reviews";
 import { getArticleBySlug, isArticlePublished, type ResourceArticle } from "@/lib/resources";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
 
@@ -88,6 +89,9 @@ export default async function HubPage({ params }: HubPageProps) {
     keyword,
     href: getKeywordLink(keyword, hub.slug, relatedArticles),
   }));
+  const featuredProducts = (hub.featuredProductSlugs ?? [])
+    .map((productSlug) => getReviewProductBySlug(productSlug))
+    .filter((product): product is ReviewProduct => Boolean(product));
   const hubUrl = absoluteUrl(`/resources/topics/${hub.slug}`);
   const hubJsonLd = {
     "@context": "https://schema.org",
@@ -115,6 +119,21 @@ export default async function HubPage({ params }: HubPageProps) {
           },
         })),
       },
+      ...(featuredProducts.length
+        ? [
+            {
+              "@type": "ItemList",
+              "@id": `${hubUrl}#featured-heat-picks`,
+              name: `${hub.title} featured heat picks`,
+              itemListElement: featuredProducts.map((product, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                url: absoluteUrl(`/reviews/${product.slug}`),
+                name: product.name,
+              })),
+            },
+          ]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -229,6 +248,54 @@ export default async function HubPage({ params }: HubPageProps) {
           </div>
         </aside>
       </div>
+
+      {featuredProducts.length > 0 ? (
+        <section className="border-y border-[#dce5dc] bg-white py-12">
+          <div className="mx-auto max-w-5xl px-5">
+            <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+              <div>
+                <p className="text-sm font-black uppercase tracking-[0.14em] text-[#0e7a5f]">Featured Heat Picks</p>
+                <h2 className="mt-3 text-3xl font-black leading-tight">Start with products in this category.</h2>
+              </div>
+              <Link href="/#reviews" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]">
+                All heat picks
+                <ArrowRight className="h-4 w-4" aria-hidden />
+              </Link>
+            </div>
+            <div className="mt-7 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+              {featuredProducts.map((product) => (
+                <article key={product.slug} className="rounded-lg border border-[#dce5dc] bg-[#fbfcf8] p-5 shadow-sm">
+                  <div className="flex h-52 items-center justify-center overflow-hidden rounded-md bg-white p-3 ring-1 ring-[#edf1ed]">
+                    <Image src={product.image} alt={product.name} width={520} height={380} sizes="(min-width: 1280px) 30vw, (min-width: 768px) 45vw, 90vw" className="h-full w-full rounded-md object-contain" />
+                  </div>
+                  <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">{product.bestFor}</p>
+                  <h3 className="mt-2 text-xl font-black leading-tight">{product.name}</h3>
+                  <p className="mt-3 text-sm leading-7 text-[#5d6d66]">{product.summary}</p>
+                  <div className="mt-4 grid gap-2 text-sm text-[#40514b]">
+                    {product.pros.slice(0, 2).map((pro) => (
+                      <p key={pro} className="flex gap-2">
+                        <CheckCircle2 className="mt-1 h-4 w-4 flex-none text-[#0e7a5f]" aria-hidden />
+                        {pro}
+                      </p>
+                    ))}
+                  </div>
+                  <div className="mt-5 flex gap-2">
+                    <Link href={`/reviews/${product.slug}`} className="inline-flex min-h-11 flex-1 items-center justify-center rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black hover:border-[#0e7a5f]">
+                      Review
+                    </Link>
+                    <a href={product.amazon} target="_blank" rel="sponsored nofollow noreferrer" className="inline-flex min-h-11 flex-1 items-center justify-center rounded-md bg-[#20292b] px-4 py-2 text-sm font-black text-white hover:bg-[#334044]">
+                      Amazon
+                    </a>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <p className="mt-5 text-xs font-bold leading-6 text-[#5d6d66]">
+              As an Amazon Associate, Flamathon may earn from qualifying purchases. Verify ingredients, heat level, pack contents, seller details, prices, and availability before buying.
+            </p>
+          </div>
+        </section>
+      ) : null}
     </main>
   );
 }

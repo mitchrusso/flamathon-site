@@ -5,6 +5,7 @@ export type TopicHub = {
   description: string;
   image: string;
   keywords: string[];
+  featuredProductSlugs?: string[];
   sections: { heading: string; body: string[] }[];
   faqs: { question: string; answer: string }[];
   relatedArticleSlugs: string[];
@@ -28,6 +29,7 @@ export const topicHubs: TopicHub[] = [
     description: "Choose hot sauce challenge kits by heat ladder, label clarity, serving rules, and gift value.",
     image: challengeSetImage,
     keywords: ["hot sauce challenge set", "mild to wild hot sauce", "hot sauce gift set"],
+    featuredProductSlugs: ["thoughtfully-hot-sauce-challenge-10-pack", "ass-kickin-hot-sauce-challenge-book", "melindas-pepper-sauce-challenge-collection"],
     relatedArticleSlugs: ["how-to-host-a-hot-sauce-challenge-safely", "best-hot-sauce-challenge-set-features", "ghost-pepper-vs-carolina-reaper"],
     sections: [
       { heading: "The goal is progression, not punishment", body: ["A good hot sauce challenge set lets people compare flavor and heat gradually. Avoid rules that pressure people to finish extreme sauces or ignore discomfort.", "Look for clear bottle order, ingredient labels, and serving ideas that keep portions tiny."] },
@@ -45,6 +47,7 @@ export const topicHubs: TopicHub[] = [
     description: "Compare ghost pepper, Carolina Reaper, scorpion pepper, and other superhot sauces by flavor and responsible serving.",
     image: superhotSauceImage,
     keywords: ["ghost pepper sauce", "Carolina Reaper sauce", "superhot hot sauce"],
+    featuredProductSlugs: ["ghost-pepper-carolina-reaper-gift-set", "daves-gourmet-ghost-pepper-jolokia-sauce", "elijahs-xtreme-ghost-pepper-hot-sauce"],
     relatedArticleSlugs: ["ghost-pepper-vs-carolina-reaper", "how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans"],
     sections: [
       { heading: "Superhot is a category for experienced eaters", body: ["Ghost pepper and Carolina Reaper sauces are not beginner condiments. Use tiny amounts, avoid children, and let guests decide their own limits.", "Flavor still matters: vinegar balance, fruit, garlic, smoke, and sweetness can make a superhot sauce more useful."] },
@@ -62,6 +65,7 @@ export const topicHubs: TopicHub[] = [
     description: "Shop ghost pepper sauces by heat, smoke, fruit, vinegar balance, extract use, and safer tiny-portion serving.",
     image: superhotSauceImage,
     keywords: ["ghost pepper sauce", "best ghost pepper hot sauce", "ghost pepper gift set"],
+    featuredProductSlugs: ["yellowbird-classic-ghost-pepper-hot-sauce", "melindas-ghost-pepper-hot-sauce", "daves-gourmet-ghost-pepper-jolokia-sauce", "bravado-ghost-pepper-blueberry-hot-sauce", "melindas-creamy-ghost-pepper-wing-sauce", "melindas-ghost-pepper-black-truffle-hot-sauce"],
     relatedArticleSlugs: ["ghost-pepper-vs-carolina-reaper", "how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans"],
     sections: [
       { heading: "Ghost pepper is advanced, but not all ghost sauces taste the same", body: ["Ghost pepper sauces are usually for experienced heat fans, but they can range from smoky and slow-building to sharp, vinegary, and extract-heavy. Look for sauces that name the pepper, explain the flavor base, and give enough context to serve tiny amounts responsibly.", "A good ghost pepper category should help shoppers avoid buying only by pain claims. Garlic, fruit, smoke, vinegar, salt, and sweetness can all change whether a sauce is useful after the challenge is over."] },
@@ -80,6 +84,7 @@ export const topicHubs: TopicHub[] = [
     description: "Shop spicy ramen variety packs by flavor, heat, sodium, allergens, and party-friendly serving size.",
     image: ramenImage,
     keywords: ["spicy ramen variety pack", "Buldak ramen challenge", "hot noodle sampler"],
+    featuredProductSlugs: ["buldak-spicy-ramen-variety-box", "samyang-buldak-hot-chicken-ramen-variety-pack"],
     relatedArticleSlugs: ["spicy-ramen-variety-pack-guide", "how-to-run-a-spicy-noodle-flight", "allergen-checks-for-spicy-snacks"],
     sections: [
       { heading: "Ramen is a meal, not a drop", body: ["Spicy ramen challenges can become intense because the portion is large. Split packs into small tasting bowls for comparison instead of making one person finish a full bowl.", "Check sodium, wheat, soy, sesame, and flavor-specific ingredients before serving."] },
@@ -97,6 +102,7 @@ export const topicHubs: TopicHub[] = [
     description: "Compare chili crisp, chili oil, salsa macha, and crunchy spicy condiments for everyday meals.",
     image: chiliOilImage,
     keywords: ["best chili crisp", "spicy chili oil", "chili crisp gift set"],
+    featuredProductSlugs: ["fly-by-jing-chili-crisp-starter-set", "sauce-up-extra-spicy-chili-crisp"],
     relatedArticleSlugs: ["chili-crisp-buying-guide", "chili-crisp-vs-hot-sauce", "allergen-checks-for-spicy-snacks"],
     sections: [
       { heading: "Texture changes the whole category", body: ["Chili crisp is not just hot sauce in oil. Crunch, aromatics, pepper flakes, and savory ingredients make it a finishing condiment for noodles, rice, eggs, vegetables, and dumplings.", "Because ingredients vary widely, label checks are especially important."] },
@@ -114,6 +120,7 @@ export const topicHubs: TopicHub[] = [
     description: "Shop spicy BBQ rubs, wing sauces, marinades, and table sauces by flavor, sugar, salt, and serving control.",
     image: grillImage,
     keywords: ["spicy BBQ rub", "hot wing sauce", "spicy grilling sauce"],
+    featuredProductSlugs: ["spicy-bbq-rub-wing-sauce-kit", "kosmos-q-hot-dirty-bird-bbq-rub", "melindas-creamy-ghost-pepper-wing-sauce"],
     relatedArticleSlugs: ["spicy-bbq-rub-vs-wing-sauce", "best-wing-night-hot-sauce-setup", "food-safety-for-spicy-wing-night"],
     sections: [
       { heading: "Heat behaves differently on the grill", body: ["Dry rubs cook into the surface; sauces can be brushed, tossed, or served on the side. Side serving is better for mixed groups because each person controls heat.", "Raw meat handling still matters even when the theme is hot sauce."] },
@@ -131,6 +138,7 @@ export const topicHubs: TopicHub[] = [
     description: "Build a responsible spicy tasting setup with spoons, gloves, plain foods, dairy or alternatives, labels, and cleanup.",
     image: tastingSuppliesImage,
     keywords: ["hot sauce tasting party", "spicy challenge recovery", "hot sauce tasting spoons"],
+    featuredProductSlugs: ["spicy-tasting-recovery-pairings", "thoughtfully-hot-sauce-challenge-10-pack", "torchbearer-best-sellers-mini-bottle-pack"],
     relatedArticleSlugs: ["how-to-host-a-hot-sauce-challenge-safely", "what-to-serve-with-hot-sauce-flights", "capsaicin-safety-for-spicy-food-fans"],
     sections: [
       { heading: "Plan the room before the heat", body: ["A good tasting setup includes tiny portions, water, plain food, dairy or non-dairy relief, trash, napkins, gloves for superhots, and a visible heat order.", "The most important gear is social: no pressure, no forced finishing, no filming people who want to stop."] },
@@ -148,6 +156,7 @@ export const topicHubs: TopicHub[] = [
     description: "Compare hot honey bottles and combos for pizza, fried chicken, BBQ, cheese boards, cocktails, and easy gifting.",
     image: hotHoneyImage,
     keywords: ["best hot honey", "hot honey for pizza", "spicy honey gift"],
+    featuredProductSlugs: ["mikes-hot-honey-original-extra-hot-combo", "melindas-ghost-hot-honey", "spicy-bbq-rub-wing-sauce-kit"],
     relatedArticleSlugs: ["spicy-bbq-rub-vs-wing-sauce", "what-to-serve-with-hot-sauce-flights", "mild-to-wild-hot-sauce-gifts"],
     sections: [
       { heading: "Hot honey is the bridge between mild and spicy", body: ["Hot honey works for shoppers who want a sweet-spicy pantry staple rather than a dare. Pizza, chicken, BBQ, biscuits, cheese boards, roasted vegetables, and cocktails are all natural use cases.", "Because it is still honey, check sugar content, bottle size, and whether the buyer avoids animal products."] },
@@ -165,6 +174,7 @@ export const topicHubs: TopicHub[] = [
     description: "Shop dry pepper flakes, ghost pepper blends, Carolina Reaper powders, and pizza-ready shakers by heat, flavor, and handling caution.",
     image: pepperFlakesImage,
     keywords: ["ghost pepper flakes", "Carolina Reaper powder", "best hot pepper flakes"],
+    featuredProductSlugs: ["flatiron-pepper-co-four-pepper-blend", "kosmos-q-hot-dirty-bird-bbq-rub", "daves-gourmet-ghost-pepper-jolokia-sauce"],
     relatedArticleSlugs: ["how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans", "chili-crisp-vs-hot-sauce"],
     sections: [
       { heading: "Dry heat is different from sauce", body: ["Pepper flakes and powders are concentrated, shelf-stable, and easy to overuse. They are ideal for pizza, eggs, pasta, ramen, chili, grilled vegetables, and rub blends when the cook wants heat without extra vinegar or oil.", "Treat superhot powders and flakes carefully. Avoid eye contact, label the shaker, and keep them away from children."] },
@@ -182,6 +192,7 @@ export const topicHubs: TopicHub[] = [
     description: "Build snack boards, burger sides, and party spreads with spicy pickles, chips, nuts, jerky, and heat-forward pantry snacks.",
     image: spicyPicklesImage,
     keywords: ["spicy pickles", "spicy snack box", "hot chips variety pack"],
+    featuredProductSlugs: ["famous-daves-sweet-spicy-pickle-chips", "mikes-hot-honey-original-extra-hot-combo", "flatiron-pepper-co-four-pepper-blend"],
     relatedArticleSlugs: ["allergen-checks-for-spicy-snacks", "what-to-serve-with-hot-sauce-flights", "food-safety-for-spicy-wing-night"],
     sections: [
       { heading: "Not every heat product needs to be a sauce", body: ["Spicy snacks and pickles expand Flamathon beyond bottles. They work for BBQ sides, burger nights, tailgates, snack boards, and people who want something crunchy with a little kick.", "This category is also strong for gift baskets and party planning because shoppers often buy multiple items at once."] },
