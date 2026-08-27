@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "spicy BBQ rub",
   ],
   category: "Food and Drink",
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", types: { "application/rss+xml": absoluteUrl("/feed.xml") } },
   openGraph: {
     title: "Flamathon | Hot Sauce and Spicy Food Shopping Guide",
     description: defaultDescription,
