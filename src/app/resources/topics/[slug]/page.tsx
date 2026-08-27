@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, Flame, ShieldCheck, Utensils } from "lucide-react";
+import { comparisonPages } from "@/lib/comparisons";
 import { getTopicHubBySlug, topicHubs } from "@/lib/hubs";
 import { getReviewProductBySlug, type ReviewProduct } from "@/lib/reviews";
 import { getArticleBySlug, isArticlePublished, type ResourceArticle } from "@/lib/resources";
@@ -35,6 +36,26 @@ function getKeywordLink(keyword: string, hubSlug: string, relatedArticles: Resou
 
 export function generateStaticParams() {
   return topicHubs.map((hub) => ({ slug: hub.slug }));
+}
+
+const comparisonByHubSlug: Record<string, string[]> = {
+  "hot-sauce-challenge-sets": ["hot-sauce-challenge-set-vs-gourmet-flight", "spicy-ramen-variety-pack-vs-hot-sauce-flight"],
+  "superhot-sauces": ["ghost-pepper-vs-carolina-reaper-sauce", "hot-sauce-challenge-set-vs-gourmet-flight"],
+  "ghost-pepper-sauces": ["ghost-pepper-vs-carolina-reaper-sauce", "hot-sauce-challenge-set-vs-gourmet-flight"],
+  "spicy-ramen": ["spicy-ramen-variety-pack-vs-hot-sauce-flight"],
+  "chili-crisp-and-oils": ["chili-crisp-vs-traditional-hot-sauce"],
+  "bbq-heat": ["spicy-bbq-rub-vs-wing-sauce", "hot-sauce-challenge-set-vs-gourmet-flight"],
+  "tasting-gear-and-recovery": ["hot-sauce-challenge-set-vs-gourmet-flight", "spicy-ramen-variety-pack-vs-hot-sauce-flight"],
+  "hot-honey": ["spicy-bbq-rub-vs-wing-sauce", "chili-crisp-vs-traditional-hot-sauce"],
+  "pepper-flakes-and-powders": ["ghost-pepper-vs-carolina-reaper-sauce", "chili-crisp-vs-traditional-hot-sauce"],
+  "spicy-pickles-and-snacks": ["spicy-bbq-rub-vs-wing-sauce", "chili-crisp-vs-traditional-hot-sauce"],
+};
+
+function getHubComparisons(slug: string) {
+  const preferredSlugs = comparisonByHubSlug[slug] || ["hot-sauce-challenge-set-vs-gourmet-flight", "ghost-pepper-vs-carolina-reaper-sauce"];
+  return preferredSlugs
+    .map((comparisonSlug) => comparisonPages.find((comparison) => comparison.slug === comparisonSlug))
+    .filter((comparison): comparison is (typeof comparisonPages)[number] => Boolean(comparison));
 }
 
 export async function generateMetadata({ params }: HubPageProps): Promise<Metadata> {
@@ -92,12 +113,13 @@ export default async function HubPage({ params }: HubPageProps) {
   const featuredProducts = (hub.featuredProductSlugs ?? [])
     .map((productSlug) => getReviewProductBySlug(productSlug))
     .filter((product): product is ReviewProduct => Boolean(product));
+  const relatedComparisons = getHubComparisons(hub.slug);
   const hubUrl = absoluteUrl(`/resources/topics/${hub.slug}`);
   const hubJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebPage",
+        "@type": "CollectionPage",
         "@id": `${hubUrl}#webpage`,
         url: hubUrl,
         name: hub.title,
@@ -130,6 +152,21 @@ export default async function HubPage({ params }: HubPageProps) {
                 position: index + 1,
                 url: absoluteUrl(`/reviews/${product.slug}`),
                 name: product.name,
+              })),
+            },
+          ]
+        : []),
+      ...(relatedComparisons.length
+        ? [
+            {
+              "@type": "ItemList",
+              "@id": `${hubUrl}#related-comparisons`,
+              name: `${hub.title} related spicy food comparisons`,
+              itemListElement: relatedComparisons.map((comparison, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                url: absoluteUrl(`/compare/${comparison.slug}`),
+                name: comparison.title,
               })),
             },
           ]
@@ -176,6 +213,22 @@ export default async function HubPage({ params }: HubPageProps) {
                 </Link>
               ))}
             </div>
+            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+              {[
+                { label: "Flavor fit", icon: Utensils, copy: "Match the product to the food, party format, and guest tolerance." },
+                { label: "Heat control", icon: Flame, copy: "Compare mild-to-wild progressions before choosing superhot products." },
+                { label: "Safety check", icon: ShieldCheck, copy: "Read labels, allergens, serving size, and opt-out rules before hosting." },
+              ].map((item) => {
+                const Icon = item.icon;
+                return (
+                  <div key={item.label} className="rounded-lg border border-[#dce5dc] bg-white p-4 shadow-sm">
+                    <Icon className="h-5 w-5 text-[#0e7a5f]" aria-hidden />
+                    <p className="mt-3 text-sm font-black">{item.label}</p>
+                    <p className="mt-1 text-xs leading-5 text-[#5d6d66]">{item.copy}</p>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <div className="flex h-[260px] items-center justify-center rounded-lg bg-white p-5 shadow-sm ring-1 ring-[#dce5dc] sm:h-[300px] lg:h-[340px]">
             <Image src={hub.image} alt={`${hub.title} guide image`} width={520} height={520} sizes="(min-width: 1024px) 320px, 90vw" className="h-full w-full object-contain" priority />
@@ -197,6 +250,26 @@ export default async function HubPage({ params }: HubPageProps) {
               </div>
             </section>
           ))}
+
+          {relatedComparisons.length > 0 ? (
+            <section className="mt-8 rounded-lg border border-[#dce5dc] bg-[#fbfcf8] p-5">
+              <p className="text-sm font-black uppercase tracking-[0.14em] text-[#0e7a5f]">Compare Before You Buy</p>
+              <h2 className="mt-2 text-2xl font-black leading-tight">Use these comparisons to pick the right heat experience.</h2>
+              <div className="mt-5 grid gap-4 md:grid-cols-2">
+                {relatedComparisons.map((comparison) => (
+                  <Link key={comparison.slug} href={`/compare/${comparison.slug}`} className="group rounded-lg border border-[#e6ece5] bg-white p-5 hover:border-[#0e7a5f]">
+                    <p className="text-xs font-black uppercase tracking-[0.12em] text-[#0e7a5f]">{comparison.left} vs {comparison.right}</p>
+                    <h3 className="mt-2 text-lg font-black leading-tight group-hover:text-[#0e7a5f]">{comparison.title}</h3>
+                    <p className="mt-2 text-sm leading-7 text-[#5d6d66]">{comparison.description}</p>
+                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-[#0e7a5f]">
+                      Read comparison
+                      <ArrowRight className="h-4 w-4" aria-hidden />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           <section className="mt-8 rounded-lg bg-[#eef6ed] p-5">
             <h2 className="text-2xl font-black">Frequently Asked Questions</h2>

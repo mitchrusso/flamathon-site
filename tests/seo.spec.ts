@@ -79,6 +79,8 @@ test.describe("SEO route health", () => {
   test("high-intent topic hubs expose category-specific heat picks", async ({ page }) => {
     await page.goto("/resources/topics/ghost-pepper-sauces");
     await expect(page.getByRole("heading", { name: "Start with products in this category." })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Use these comparisons to pick the right heat experience." })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Ghost Pepper vs Carolina Reaper Sauce/ })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Yellowbird Classic Ghost Pepper Hot Sauce" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Dave's Gourmet Ghost Pepper Naga Jolokia Hot Sauce" })).toBeVisible();
 
