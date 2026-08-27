@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "spicy BBQ rub",
   ],
   category: "Food and Drink",
-  alternates: { canonical: "/", types: { "application/rss+xml": absoluteUrl("/feed.xml") } },
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Flamathon | Hot Sauce and Spicy Food Shopping Guide",
     description: defaultDescription,
@@ -74,6 +74,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
+        <link rel="alternate" type="application/rss+xml" title={`${siteName} RSS Feed`} href={absoluteUrl("/feed.xml")} />
         <script src="https://app.rybbit.io/api/script.js" data-site-id="59397d9e6976" defer />
       </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
