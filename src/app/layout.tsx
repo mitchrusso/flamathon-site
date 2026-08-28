@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import { SiteHeader } from "@/components/site-header";
 import { absoluteUrl, defaultDescription, jsonLd, siteName, siteUrl } from "@/lib/seo";
 import "./globals.css";
@@ -48,6 +49,16 @@ const websiteJsonLd = {
       url: siteUrl,
       description: defaultDescription,
       logo: absoluteUrl("/images/flamathon-night-food-festival-optimized.jpg"),
+      knowsAbout: [
+        "hot sauce challenge sets",
+        "ghost pepper sauces",
+        "Carolina Reaper sauces",
+        "spicy ramen",
+        "chili crisp",
+        "spicy barbecue rubs",
+        "spicy food gifts",
+        "responsible spicy food tasting",
+      ],
       sameAs: [],
     },
     {
@@ -75,7 +86,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
         <link rel="alternate" type="application/rss+xml" title={`${siteName} RSS Feed`} href={absoluteUrl("/feed.xml")} />
-        <script src="https://app.rybbit.io/api/script.js" data-site-id="59397d9e6976" defer />
+        <Script src="https://app.rybbit.io/api/script.js" data-site-id="59397d9e6976" strategy="afterInteractive" />
       </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />
