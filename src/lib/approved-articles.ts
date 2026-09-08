@@ -5983,7 +5983,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "Lead with flavor, label every ingredient, control portions, pause between rounds, protect food safety, and make every step optional. A successful tasting ends with useful notes and everyone still comfortable."
   },
   {
-    "title": "Hot Sauce Label Checklist: Allergens, Sodium, and Serving...",
+    "title": "Hot Sauce Label Checklist: Allergens, Sodium, and Serving Size",
     "slug": "hot-sauce-label-checklist-allergens-sodium-and-serving-size",
     "publishDate": "2026-09-08",
     "publishAt": "2026-09-08T09:00:00-04:00",
