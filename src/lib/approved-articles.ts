@@ -5719,8 +5719,8 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "cdc-food-safety"
     ],
     "takeaway": "Most non-alcoholic drinks with spicy food failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
-  }
-  ,{
+  },
+  {
     "title": "Hot Sauce Tasting Party: Build a Flavor-First Heat Ladder",
     "slug": "hot-sauce-tasting-party-flavor-heat-ladder",
     "publishDate": "2026-09-07",
@@ -5728,21 +5728,842 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Safety and Hosting",
     "image": "/images/hot-sauce-tasting-heat-ladder.svg",
     "excerpt": "Plan a hot sauce tasting around flavor, tiny portions, transparent allergen labels, safe food handling, and an opt-in heat progression.",
-    "keywords": ["hot sauce tasting party", "hot sauce heat ladder", "spicy food tasting safety"],
-    "table": {"caption":"A five-round flavor-first tasting progression","columns":["Round","Host cue","Portion and pause"],"rows":[["Aromatic","Identify pepper, acid, fruit, smoke, or spice","One drop; discuss flavor before heat"],["Mild","Compare texture and salt balance","Small dab; pause several minutes"],["Medium","Check comfort and label again","Tiny bite with plain food"],["Hot","Invite a fresh opt-in","One product only; longer pause"],["Extreme","Usually omit; never make it a dare","Only informed adults may choose to proceed"]]},
+    "keywords": [
+      "hot sauce tasting party",
+      "hot sauce heat ladder",
+      "spicy food tasting safety"
+    ],
+    "table": {
+      "caption": "A five-round flavor-first tasting progression",
+      "columns": [
+        "Round",
+        "Host cue",
+        "Portion and pause"
+      ],
+      "rows": [
+        [
+          "Aromatic",
+          "Identify pepper, acid, fruit, smoke, or spice",
+          "One drop; discuss flavor before heat"
+        ],
+        [
+          "Mild",
+          "Compare texture and salt balance",
+          "Small dab; pause several minutes"
+        ],
+        [
+          "Medium",
+          "Check comfort and label again",
+          "Tiny bite with plain food"
+        ],
+        [
+          "Hot",
+          "Invite a fresh opt-in",
+          "One product only; longer pause"
+        ],
+        [
+          "Extreme",
+          "Usually omit; never make it a dare",
+          "Only informed adults may choose to proceed"
+        ]
+      ]
+    },
     "sections": [
-      {"heading":"The short answer","body":[{"text":"A good hot sauce tasting party is a guided flavor flight, not an endurance contest. Choose four or five sauces with different flavor profiles, arrange them from mild to hot using manufacturer information, serve tiny measured portions on plain food, pause between rounds, and let every guest opt out without explanation.","sourceIds":["poison-control-capsaicin","datassential-spicy"]},{"text":"Before serving, retain every original label and ask guests about the nine major food allergens. Do not rely on color, pepper name, or a host’s tolerance to predict another person’s response. This guide is educational and not medical advice; people with health concerns should consult an appropriate clinician.","sourceIds":["fda-food-allergies","fsis-big-nine","fda-sesame"]}]},
-      {"heading":"Choose sauces for contrast, not punishment","body":[{"text":"Build the flight around flavor families: bright vinegar, roasted pepper, fruit-forward, smoky, fermented, herbal, or savory. A ladder is more interesting when each step changes both flavor and perceived heat. Five nearly identical superhot sauces teach guests very little and make portion control harder.","sourceIds":["datassential-spicy","imarc-hot-sauce"]},{"text":"Treat Scoville claims as rough context, not a promise about the experience. Product formulation, serving size, food pairing, and individual sensitivity all matter. Use the maker’s current label and serving guidance, and omit products marketed primarily as challenges or containing highly concentrated capsaicin unless the gathering and participants are specifically equipped for them.","sourceIds":["pepper-joe-scoville","poison-control-capsaicin","nationwide-one-chip"]}]},
-      {"heading":"Create an allergen and ingredient station","body":[{"text":"Place the original bottle beside each tasting cup and provide a printed card with product name, ingredients, declared allergens, heat position, and a clean utensil. Common sauce or pairing ingredients may include milk, egg, soy, wheat, sesame, peanuts, tree nuts, fish, or shellfish.","sourceIds":["fda-food-allergies","fsis-big-nine","fda-sesame"]},{"text":"Do not promise an allergen-free experience unless the entire sourcing, kitchen, equipment, and service process supports that statement. Cross-contact can occur through spoons, cutting boards, fryer oil, gloves, shared bottles, and guests returning used utensils to the table.","sourceIds":["fda-food-allergies","foodsafety-four-steps"]}]},
-      {"heading":"Prepare the food safely","body":[{"text":"Use bite-size portions on neutral foods such as plain rice, bread, potato, or properly cooked protein, while accommodating dietary needs. Follow the standard clean, separate, cook, and chill steps: wash hands and surfaces, keep raw foods apart, cook to safe temperatures, and refrigerate perishables promptly.","sourceIds":["cdc-food-safety","foodsafety-four-steps"]},{"text":"Assign one server or use single-use droppers so guests do not touch bottle openings. Keep sauces requiring refrigeration cold until service, note open dates, and discard food that has been held outside safe conditions. Capsaicin does not make unsafe food safe.","sourceIds":["cdc-food-safety","foodsafety-four-steps"]}]},
-      {"heading":"Set the room before guests arrive","body":[{"text":"Provide water for hydration, plain food, napkins, handwashing access, and a clearly marked disposal area. Dairy may reduce the sensation for some people, but it is not suitable for every guest and should not be framed as an antidote. Avoid touching eyes and contact lenses after handling sauce; use gloves for concentrated or superhot products.","sourceIds":["poison-control-capsaicin","fda-food-allergies"]},{"text":"Keep children and pets away from the serving and cleanup area. Do not combine the tasting with speed rules, alcohol pressure, surprise ingredients, prizes for finishing, or social penalties for stopping. Consent should be renewed at every hotter round.","sourceIds":["nationwide-one-chip","poison-control-capsaicin"]}]},
-      {"heading":"Host each round with a pause","body":[{"text":"Introduce the sauce, read the relevant label, serve one measured taste, and ask guests to describe aroma and flavor before discussing heat. Wait several minutes before offering the next round. The delay lets participants notice their response and keeps the group from stacking portions faster than discomfort develops.","sourceIds":["poison-control-capsaicin","pepper-joe-scoville"]},{"text":"Use a simple 0-to-5 personal comfort scale rather than asking who is toughest. Zero means no heat, three means enjoyable but clearly hot, and five means stop. The scale is not comparable between people; it is a communication tool for each guest.","sourceIds":["poison-control-capsaicin"]}]},
-      {"heading":"Know when the tasting is over","body":[{"text":"Stop serving a participant who reports severe or escalating symptoms. Chest pain, trouble breathing, fainting, confusion, persistent vomiting, or other concerning symptoms warrant prompt medical evaluation; call emergency services for life-threatening symptoms. Contact Poison Control in the United States at 1-800-222-1222 for exposure guidance.","sourceIds":["poison-control-capsaicin","nationwide-one-chip"]},{"text":"After the event, cap and refrigerate products as their labels require, clean surfaces and utensils, wash hands, and record which flavor combinations guests actually enjoyed. The most useful outcome is a shortlist people want to cook with again—not a photograph of someone in distress.","sourceIds":["cdc-food-safety","foodsafety-four-steps"]}]},
-      {"heading":"A host checklist worth reusing","body":[{"text":"Confirm participants, dietary restrictions, original labels, serving order, portion tools, food temperatures, cross-contact controls, handwashing, relief foods, child and pet boundaries, and an emergency contact plan. Put one person in charge of service so the ladder does not become a free-pour table.","sourceIds":["fda-food-allergies","cdc-food-safety","poison-control-capsaicin"]},{"text":"End with tasting notes: flavor, best pairing, comfortable heat, and whether the sauce belongs in cooking, at the table, or not in the group’s rotation. That turns novelty into a genuinely useful guide for the next meal.","sourceIds":["datassential-spicy"]}]}
-      ,{"heading":"Design pairings that reveal flavor","body":[{"text":"Use the same neutral base across a comparison when you want to isolate sauce differences, then add a second pairing that shows intended use. A fruit-forward sauce might be compared on rice and roasted vegetables; a smoky sauce might be tried on a properly cooked protein and a plant-based alternative.","sourceIds":["datassential-spicy","foodsafety-four-steps"]},{"text":"Keep portions independent. Guests should not have to eat a large wing, noodle bowl, or spoonful to sample one sauce. Separate utensils and clearly labeled plates also reduce accidental cross-contact and prevent a hotter sauce from contaminating later bites.","sourceIds":["fda-food-allergies","fsis-big-nine"]},{"text":"Offer a written scorecard for aroma, flavor, texture, comfortable heat, best pairing, and would-use-again. Avoid declaring a universal winner. A sauce that overwhelms one guest may be balanced for another, and a lower-heat product can be the better cooking tool.","sourceIds":["pepper-joe-scoville","datassential-spicy"]}]},
-      {"heading":"Handle leftovers and cleanup deliberately","body":[{"text":"Return refrigerated products and perishable foods promptly, following label instructions and current food-safety guidance. Do not pour served sauce back into the original bottle. Discard tasting portions and food that may have been contaminated by used utensils or unsafe holding time.","sourceIds":["cdc-food-safety","foodsafety-four-steps"]},{"text":"Wash reusable utensils and surfaces with appropriate cleaning practices, remove gloves without touching the contaminated exterior, and wash hands before touching eyes, phones, children, or pets. Clean door handles and shared condiment areas if gloved hands contacted them.","sourceIds":["foodsafety-four-steps","poison-control-capsaicin"]}]
-    }],
-    "sourceIds": ["poison-control-capsaicin","nationwide-one-chip","cdc-food-safety","foodsafety-four-steps","fda-food-allergies","fsis-big-nine","datassential-spicy","pepper-joe-scoville","fda-sesame"],
+      {
+        "heading": "The short answer",
+        "body": [
+          {
+            "text": "A good hot sauce tasting party is a guided flavor flight, not an endurance contest. Choose four or five sauces with different flavor profiles, arrange them from mild to hot using manufacturer information, serve tiny measured portions on plain food, pause between rounds, and let every guest opt out without explanation.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "datassential-spicy"
+            ]
+          },
+          {
+            "text": "Before serving, retain every original label and ask guests about the nine major food allergens. Do not rely on color, pepper name, or a host’s tolerance to predict another person’s response. This guide is educational and not medical advice; people with health concerns should consult an appropriate clinician.",
+            "sourceIds": [
+              "fda-food-allergies",
+              "fsis-big-nine",
+              "fda-sesame"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Choose sauces for contrast, not punishment",
+        "body": [
+          {
+            "text": "Build the flight around flavor families: bright vinegar, roasted pepper, fruit-forward, smoky, fermented, herbal, or savory. A ladder is more interesting when each step changes both flavor and perceived heat. Five nearly identical superhot sauces teach guests very little and make portion control harder.",
+            "sourceIds": [
+              "datassential-spicy",
+              "imarc-hot-sauce"
+            ]
+          },
+          {
+            "text": "Treat Scoville claims as rough context, not a promise about the experience. Product formulation, serving size, food pairing, and individual sensitivity all matter. Use the maker’s current label and serving guidance, and omit products marketed primarily as challenges or containing highly concentrated capsaicin unless the gathering and participants are specifically equipped for them.",
+            "sourceIds": [
+              "pepper-joe-scoville",
+              "poison-control-capsaicin",
+              "nationwide-one-chip"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Create an allergen and ingredient station",
+        "body": [
+          {
+            "text": "Place the original bottle beside each tasting cup and provide a printed card with product name, ingredients, declared allergens, heat position, and a clean utensil. Common sauce or pairing ingredients may include milk, egg, soy, wheat, sesame, peanuts, tree nuts, fish, or shellfish.",
+            "sourceIds": [
+              "fda-food-allergies",
+              "fsis-big-nine",
+              "fda-sesame"
+            ]
+          },
+          {
+            "text": "Do not promise an allergen-free experience unless the entire sourcing, kitchen, equipment, and service process supports that statement. Cross-contact can occur through spoons, cutting boards, fryer oil, gloves, shared bottles, and guests returning used utensils to the table.",
+            "sourceIds": [
+              "fda-food-allergies",
+              "foodsafety-four-steps"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Prepare the food safely",
+        "body": [
+          {
+            "text": "Use bite-size portions on neutral foods such as plain rice, bread, potato, or properly cooked protein, while accommodating dietary needs. Follow the standard clean, separate, cook, and chill steps: wash hands and surfaces, keep raw foods apart, cook to safe temperatures, and refrigerate perishables promptly.",
+            "sourceIds": [
+              "cdc-food-safety",
+              "foodsafety-four-steps"
+            ]
+          },
+          {
+            "text": "Assign one server or use single-use droppers so guests do not touch bottle openings. Keep sauces requiring refrigeration cold until service, note open dates, and discard food that has been held outside safe conditions. Capsaicin does not make unsafe food safe.",
+            "sourceIds": [
+              "cdc-food-safety",
+              "foodsafety-four-steps"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Set the room before guests arrive",
+        "body": [
+          {
+            "text": "Provide water for hydration, plain food, napkins, handwashing access, and a clearly marked disposal area. Dairy may reduce the sensation for some people, but it is not suitable for every guest and should not be framed as an antidote. Avoid touching eyes and contact lenses after handling sauce; use gloves for concentrated or superhot products.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies"
+            ]
+          },
+          {
+            "text": "Keep children and pets away from the serving and cleanup area. Do not combine the tasting with speed rules, alcohol pressure, surprise ingredients, prizes for finishing, or social penalties for stopping. Consent should be renewed at every hotter round.",
+            "sourceIds": [
+              "nationwide-one-chip",
+              "poison-control-capsaicin"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Host each round with a pause",
+        "body": [
+          {
+            "text": "Introduce the sauce, read the relevant label, serve one measured taste, and ask guests to describe aroma and flavor before discussing heat. Wait several minutes before offering the next round. The delay lets participants notice their response and keeps the group from stacking portions faster than discomfort develops.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "pepper-joe-scoville"
+            ]
+          },
+          {
+            "text": "Use a simple 0-to-5 personal comfort scale rather than asking who is toughest. Zero means no heat, three means enjoyable but clearly hot, and five means stop. The scale is not comparable between people; it is a communication tool for each guest.",
+            "sourceIds": [
+              "poison-control-capsaicin"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Know when the tasting is over",
+        "body": [
+          {
+            "text": "Stop serving a participant who reports severe or escalating symptoms. Chest pain, trouble breathing, fainting, confusion, persistent vomiting, or other concerning symptoms warrant prompt medical evaluation; call emergency services for life-threatening symptoms. Contact Poison Control in the United States at 1-800-222-1222 for exposure guidance.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "nationwide-one-chip"
+            ]
+          },
+          {
+            "text": "After the event, cap and refrigerate products as their labels require, clean surfaces and utensils, wash hands, and record which flavor combinations guests actually enjoyed. The most useful outcome is a shortlist people want to cook with again—not a photograph of someone in distress.",
+            "sourceIds": [
+              "cdc-food-safety",
+              "foodsafety-four-steps"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "A host checklist worth reusing",
+        "body": [
+          {
+            "text": "Confirm participants, dietary restrictions, original labels, serving order, portion tools, food temperatures, cross-contact controls, handwashing, relief foods, child and pet boundaries, and an emergency contact plan. Put one person in charge of service so the ladder does not become a free-pour table.",
+            "sourceIds": [
+              "fda-food-allergies",
+              "cdc-food-safety",
+              "poison-control-capsaicin"
+            ]
+          },
+          {
+            "text": "End with tasting notes: flavor, best pairing, comfortable heat, and whether the sauce belongs in cooking, at the table, or not in the group’s rotation. That turns novelty into a genuinely useful guide for the next meal.",
+            "sourceIds": [
+              "datassential-spicy"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Design pairings that reveal flavor",
+        "body": [
+          {
+            "text": "Use the same neutral base across a comparison when you want to isolate sauce differences, then add a second pairing that shows intended use. A fruit-forward sauce might be compared on rice and roasted vegetables; a smoky sauce might be tried on a properly cooked protein and a plant-based alternative.",
+            "sourceIds": [
+              "datassential-spicy",
+              "foodsafety-four-steps"
+            ]
+          },
+          {
+            "text": "Keep portions independent. Guests should not have to eat a large wing, noodle bowl, or spoonful to sample one sauce. Separate utensils and clearly labeled plates also reduce accidental cross-contact and prevent a hotter sauce from contaminating later bites.",
+            "sourceIds": [
+              "fda-food-allergies",
+              "fsis-big-nine"
+            ]
+          },
+          {
+            "text": "Offer a written scorecard for aroma, flavor, texture, comfortable heat, best pairing, and would-use-again. Avoid declaring a universal winner. A sauce that overwhelms one guest may be balanced for another, and a lower-heat product can be the better cooking tool.",
+            "sourceIds": [
+              "pepper-joe-scoville",
+              "datassential-spicy"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Handle leftovers and cleanup deliberately",
+        "body": [
+          {
+            "text": "Return refrigerated products and perishable foods promptly, following label instructions and current food-safety guidance. Do not pour served sauce back into the original bottle. Discard tasting portions and food that may have been contaminated by used utensils or unsafe holding time.",
+            "sourceIds": [
+              "cdc-food-safety",
+              "foodsafety-four-steps"
+            ]
+          },
+          {
+            "text": "Wash reusable utensils and surfaces with appropriate cleaning practices, remove gloves without touching the contaminated exterior, and wash hands before touching eyes, phones, children, or pets. Clean door handles and shared condiment areas if gloved hands contacted them.",
+            "sourceIds": [
+              "foodsafety-four-steps",
+              "poison-control-capsaicin"
+            ]
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "poison-control-capsaicin",
+      "nationwide-one-chip",
+      "cdc-food-safety",
+      "foodsafety-four-steps",
+      "fda-food-allergies",
+      "fsis-big-nine",
+      "datassential-spicy",
+      "pepper-joe-scoville",
+      "fda-sesame"
+    ],
     "takeaway": "Lead with flavor, label every ingredient, control portions, pause between rounds, protect food safety, and make every step optional. A successful tasting ends with useful notes and everyone still comfortable."
+  },
+  {
+    "title": "Hot Sauce Label Checklist: Allergens, Sodium, and Serving...",
+    "slug": "hot-sauce-label-checklist-allergens-sodium-and-serving-size",
+    "publishDate": "2026-09-08",
+    "publishAt": "2026-09-08T09:00:00-04:00",
+    "category": "Spicy Sauces",
+    "image": "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=1200&q=80",
+    "excerpt": "Plan safety and hosting with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "keywords": [
+      "hot sauce label checklist"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "Treat safety and hosting as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "This guide is for a reader who has a real hot sauce label checklist: allergens, sodium, and serving size decision in front of them. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "By Mitch Russo · Updated 2026-09-08",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "At a glance: six checkpoints for safety and hosting",
+        "body": [
+          {
+            "text": "1. Photograph the full label before serving.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "2. Identify major allergens and cross-contact warnings.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "3. Normalize sodium and serving size for a fair comparison.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "4. Separate tasting utensils and keep original containers.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "5. Offer a mild starting portion with a pressure-free opt-out.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "6. Record reactions and stop when tolerance or ingredient certainty changes.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Read the list once before acting. Circle the checkpoint with the weakest evidence. That is where the plan needs attention; polishing a later step cannot compensate for an unresolved early constraint.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Define the result and the stop rule",
+        "body": [
+          {
+            "text": "Describe the result in observable terms. Include the person, object, or business process affected; the real environment; the acceptable range; and the point at which the work must stop. For safety and hosting, an unacceptable outcome includes an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Separate hard constraints from preferences. A hard constraint can disqualify the method even when it is faster or cheaper. Write assumptions as assumptions, attach an owner, and give high-consequence unknowns a deadline for resolution.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Prepare with evidence that can change the decision",
+        "body": [
+          {
+            "text": "Before scheduling the work, assemble the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Ask which single missing fact could reverse the decision. Resolve that item first; lower-impact questions can remain in the test log.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Set up the workspace and communication path before the demanding step. Photograph the full label before serving; then confirm that identify major allergens and cross-contact warnings. Make the stop authority explicit. The person who notices a problem should not need to negotiate permission while the exposure or failure is growing.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The complete walkthrough",
+        "body": [
+          {
+            "text": "1. Photograph the full label before serving.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "For this checkpoint, photograph the full label before serving. Observe the real condition rather than the ideal one. A practical record includes product, ingredients, amount, food pairing, storage condition, and guest feedback. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “identify major allergens and cross-contact warnings,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "2. Identify major allergens and cross-contact warnings.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Ask what would make this action wrong in the present setting, then identify major allergens and cross-contact warnings. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “normalize sodium and serving size for a fair comparison,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "3. Normalize sodium and serving size for a fair comparison.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Use a two-person check when the consequence is meaningful. One person should normalize sodium and serving size for a fair comparison; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “separate tasting utensils and keep original containers,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "4. Separate tasting utensils and keep original containers.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Assign this action explicitly to the host or cook controlling the serving: separate tasting utensils and keep original containers. Give that person authority to stop the sequence when an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears. Clear ownership prevents a common failure in safety and hosting: everyone sees the concern, but each person assumes someone else will make the decision.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “offer a mild starting portion with a pressure-free opt-out,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "5. Offer a mild starting portion with a pressure-free opt-out.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Use a two-person check when the consequence is meaningful. One person should offer a mild starting portion with a pressure-free opt-out; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “record reactions and stop when tolerance or ingredient certainty changes,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "6. Record reactions and stop when tolerance or ingredient certainty changes.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "For this checkpoint, record reactions and stop when tolerance or ingredient certainty changes. Observe the real condition rather than the ideal one. A practical record includes product, ingredients, amount, food pairing, storage condition, and guest feedback. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “schedule the next inspection or review,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Run one representative small test",
+        "body": [
+          {
+            "text": "Do not launch the whole plan as the experiment. Trial one measured taste served with neutral food, observe without coaching the result toward success, and stop when an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor is present. A bounded failure is useful evidence.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Keep the test honest. Do not add help, favorable conditions, or expert intervention that will be absent during normal use. If the difficult case cannot be tested responsibly, escalate it to the qualified person or authority who can evaluate it.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Five mistakes that weaken a safety and hosting plan",
+        "body": [
+          {
+            "text": "• Choosing a tool, product, setting, contract form, or template before the safety and hosting requirement is defined.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• Testing only the easiest condition and assuming the result represents normal safety and hosting use.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• Changing several variables together, which hides the cause of success or failure.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• Continuing after an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor because time or money has already been invested.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• Finishing the visible task without recording product, ingredients, amount, food pairing, storage condition, and guest feedback.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "When a mistake appears, stabilize first. Protect the person, material, rights, equipment, food, environment, or client experience involved. Return to the first checkpoint contradicted by the evidence, revise one variable, and create a new stop rule before trying again.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Safety, permission, and professional boundaries",
+        "body": [
+          {
+            "text": "Food and tolerance caution: check every ingredient label for allergen and cross-contact warnings, keep perishable foods within safe time and temperature limits, and never pressure someone to exceed their stated heat tolerance. Capsaicin can irritate skin, eyes, and the digestive tract. People with medical concerns should seek individualized clinical guidance; urgent symptoms require prompt help.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Authoritative starting points:",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• FDA food-allergen guidance",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• USDA food-storage guidance",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• Poison Control capsaicin guidance",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Confirm that a source applies to the exact model, jurisdiction, land manager, product category, transaction, clinical situation, or activity. Save the access date and pair general guidance with current manufacturer instructions or individualized professional advice when appropriate.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Review the result and make it reusable",
+        "body": [
+          {
+            "text": "Close the work with a short audit owned by the host or cook controlling the serving. Preserve product, ingredients, amount, food pairing, storage condition, and guest feedback. That record is the starting point for maintenance, training, renewal, or the next controlled test.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Turn the final note into a short checklist for the next person. Include the six checkpoints, the approved range, a photograph or example where useful, the stop rule, and the escalation contact. A workflow is not delegated until another person can recognize both a good result and a reason to stop.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Your next 20 minutes",
+        "body": [
+          {
+            "text": "Write the desired result and the unacceptable outcome. Complete checkpoint one using a current source or direct observation. Then prepare one measured taste served with neutral food. If the critical evidence is missing, use the time to send one precise question instead of improvising.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "The goal of this short session is not to finish safety and hosting. It is to reach the first defensible action with the stop rule already in place.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Related practical guides",
+        "body": [
+          {
+            "text": "• hot-sauce tasting-flight guide",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• ingredient-label checklist",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "• spicy-food resource library",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "body": [
+          {
+            "text": "What should be verified first?.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Verify the fact that could disqualify the entire approach. In this workflow that usually means photograph the full label before serving, followed by a check that you can identify major allergens and cross-contact warnings under real conditions.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "How detailed should the written plan be?.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Detailed enough that another capable person can perform the next checkpoint and recognize an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor. For most situations, one page plus the controlling sources and product, ingredients, amount, food pairing, storage condition, and guest feedback is more useful than a long narrative.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "When is a small test not appropriate?.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Skip informal testing when a recall, emergency, legal restriction, clinical concern, structural question, food-safety uncertainty, unknown hazardous material, or manufacturer prohibition requires an authoritative response first.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "What evidence should be saved afterward?.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Save product, ingredients, amount, food pairing, storage condition, and guest feedback. Add the source date, the person who approved the result, and the date or trigger for the next review.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "What if the first attempt fails?.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          },
+          {
+            "text": "Stop, protect the affected people and property, and preserve the evidence. Identify the earliest failed checkpoint, change one variable, and decide whether a second bounded test or qualified professional review is the responsible next step.",
+            "sourceIds": [
+              "poison-control-capsaicin",
+              "fda-food-allergies",
+              "cdc-food-safety"
+            ]
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "poison-control-capsaicin",
+      "fda-food-allergies",
+      "cdc-food-safety"
+    ],
+    "takeaway": "Treat safety and hosting as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   }
 ];
