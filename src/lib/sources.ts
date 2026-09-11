@@ -1,4 +1,7 @@
 export const articleSources = [
+  {"id": "editorial-a0a6ec0a9ca140", "title": "FoodSafety.gov four-step guidance", "organization": "www.foodsafety.gov", "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"},
+  {"id": "editorial-645eb18630e65b", "title": "FDA's food allergy information", "organization": "www.fda.gov", "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies"},
+  {"id": "editorial-9da7830d173e02", "title": "Capsaicin exposure guidance", "organization": "www.poison.org", "url": "https://www.poison.org/articles/capsaicin-when-the-chili-is-too-hot"},
   {
     id: "poison-control-capsaicin",
     title: "Is the One Chip Challenge Dangerous?",
