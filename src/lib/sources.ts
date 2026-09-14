@@ -1,4 +1,6 @@
 export const articleSources = [
+  {"id": "editorial-54d8a8754bc67d", "title": "CDC infant feeding guidance", "organization": "www.cdc.gov", "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html"},
+  {"id": "editorial-0d2fe59cd0b38f", "title": "USDA explanation of the two-hour rule", "organization": "ask.fsis.usda.gov", "url": "https://ask.fsis.usda.gov/article/What-is-the-2-Hour-Rule-with-leaving-food-out"},
   {"id": "editorial-237bcc88b71fd7", "title": "USDA food-safety basics", "organization": "www.fsis.usda.gov", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics"},
   {"id": "editorial-deae295be6a004", "title": "FDA food-allergy guidance", "organization": "www.fda.gov", "url": "https://www.fda.gov/food/food-labeling-nutrition/food-allergies"},
   {"id": "editorial-a0a6ec0a9ca140", "title": "FoodSafety.gov four-step guidance", "organization": "www.foodsafety.gov", "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"},
