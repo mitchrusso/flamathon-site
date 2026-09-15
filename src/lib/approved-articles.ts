@@ -8170,5 +8170,228 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-54d8a8754bc67d"
     ],
     "takeaway": "Build a hot honey board around a few mild foods, serve the honey separately, and let each guest choose whether to add heat. Use commercially labeled products with clear storage instructions, protect perishable foods with time-and-temperature controls, and keep ingredient information beside the board. A successful tasting gives people useful flavor comparisons without rewarding discomfort."
+  },
+  {
+    "title": "Capsaicin on Hands: Kitchen Prevention and Response",
+    "seoTitle": "Capsaicin on Hands: Kitchen Prevention and Response",
+    "slug": "capsaicin-on-hands-kitchen-prevention-and-response",
+    "publishDate": "2026-09-15",
+    "publishAt": "2026-09-15T09:00:00-04:00",
+    "category": "Spicy Sauces",
+    "image": "/images/capsaicin-on-hands-kitchen-prevention-and-response-original.svg",
+    "imageAlt": "Original kitchen sink with running water, a mild hand-soap dispenser, and a separate pepper board with gloves; no improvised remedies shown.",
+    "excerpt": "Respond to capsaicin skin exposure with Poison Control guidance, and prepare your kitchen to limit residue transfer, cross-contact, and tasting pressure.",
+    "keywords": [
+      "capsaicin hands"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "If pepper residue is burning your hands, stop food preparation and begin rinsing the exposed skin. Do not touch your eyes or experiment with household chemicals. Get exposure-specific advice from Poison Control. Prevention starts before cutting: arrange gloves, utensils, a clear washing area, and a way to keep contaminated tools away from plain food and shared surfaces.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "TL;DR",
+        "body": [
+          {
+            "text": "For skin exposure, Poison Control recommends removing contaminated clothing and rinsing with plenty of room-temperature running water for at least fifteen minutes; mild hand soap can help remove material adhering to skin. For eye exposure, remove contact lenses and irrigate with room-temperature water for fifteen to twenty minutes. Call 1-800-222-1222 in the United States for guidance. Severe symptoms require urgent medical attention; call 911 for trouble breathing, collapse, seizure, or inability to awaken.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "First aid comes before finishing the recipe",
+        "body": [
+          {
+            "text": "Use the Poison Control first-aid instructions for immediate response. Do not delay rinsing while searching for a home remedy. After starting first aid, ask Poison Control about the actual exposure, symptoms, and next steps. Persistent or worsening pain, blistering, redness, swelling, or visual symptoms need medical assessment; severe symptoms should not wait for a kitchen cleanup or a completed recipe.",
+            "sourceIds": [
+              "editorial-8bba42f980e442"
+            ]
+          },
+          {
+            "text": "Keep the pepper or sauce identity available for the call if you can do so without delaying care. Useful details include when exposure happened, which body area was affected, and what you already used to wash it. Ask another adult to secure the cooking area when possible. A pan on heat or an open knife on the counter still needs attention, but the exposed person should not have to keep working through pain.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Set up the workspace before opening peppers",
+        "body": [
+          {
+            "text": "Choose a preparation area where you can keep pepper work separate from ready-to-eat plain food. Set out a cutting board, knife, waste container, and appropriate gloves before opening the package. Move your phone, glasses case, towel, and drinking cup away from the active area. These ordinary objects can become a route back to your face after you believe preparation is finished.",
+            "sourceIds": []
+          },
+          {
+            "text": "Make the sink reachable without carrying a dripping board across the kitchen. Check that soap and disposable or clean drying materials are available. If multiple people share the space, explain which board and utensils are being used for peppers. A brief spoken warning is useful, but a physically separate setup is easier to maintain when guests are talking and several dishes are being prepared at once.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Choose gloves and use them deliberately",
+        "body": [
+          {
+            "text": "Poison Control's capsaicin guidance recommends gloves when working with hot peppers and avoiding contact with the face and eyes. Select intact gloves appropriate for food preparation and compatible with the wearer's allergies. Gloves are not permission to touch every surface. A gloved hand can transfer residue to a faucet, phone, refrigerator handle, or clean serving utensil.",
+            "sourceIds": [
+              "editorial-9da7830d173e02"
+            ]
+          },
+          {
+            "text": "Plan when to remove or replace gloves: after handling peppers, before handling plain food, and whenever they tear or become unsuitable for the task. Follow the glove product's instructions and ordinary food-handling practices. Remove them without deliberately touching the contaminated exterior, then wash your hands. Do not reuse a disposable glove because it looks clean, and do not assume the absence of immediate burning proves that your hands are free of residue.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Keep washing separate from folk remedies",
+        "body": [
+          {
+            "text": "A kitchen search can produce suggestions involving alcohol, bleach, solvents, strong cleaners, hot water, abrasive scrubbing, dairy products, or mixtures of household ingredients. Do not turn an exposure into an uncontrolled experiment. Products that irritate skin or damage eyes can create another problem, and a food ingredient is not automatically an appropriate treatment. Follow the exposure-specific instructions from a poison specialist or clinician.",
+            "sourceIds": []
+          },
+          {
+            "text": "Avoid comparing your symptoms with a guest's tolerance or with what happened during a previous cooking session. The current exposure may involve a different pepper, a concentrated sauce, damaged skin, or contact with a sensitive area. A person who eats spicy food comfortably can still experience an irritating skin or eye exposure. Heat tolerance at the table does not establish protection while chopping.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Prevent residue from returning after cleanup",
+        "body": [
+          {
+            "text": "Think through the objects you touched while preparing food: knife handle, pepper bag, bottle cap, tap, cabinet pull, refrigerator door, and trash lid. Clean food-contact tools and surfaces using appropriate food-safe procedures and product instructions. Keep cleaning chemicals away from ingredients and never mix cleaners. If you are unsure how to clean a particular porous item or damaged utensil, stop using it for food until the issue is resolved.",
+            "sourceIds": []
+          },
+          {
+            "text": "Ask a second person to handle uncontaminated serving items while the pepper-preparation area is being cleaned. Do not use the same cloth to wipe pepper residue and then wipe the plain-food station. A visible label on a sauce helps identify it, but it does not undo contamination of a shared spoon. The physical handling arrangement matters as much as the menu card.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Manage food safety independently of heat",
+        "body": [
+          {
+            "text": "Spiciness does not make food sterile or remove its storage requirements. Keep raw ingredients separate from ready-to-eat foods, use clean utensils, and follow the storage and cooking instructions relevant to the dish. For general food-handling principles, consult the FDA's safe food handling guidance. A condiment's heat level is not a substitute for refrigeration instructions or a food thermometer when one is needed.",
+            "sourceIds": [
+              "editorial-577c547e55d8ef"
+            ]
+          },
+          {
+            "text": "Keep the original sauce label available so guests can review ingredients, allergen information, and storage directions. If you transfer sauce into a small serving dish, label that dish and preserve the original packaging nearby. Do not describe a homemade mixture as allergen-free based only on memory. Include the ingredients used in the mixture and consider cross-contact from shared equipment.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Let people opt out without explanation",
+        "body": [
+          {
+            "text": "For a tasting, offer a clearly separate plain option and allow each guest to choose whether to participate. Start with small, voluntary portions rather than escalating heat as a challenge. Do not pressure a person to prove tolerance or finish a serving after discomfort begins. Someone declining spicy food does not owe the group a medical history or an explanation.",
+            "sourceIds": []
+          },
+          {
+            "text": "Keep children away from concentrated sauces, pepper preparation, and contaminated tools. Avoid leaving an unlabeled sample where someone might mistake it for a mild condiment. If a guest becomes unwell, stop the tasting and obtain appropriate help. The host's role is to make the environment manageable, not to diagnose symptoms or coach someone through an exposure.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "A preparation checklist for the next batch",
+        "body": [
+          {
+            "text": "Before cooking, place the gloves, board, knife, waste container, soap, and serving labels where you will use them. Choose a separate area for plain food and ask who will handle it. Read the recipe completely so you know whether there will be a point where you need to touch equipment controls with clean hands. Keep a clean way to manage that transition rather than improvising midway through chopping.",
+            "sourceIds": []
+          },
+          {
+            "text": "After preparation, review the touched-surface list and put the original sauce packaging away according to its label. Let anyone helping know which tools still need cleaning. Our tasting and hosting resources provide related planning ideas. The useful improvement is a kitchen setup that makes appropriate handling easy even when the meal becomes busy.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "FAQs",
+        "body": [
+          {
+            "text": "Why do my hands hurt even though I enjoy spicy food?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Eating tolerance and skin exposure are different experiences. Capsaicin can irritate skin and sensitive tissues. Seek individualized advice for symptoms rather than assuming they should be harmless to you.",
+            "sourceIds": []
+          },
+          {
+            "text": "Can I keep cooking while wearing another pair of gloves?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Stop to address the exposure first. Another glove does not replace first aid, and continuing can spread residue or delay necessary care.",
+            "sourceIds": []
+          },
+          {
+            "text": "Should I put milk in an irritated eye?.",
+            "sourceIds": []
+          },
+          {
+            "text": "No. Follow the eye-irrigation guidance and contact Poison Control. Do not put food, cleaners, or improvised mixtures into an eye.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Educational disclaimer",
+        "body": [
+          {
+            "text": "This article supports kitchen preparation and does not diagnose an injury or replace professional care. Follow Poison Control or clinician instructions for an actual exposure. Outside the United States, use your local poison service and emergency number. Food safety, allergen management, and voluntary participation remain necessary at every heat level.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "At a glance",
+      "columns": [
+        "Kitchen moment",
+        "Prevention choice",
+        "If contamination occurs"
+      ],
+      "rows": [
+        [
+          "Opening and cutting peppers",
+          "Prepare gloves and dedicated tools",
+          "Stop and avoid touching face"
+        ],
+        [
+          "Moving between spicy and plain food",
+          "Separate utensils and clean work areas",
+          "Set affected plain food aside for review"
+        ],
+        [
+          "Answering a phone or opening a door",
+          "Remove contaminated gloves first",
+          "Clean the touched surface appropriately"
+        ],
+        [
+          "Washing after preparation",
+          "Keep sink accessible before starting",
+          "Begin prompt rinsing and seek advice"
+        ],
+        [
+          "Hosting a tasting",
+          "Identify ingredients and offer an opt-out",
+          "Stop serving if someone is unwell"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-8bba42f980e442",
+      "editorial-9da7830d173e02",
+      "editorial-577c547e55d8ef"
+    ],
+    "takeaway": "If pepper residue is burning your hands, stop food preparation and begin rinsing the exposed skin. Do not touch your eyes or experiment with household chemicals. Get exposure-specific advice from Poison Control. Prevention starts before cutting: arrange gloves, utensils, a clear washing area, and a way to keep contaminated tools away from plain food and shared surfaces."
   }
 ];
