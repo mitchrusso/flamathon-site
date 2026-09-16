@@ -8393,5 +8393,241 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-577c547e55d8ef"
     ],
     "takeaway": "If pepper residue is burning your hands, stop food preparation and begin rinsing the exposed skin. Do not touch your eyes or experiment with household chemicals. Get exposure-specific advice from Poison Control. Prevention starts before cutting: arrange gloves, utensils, a clear washing area, and a way to keep contaminated tools away from plain food and shared surfaces."
+  },
+  {
+    "title": "Wing Sauce Flight: Keep Raw and Cooked Foods Separate",
+    "seoTitle": "Wing Sauce Flight: Keep Raw and Cooked Foods Separate",
+    "slug": "wing-sauce-flight-keep-raw-and-cooked-foods-separate",
+    "publishDate": "2026-09-16",
+    "publishAt": "2026-09-16T09:00:00-04:00",
+    "category": "Spicy Sauces",
+    "image": "/images/wing-sauce-flight-keep-raw-and-cooked-foods-separate-original.svg",
+    "imageAlt": "Original kitchen workflow illustration with a raw-poultry tray, a cooking pan and thermometer marked 165 degrees Fahrenheit, and separate clean sauce tasting cups.",
+    "excerpt": "Plan a wing sauce flight with separate raw and cooked stations, thermometer checks, labeled ingredients, and pressure-free tasting portions.",
+    "keywords": [
+      "wing sauce tasting flight"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "Build a wing sauce flight around a clean serving station that never receives raw-poultry tools, plates, or used marinade. Cook the wings to a thermometer-verified 165°F, portion fresh sauces separately, and let guests choose their own heat level. Sauce acidity and chili heat do not make undercooked chicken safe.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "TL;DR",
+        "body": [
+          {
+            "text": "Set up distinct raw-preparation, cooking, and ready-to-eat areas. Reserve tasting sauces before anything touches raw chicken, use clean tools for cooked wings, and manage holding time and temperature. Label ingredients, prevent allergen cross-contact, and offer plain wings or another suitable opt-out. A tasting should compare flavor without pressuring anyone to tolerate more capsaicin.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "At a glance",
+        "body": [
+          {
+            "text": "The original kitchen diagram shows a one-way route from raw preparation through cooking to clean individual tasting portions. The separate tool colors are an organizational aid, not a substitute for washing, sanitation, or appropriate food handling. The table identifies the handoffs most likely to cause confusion during a busy gathering.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Plan portions before opening the chicken",
+        "body": [
+          {
+            "text": "Choose a small number of sauces that differ in flavor as well as heat. A smoky sauce, a tangy sauce, and a fruit-forward sauce give guests something more interesting to discuss than escalating intensity. Keep the hottest product optional and separate. Do not use concentrated extracts as a surprise addition or turn the tasting into an endurance challenge.",
+            "sourceIds": []
+          },
+          {
+            "text": "Write a simple serving plan: how many guests, how many tasting portions, which utensils belong to each station, and who will handle cooked food. Set out the clean plates and labeled cups before raw preparation begins. That reduces the chance of someone reaching into a drawer with contaminated hands while trying to finish the setup.",
+            "sourceIds": []
+          },
+          {
+            "text": "Reserve sauce for the flight in clean containers before using any sauce as a marinade. Keep original packaging so ingredient information remains available. Do not pour a guest’s unfinished dipping sauce back into a serving bottle, and do not refill a clean tasting cup with a utensil that has contacted raw poultry.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Make the raw-to-cooked handoff explicit",
+        "body": [
+          {
+            "text": "Raw poultry and ready-to-eat foods need separate handling. Assign a raw tray and separate clean serving trays. If the same counter must serve both purposes at different times, finish the raw work and properly clean and sanitize the area before bringing out cooked food or garnishes. Follow the cleaning product’s food-contact directions, including any required rinse.",
+            "sourceIds": []
+          },
+          {
+            "text": "Follow USDA’s advice against washing raw chicken; splashing can spread contamination. Wash hands with soap and water when moving from raw-food work to clean tasks. Replace or properly clean tools before the cooked-food handoff. A towel used during raw preparation should not become the towel used to dry a clean serving bowl.",
+            "sourceIds": [
+              "editorial-72966014b409cd"
+            ]
+          },
+          {
+            "text": "For a home cook, it can help to say the handoff aloud: “Raw tray stays here; cooked wings go onto this clean platter.” The phrase is only a reminder, but it gives helpers a clear instruction at the busiest moment. If a clean platter is accidentally used for raw chicken, take it out of the serving workflow until it has been properly cleaned.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Use a thermometer, not sauce color",
+        "body": [
+          {
+            "text": "USDA’s safe temperature guidance lists 165°F for poultry, including wings. Measure with a suitable food thermometer according to its instructions, checking representative pieces and avoiding contact with bone when placing the probe. Appearance, crispness, or the color of a sauce cannot establish the internal temperature.",
+            "sourceIds": [
+              "editorial-707d348a93cfe6"
+            ]
+          },
+          {
+            "text": "Cook in batches that your equipment can handle as instructed. Crowding changes cooking behavior, so do not assume a timing instruction remains valid after doubling the load. If using an air fryer, consult the appliance manual and USDA’s air-fryer food-safety guidance. Confirm doneness rather than treating the timer as a safety test.",
+            "sourceIds": [
+              "editorial-24eedf91c1e80b"
+            ]
+          },
+          {
+            "text": "Keep the thermometer clean between checks as appropriate, especially when checking a piece that is not yet cooked. Do not move an unclean probe directly from raw or undercooked chicken into a finished serving. Once cooking is complete, use clean bowls and utensils to apply the reserved sauces.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Serve smaller batches with a time plan",
+        "body": [
+          {
+            "text": "For a home buffet, USDA guidance recommends holding hot food at 140°F or above and cold food at 40°F or below. Without temperature control, discard perishable food left out beyond two hours, or one hour when the temperature is above 90°F. Commercial events must follow their applicable food-service rules rather than treating this home-hosting summary as a compliance plan.",
+            "sourceIds": [
+              "editorial-cb248e4d525549"
+            ]
+          },
+          {
+            "text": "Put out a smaller platter and replenish with a clean replacement rather than topping up a platter whose time history is unclear. Write down when each batch begins serving. If several people help, make one person responsible for that record so everyone does not assume someone else is watching the clock.",
+            "sourceIds": []
+          },
+          {
+            "text": "Refrigerate leftovers promptly in suitable shallow containers. Do not save food merely because it still smells normal or has a strong vinegar sauce. When holding history is uncertain, discard it. Keep any sauce requiring refrigeration under the storage conditions on its label, including after opening.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Treat allergen labels as part of the flight",
+        "body": [
+          {
+            "text": "Sauces and dips can contain ingredients guests may not expect, including milk, soy, wheat, fish, or sesame. Read every product label, including butter, seasoning blends, marinades, and dressings. FDA’s food-allergy guidance explains labeling and the possibility of serious reactions. A mild sauce is not necessarily suitable for a guest with an allergy.",
+            "sourceIds": [
+              "editorial-36ef8df20e6958"
+            ]
+          },
+          {
+            "text": "Provide ingredient information without promising an allergen-free environment you cannot control. Use separate utensils and discuss cross-contact limitations honestly. Ask guests about their needs before the event, and let them decide whether the available arrangements fit their own medical guidance. Do not encourage someone to taste a small amount to see whether an uncertain ingredient causes a reaction.",
+            "sourceIds": []
+          },
+          {
+            "text": "For a fictional three-sauce menu, label the sauces by name and list the ingredients from their packaging beside them. Put each in its own portioning vessel with its own utensil. Keep a plain option separate from the saucing station, while being clear about any shared preparation equipment.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Make heat tolerance a personal choice",
+        "body": [
+          {
+            "text": "Offer a small separate tasting portion and allow guests to stop or skip any sauce. Avoid ranking people by the heat they can tolerate. Poison Control’s capsaicin guidance describes the irritation and symptoms that hot-pepper exposure can cause. More heat is not evidence of a better tasting experience.",
+            "sourceIds": [
+              "editorial-9da7830d173e02"
+            ]
+          },
+          {
+            "text": "Keep pepper residue away from eyes and avoid handling contact lenses during preparation. Wash hands after handling spicy products and follow product precautions. If someone develops concerning symptoms, stop the tasting and seek appropriate advice. In the United States, Poison Control is available at 1-800-222-1222; breathing difficulty or another emergency requires emergency services.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Hosting questions",
+        "body": [
+          {
+            "text": "Can leftover raw marinade become a dip?.",
+            "sourceIds": []
+          },
+          {
+            "text": "For this flight, use the clean sauce reserved before raw contact. Keeping tasting sauce separate avoids relying on a last-minute treatment step and prevents confusing the raw container with the serving container.",
+            "sourceIds": []
+          },
+          {
+            "text": "Can guests share one dipping bowl?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Individual portions make both flavor comparison and utensil control simpler. Do not return bitten food or used tasting spoons to a shared sauce. Replace dropped or mixed-up utensils promptly.",
+            "sourceIds": []
+          },
+          {
+            "text": "What should I prepare first?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Create the station map and ingredient labels, reserve fresh sauce, and set out the clean serving tools before opening raw poultry. Continue with the Flameathon resource library for other pressure-free tasting ideas.",
+            "sourceIds": []
+          },
+          {
+            "text": "This educational hosting guide does not replace individualized allergy advice, appliance instructions, or commercial food-service requirements. Flavor, food safety, and guest comfort all need their own checks.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "At a glance",
+      "columns": [
+        "Station",
+        "Keep here",
+        "Keep out",
+        "Handoff check"
+      ],
+      "rows": [
+        [
+          "Raw preparation",
+          "Raw chicken and designated tools",
+          "Ready-to-eat garnishes and tasting cups",
+          "Hands and surfaces addressed before serving work"
+        ],
+        [
+          "Cooking",
+          "Cooking equipment and a food thermometer",
+          "Shared guest tasting spoons",
+          "Wings reach 165°F internally"
+        ],
+        [
+          "Clean saucing",
+          "Fresh reserved sauce and clean bowls",
+          "Used raw marinade and raw-poultry utensils",
+          "Each batch receives clean handling"
+        ],
+        [
+          "Guest tasting",
+          "Individual portions and labeled sauces",
+          "Returned bites and communal used spoons",
+          "Guests can choose mild or no heat"
+        ],
+        [
+          "Leftover handling",
+          "Clean shallow containers and time record",
+          "Food with uncertain holding history",
+          "Refrigerate promptly or discard as appropriate"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-72966014b409cd",
+      "editorial-707d348a93cfe6",
+      "editorial-24eedf91c1e80b",
+      "editorial-cb248e4d525549",
+      "editorial-36ef8df20e6958",
+      "editorial-9da7830d173e02"
+    ],
+    "takeaway": "Build a wing sauce flight around a clean serving station that never receives raw-poultry tools, plates, or used marinade. Cook the wings to a thermometer-verified 165°F, portion fresh sauces separately, and let guests choose their own heat level. Sauce acidity and chili heat do not make undercooked chicken safe."
   }
 ];

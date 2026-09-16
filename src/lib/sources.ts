@@ -1,4 +1,9 @@
 export const articleSources = [
+  {"id": "editorial-36ef8df20e6958", "title": "FDA’s food-allergy guidance", "organization": "www.fda.gov", "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"},
+  {"id": "editorial-cb248e4d525549", "title": "USDA guidance", "organization": "ask.fsis.usda.gov", "url": "https://ask.fsis.usda.gov/article/How-do-I-keep-foods-safe-at-a-buffet"},
+  {"id": "editorial-24eedf91c1e80b", "title": "USDA’s air-fryer food-safety guidance", "organization": "www.fsis.usda.gov", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety"},
+  {"id": "editorial-707d348a93cfe6", "title": "safe temperature guidance", "organization": "www.fsis.usda.gov", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"},
+  {"id": "editorial-72966014b409cd", "title": "USDA’s advice against washing raw chicken", "organization": "ask.fsis.usda.gov", "url": "https://ask.fsis.usda.gov/article/Should-I-wash-chicken-or-other-poultry-before-cooking"},
   {"id": "editorial-577c547e55d8ef", "title": "FDA's safe food handling guidance", "organization": "www.fda.gov", "url": "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"},
   {"id": "editorial-2de40787a85f3c", "title": "FDA's safe food handling guidance", "organization": "www.fda.gov", "url": "https://www.fda.gov/consumers/consumer-updates/food-safety-home"},
   {"id": "editorial-8bba42f980e442", "title": "Poison Control first-aid instructions", "organization": "www.poison.org", "url": "https://www.poison.org/first-aid-for-poisonings"},
