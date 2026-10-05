@@ -13067,5 +13067,322 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-9da7830d173e02"
     ],
     "takeaway": "Treat guest comfort as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
+  },
+  {
+    "title": "Chili Event Cleanup: Cool Food and Clean Shared Tools Safely",
+    "seoTitle": "Chili Event Cleanup: Cool Food and Clean Shared Tools Safely",
+    "slug": "chili-event-cleanup-cool-food-and-clean-shared-tools-safely",
+    "publishDate": "2026-10-19",
+    "publishAt": "2026-10-19T09:00:00-04:00",
+    "category": "Spicy Sauces",
+    "image": "/images/chili-event-cleanup-cool-food-and-clean-shared-tools-safely.svg",
+    "imageAlt": "Chili Event Cleanup: Cool Food and Clean Shared Tools Safely topic field map",
+    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "keywords": [
+      "chili event cleanup"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "A durable food safety workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "sourceIds": []
+          },
+          {
+            "text": "Use this guide when a concrete chili event cleanup: cool food and clean shared tools safely decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "At a glance: six checkpoints for food safety",
+        "body": [
+          {
+            "text": "1. Read the complete ingredient and storage label. 2. Screen allergens and cross-contact concerns. 3. Prepare a small measured flavor-first serving. 4. Keep utensils and temperature controls separate. 5. Offer a pressure-free opt-out. 6. Stop and record any tolerance or food-safety concern.",
+            "sourceIds": []
+          },
+          {
+            "text": "Read the list once before acting. Mark the checkpoint with the weakest evidence. That is where the plan needs attention; later refinement cannot rescue a decision built on an unresolved early constraint.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Define the result and the stop rule",
+        "body": [
+          {
+            "text": "Describe the result in observable terms. Include the person, object, or business process affected; the real environment; the acceptable range; and the point at which the work must stop. For food safety, an unacceptable outcome includes an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor.",
+            "sourceIds": []
+          },
+          {
+            "text": "Separate hard constraints from preferences. A hard constraint can disqualify the method even when it is faster or cheaper. Write assumptions as assumptions, attach an owner, and give high-consequence unknowns a deadline for resolution.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Prepare with evidence that can change the decision",
+        "body": [
+          {
+            "text": "Before scheduling the work, assemble the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Ask which single missing fact could reverse the decision. Resolve that item first; lower-impact questions can remain in the test log.",
+            "sourceIds": []
+          },
+          {
+            "text": "Set up the workspace and communication path before the demanding step. Read the complete ingredient and storage label; then confirm that screen allergens and cross-contact concerns. Make the stop authority explicit. The person who notices a problem should not need to negotiate permission while the exposure or failure is growing.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "The complete walkthrough",
+        "body": [
+          {
+            "text": "1. Read the complete ingredient and storage label.",
+            "sourceIds": []
+          },
+          {
+            "text": "Practice this step on one measured taste served with neutral food: read the complete ingredient and storage label. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
+            "sourceIds": []
+          },
+          {
+            "text": "Checkpoint: before moving to “screen allergens and cross-contact concerns,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "2. Screen allergens and cross-contact concerns.",
+            "sourceIds": []
+          },
+          {
+            "text": "Document the starting condition before you screen allergens and cross-contact concerns. Without a baseline, the team may notice change but cannot judge whether it is acceptable. The baseline for food safety should be brief, observable, and saved with product, ingredients, amount, food pairing, storage condition, and guest feedback.",
+            "sourceIds": []
+          },
+          {
+            "text": "Checkpoint: before moving to “prepare a small measured flavor-first serving,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "3. Prepare a small measured flavor-first serving.",
+            "sourceIds": []
+          },
+          {
+            "text": "Ask what would make this action wrong in the present setting, then prepare a small measured flavor-first serving. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
+            "sourceIds": []
+          },
+          {
+            "text": "Checkpoint: before moving to “keep utensils and temperature controls separate,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "4. Keep utensils and temperature controls separate.",
+            "sourceIds": []
+          },
+          {
+            "text": "Use a two-person check when the consequence is meaningful. One person should keep utensils and temperature controls separate; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "sourceIds": []
+          },
+          {
+            "text": "Checkpoint: before moving to “offer a pressure-free opt-out,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "5. Offer a pressure-free opt-out.",
+            "sourceIds": []
+          },
+          {
+            "text": "Practice this step on one measured taste served with neutral food: offer a pressure-free opt-out. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
+            "sourceIds": []
+          },
+          {
+            "text": "Checkpoint: before moving to “stop and record any tolerance or food-safety concern,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "6. Stop and record any tolerance or food-safety concern.",
+            "sourceIds": []
+          },
+          {
+            "text": "Treat this as the handoff checkpoint: stop and record any tolerance or food-safety concern. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the food safety instruction is not finished.",
+            "sourceIds": []
+          },
+          {
+            "text": "Checkpoint: before moving to “schedule the next inspection or review,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Run one representative small test",
+        "body": [
+          {
+            "text": "Do not launch the whole plan as the experiment. Trial one measured taste served with neutral food, observe without coaching the result toward success, and stop when an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor is present. A bounded failure is useful evidence.",
+            "sourceIds": []
+          },
+          {
+            "text": "Keep the test honest. Do not add help, favorable conditions, or expert intervention that will be absent during normal use. If the difficult case cannot be tested responsibly, escalate it to the qualified person or authority who can evaluate it.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Five mistakes that weaken a food safety plan",
+        "body": [
+          {
+            "text": "- Choosing a tool, product, setting, contract form, or template before the food safety requirement is defined. - Testing only the easiest condition and assuming the result represents normal food safety use. - Changing several variables together, which hides the cause of success or failure. - Continuing after an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor because time or money has already been invested. - Finishing the visible task without recording product, ingredients, amount, food pairing, storage condition, and guest feedback.",
+            "sourceIds": []
+          },
+          {
+            "text": "When a mistake appears, stabilize first. Protect the person, material, rights, equipment, food, environment, or client experience involved. Return to the first checkpoint contradicted by the evidence, revise one variable, and create a new stop rule before trying again.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Safety, permission, and professional boundaries",
+        "body": [
+          {
+            "text": "Food and tolerance caution: check every ingredient label for allergen and cross-contact warnings, keep perishable foods within safe time and temperature limits, and never pressure someone to exceed their stated heat tolerance. Capsaicin can irritate skin, eyes, and the digestive tract. People with medical concerns should seek individualized clinical guidance; urgent symptoms require prompt help.",
+            "sourceIds": []
+          },
+          {
+            "text": "Authoritative starting points:",
+            "sourceIds": []
+          },
+          {
+            "text": "- FDA food-allergen guidance - USDA food-storage guidance - Poison Control capsaicin guidance",
+            "sourceIds": [
+              "editorial-deae295be6a004",
+              "editorial-3094863ae3a0c7",
+              "editorial-9da7830d173e02"
+            ]
+          },
+          {
+            "text": "Confirm that a source applies to the exact model, jurisdiction, land manager, product category, transaction, clinical situation, or activity. Save the access date and pair general guidance with current manufacturer instructions or individualized professional advice when appropriate.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Review the result and make it reusable",
+        "body": [
+          {
+            "text": "Close the work with a short audit owned by the host or cook controlling the serving. Preserve product, ingredients, amount, food pairing, storage condition, and guest feedback. That record is the starting point for maintenance, training, renewal, or the next controlled test.",
+            "sourceIds": []
+          },
+          {
+            "text": "Turn the final note into a short checklist for the next person. Include the six checkpoints, the approved range, a photograph or example where useful, the stop rule, and the escalation contact. A workflow is not delegated until another person can recognize both a good result and a reason to stop.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Your next 20 minutes",
+        "body": [
+          {
+            "text": "Write the desired result and the unacceptable outcome. Complete checkpoint one using a current source or direct observation. Then prepare one measured taste served with neutral food. If the critical evidence is missing, use the time to send one precise question instead of improvising.",
+            "sourceIds": []
+          },
+          {
+            "text": "The goal of this short session is not to finish food safety. It is to reach the first defensible action with the stop rule already in place.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Related practical guides",
+        "body": [
+          {
+            "text": "- hot-sauce tasting-flight guide - ingredient-label checklist - spicy-food resource library",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "body": [
+          {
+            "text": "What should be verified first?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Verify the fact that could disqualify the entire approach. In this workflow that usually means read the complete ingredient and storage label, followed by a check that you can screen allergens and cross-contact concerns under real conditions.",
+            "sourceIds": []
+          },
+          {
+            "text": "How detailed should the written plan be?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Detailed enough that another capable person can perform the next checkpoint and recognize an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor. For most situations, one page plus the controlling sources and product, ingredients, amount, food pairing, storage condition, and guest feedback is more useful than a long narrative.",
+            "sourceIds": []
+          },
+          {
+            "text": "When is a small test not appropriate?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Skip informal testing when a recall, emergency, legal restriction, clinical concern, structural question, food-safety uncertainty, unknown hazardous material, or manufacturer prohibition requires an authoritative response first.",
+            "sourceIds": []
+          },
+          {
+            "text": "What evidence should be saved afterward?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Save product, ingredients, amount, food pairing, storage condition, and guest feedback. Add the source date, the person who approved the result, and the date or trigger for the next review.",
+            "sourceIds": []
+          },
+          {
+            "text": "What if the first attempt fails?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Stop, protect the affected people and property, and preserve the evidence. Identify the earliest failed checkpoint, change one variable, and decide whether a second bounded test or qualified professional review is the responsible next step.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Decision table for the current attempt",
+      "columns": [
+        "Decision point",
+        "Evidence to check",
+        "Continue when",
+        "Stop when"
+      ],
+      "rows": [
+        [
+          "Opening evidence",
+          "the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits",
+          "source, date, and scope are recorded",
+          "a controlling fact is missing"
+        ],
+        [
+          "Small test",
+          "one measured taste served with neutral food",
+          "the test represents the difficult condition",
+          "an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor"
+        ],
+        [
+          "Owner",
+          "the host or cook controlling the serving",
+          "one person can stop or escalate the work",
+          "ownership is assumed but not named"
+        ],
+        [
+          "Completion record",
+          "product, ingredients, amount, food pairing, storage condition, and guest feedback",
+          "the next reviewer can repeat the decision",
+          "the result depends on memory"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-deae295be6a004",
+      "editorial-3094863ae3a0c7",
+      "editorial-9da7830d173e02"
+    ],
+    "takeaway": "A durable food safety workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   }
 ];
