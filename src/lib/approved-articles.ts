@@ -17190,8 +17190,8 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "A durable chili ingredient card: keep allergens and heat notes visible workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Serving Check: Keep Hot Food, Labels, and Opt-Outs...",
-    "seoTitle": "Chili Serving Check: Keep Hot Food, Labels, and Opt-Outs...",
+    "title": "Chili Serving Check Keep Hot Food Labels And Opt Outs Aligned",
+    "seoTitle": "Chili Serving Check Keep Hot Food Labels And Opt Outs Aligned",
     "slug": "chili-serving-check-keep-hot-food-labels-and-opt-outs-aligned",
     "publishDate": "2026-11-05",
     "publishAt": "2026-11-05T09:00:00-05:00",
@@ -17207,11 +17207,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Start here",
         "body": [
           {
-            "text": "chili serving check: keep hot food, labels, and opt-outs... often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "text": "A durable chili serving check: keep hot food, labels, and opt-outs... workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
             "sourceIds": []
           },
           {
-            "text": "Use this guide when a concrete chili serving check: keep hot food, labels, and opt-outs... decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "text": "Use this guide when a concrete chili serving check keep hot food labels and opt outs aligned decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
             "sourceIds": []
           }
         ]
@@ -17246,7 +17246,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Prepare with evidence that can change the decision",
         "body": [
           {
-            "text": "Build the evidence packet around the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Keep it small enough to use during the work. Label each source with its date and scope, and separate a controlling requirement from a preference.",
+            "text": "Before scheduling the work, assemble the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Ask which single missing fact could reverse the decision. Resolve that item first; lower-impact questions can remain in the test log.",
             "sourceIds": []
           },
           {
@@ -17263,7 +17263,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Document the starting condition before you read the complete ingredient and storage label. Without a baseline, the team may notice change but cannot judge whether it is acceptable. The baseline for chili serving check: keep hot food, labels, and opt-outs... should be brief, observable, and saved with product, ingredients, amount, food pairing, storage condition, and guest feedback.",
+            "text": "Practice this step on one measured taste served with neutral food: read the complete ingredient and storage label. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
             "sourceIds": []
           },
           {
@@ -17275,7 +17275,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Assign this action explicitly to the host or cook controlling the serving: screen allergens and cross-contact concerns. Give that person authority to stop the sequence when an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears. Clear ownership prevents a common failure in chili serving check: keep hot food, labels, and opt-outs...: everyone sees the concern, but each person assumes someone else will make the decision.",
+            "text": "Treat this as the handoff checkpoint: screen allergens and cross-contact concerns. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the chili serving check: keep hot food, labels, and opt-outs... instruction is not finished.",
             "sourceIds": []
           },
           {
@@ -17287,7 +17287,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Start by turning “prepare a small measured flavor-first serving” into a fact someone can verify. Use the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Write the source and date beside the conclusion; otherwise the team cannot distinguish evidence from memory. For chili serving check: keep hot food, labels, and opt-outs..., this checkpoint is complete only when the next operator knows what is confirmed and what remains unknown.",
+            "text": "Do not treat “prepare a small measured flavor-first serving” as a box to tick. Explain what the step protects and what evidence will prove it worked. Capture product, ingredients, amount, food pairing, storage condition, and guest feedback, then compare the observation with the stated result. Continue only when the evidence supports the next checkpoint.",
             "sourceIds": []
           },
           {
@@ -17299,7 +17299,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Start by turning “keep utensils and temperature controls separate” into a fact someone can verify. Use the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Write the source and date beside the conclusion; otherwise the team cannot distinguish evidence from memory. For chili serving check: keep hot food, labels, and opt-outs..., this checkpoint is complete only when the next operator knows what is confirmed and what remains unknown.",
+            "text": "Use a two-person check when the consequence is meaningful. One person should keep utensils and temperature controls separate; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
             "sourceIds": []
           },
           {
@@ -17311,7 +17311,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Before performing this step, say the plan aloud: offer a pressure-free opt-out. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because chili serving check: keep hot food, labels, and opt-outs... can drift when people improvise without noticing that the original conditions changed.",
+            "text": "Ask what would make this action wrong in the present setting, then offer a pressure-free opt-out. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
             "sourceIds": []
           },
           {
@@ -17323,7 +17323,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Close the loop after you stop and record any tolerance or food-safety concern. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next chili serving check: keep hot food, labels, and opt-outs... attempt while the details are still fresh.",
+            "text": "Make “stop and record any tolerance or food-safety concern” a pass/fail gate. State the acceptable range, then compare it with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not average a failed constraint against convenience. The right response to a conflict is to pause chili serving check: keep hot food, labels, and opt-outs..., resolve the source of truth, and document the decision.",
             "sourceIds": []
           },
           {
@@ -17336,7 +17336,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Run one representative small test",
         "body": [
           {
-            "text": "Use one measured taste served with neutral food and change only one meaningful variable. Define the expected result and the stopping signal before beginning. If an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears, end the test and return to the last acceptable condition.",
+            "text": "Do not launch the whole plan as the experiment. Trial one measured taste served with neutral food, observe without coaching the result toward success, and stop when an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor is present. A bounded failure is useful evidence.",
             "sourceIds": []
           },
           {
@@ -17387,7 +17387,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Review the result and make it reusable",
         "body": [
           {
-            "text": "Review product, ingredients, amount, food pairing, storage condition, and guest feedback. Compare the observation with the result statement, not with the effort invested. Decide to adopt, adjust, obtain qualified help, or stop.",
+            "text": "Close the work with a short audit owned by the host or cook controlling the serving. Preserve product, ingredients, amount, food pairing, storage condition, and guest feedback. That record is the starting point for maintenance, training, renewal, or the next controlled test.",
             "sourceIds": []
           },
           {
@@ -17504,11 +17504,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-3094863ae3a0c7",
       "editorial-9da7830d173e02"
     ],
-    "takeaway": "chili serving check: keep hot food, labels, and opt-outs... often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
+    "takeaway": "A durable chili serving check: keep hot food, labels, and opt-outs... workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Allergen Check: Refresh Labels Before Guests Serve...",
-    "seoTitle": "Chili Allergen Check: Refresh Labels Before Guests Serve...",
+    "title": "Chili Allergen Check Refresh Labels Before Guests Serve Themselves",
+    "seoTitle": "Chili Allergen Check Refresh Labels Before Guests Serve Themselves",
     "slug": "chili-allergen-check-refresh-labels-before-guests-serve-themselves",
     "publishDate": "2026-11-06",
     "publishAt": "2026-11-06T09:00:00-05:00",
@@ -17524,11 +17524,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Start here",
         "body": [
           {
-            "text": "The difficult part of chili allergen check: refresh labels before guests serve... is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "text": "chili allergen check: refresh labels before guests serve... often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
             "sourceIds": []
           },
           {
-            "text": "Use this guide when a concrete chili allergen check: refresh labels before guests serve... decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "text": "Use this guide when a concrete chili allergen check refresh labels before guests serve themselves decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
             "sourceIds": []
           }
         ]
@@ -17563,7 +17563,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Prepare with evidence that can change the decision",
         "body": [
           {
-            "text": "Walk through the actual setting and gather the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not substitute a product page, generic summary, or remembered dimension for something you can observe directly. Photograph or note the condition that is easiest to misremember.",
+            "text": "Build the evidence packet around the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Keep it small enough to use during the work. Label each source with its date and scope, and separate a controlling requirement from a preference.",
             "sourceIds": []
           },
           {
@@ -17580,7 +17580,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Ask what would make this action wrong in the present setting, then read the complete ingredient and storage label. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
+            "text": "For this checkpoint, read the complete ingredient and storage label. Observe the real condition rather than the ideal one. A practical record includes product, ingredients, amount, food pairing, storage condition, and guest feedback. If one of those details is unavailable, note the consequence of guessing before continuing.",
             "sourceIds": []
           },
           {
@@ -17592,7 +17592,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "For this checkpoint, screen allergens and cross-contact concerns. Observe the real condition rather than the ideal one. A practical record includes product, ingredients, amount, food pairing, storage condition, and guest feedback. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "text": "Do not treat “screen allergens and cross-contact concerns” as a box to tick. Explain what the step protects and what evidence will prove it worked. Capture product, ingredients, amount, food pairing, storage condition, and guest feedback, then compare the observation with the stated result. Continue only when the evidence supports the next checkpoint.",
             "sourceIds": []
           },
           {
@@ -17628,7 +17628,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Assign this action explicitly to the host or cook controlling the serving: offer a pressure-free opt-out. Give that person authority to stop the sequence when an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears. Clear ownership prevents a common failure in chili allergen check: refresh labels before guests serve...: everyone sees the concern, but each person assumes someone else will make the decision.",
+            "text": "Ask what would make this action wrong in the present setting, then offer a pressure-free opt-out. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
             "sourceIds": []
           },
           {
@@ -17640,7 +17640,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Make “stop and record any tolerance or food-safety concern” a pass/fail gate. State the acceptable range, then compare it with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not average a failed constraint against convenience. The right response to a conflict is to pause chili allergen check: refresh labels before guests serve..., resolve the source of truth, and document the decision.",
+            "text": "Close the loop after you stop and record any tolerance or food-safety concern. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next chili allergen check: refresh labels before guests serve... attempt while the details are still fresh.",
             "sourceIds": []
           },
           {
@@ -17653,7 +17653,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Run one representative small test",
         "body": [
           {
-            "text": "The first implementation should be one measured taste served with neutral food. Make it realistic enough to expose the hard condition but limited enough to reverse. Record product, ingredients, amount, food pairing, storage condition, and guest feedback so the result can guide the next attempt.",
+            "text": "Use one measured taste served with neutral food and change only one meaningful variable. Define the expected result and the stopping signal before beginning. If an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears, end the test and return to the last acceptable condition.",
             "sourceIds": []
           },
           {
@@ -17704,7 +17704,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Review the result and make it reusable",
         "body": [
           {
-            "text": "At the review, ask three questions: What changed? What remained uncertain? Did an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor occur or nearly occur? Assign one owner and date to every follow-up.",
+            "text": "Review product, ingredients, amount, food pairing, storage condition, and guest feedback. Compare the observation with the result statement, not with the effort invested. Decide to adopt, adjust, obtain qualified help, or stop.",
             "sourceIds": []
           },
           {
@@ -17821,11 +17821,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-3094863ae3a0c7",
       "editorial-9da7830d173e02"
     ],
-    "takeaway": "The difficult part of chili allergen check: refresh labels before guests serve... is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
+    "takeaway": "chili allergen check: refresh labels before guests serve... often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Tasting Pace: Offer Water, Portions, and a No-Press...",
-    "seoTitle": "Chili Tasting Pace: Offer Water, Portions, and a No-Press...",
+    "title": "Chili Tasting Pace Offer Water Portions And A No Pressure Exit",
+    "seoTitle": "Chili Tasting Pace Offer Water Portions And A No Pressure Exit",
     "slug": "chili-tasting-pace-offer-water-portions-and-a-no-pressure-exit",
     "publishDate": "2026-11-09",
     "publishAt": "2026-11-09T09:00:00-05:00",
@@ -17841,11 +17841,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Start here",
         "body": [
           {
-            "text": "Treat chili tasting pace: offer water, portions, and a no-press... as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "text": "A durable chili tasting pace: offer water, portions, and a no-press... workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
             "sourceIds": []
           },
           {
-            "text": "Use this guide when a concrete chili tasting pace: offer water, portions, and a no-press... decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "text": "Use this guide when a concrete chili tasting pace offer water portions and a no pressure exit decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
             "sourceIds": []
           }
         ]
@@ -17897,7 +17897,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Before performing this step, say the plan aloud: read the complete ingredient and storage label. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because chili tasting pace: offer water, portions, and a no-press... can drift when people improvise without noticing that the original conditions changed.",
+            "text": "Ask what would make this action wrong in the present setting, then read the complete ingredient and storage label. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
             "sourceIds": []
           },
           {
@@ -17921,7 +17921,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Start by turning “prepare a small measured flavor-first serving” into a fact someone can verify. Use the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Write the source and date beside the conclusion; otherwise the team cannot distinguish evidence from memory. For chili tasting pace: offer water, portions, and a no-press..., this checkpoint is complete only when the next operator knows what is confirmed and what remains unknown.",
+            "text": "Treat this as the handoff checkpoint: prepare a small measured flavor-first serving. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the chili tasting pace: offer water, portions, and a no-press... instruction is not finished.",
             "sourceIds": []
           },
           {
@@ -17933,7 +17933,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Make “keep utensils and temperature controls separate” a pass/fail gate. State the acceptable range, then compare it with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not average a failed constraint against convenience. The right response to a conflict is to pause chili tasting pace: offer water, portions, and a no-press..., resolve the source of truth, and document the decision.",
+            "text": "Do not treat “keep utensils and temperature controls separate” as a box to tick. Explain what the step protects and what evidence will prove it worked. Capture product, ingredients, amount, food pairing, storage condition, and guest feedback, then compare the observation with the stated result. Continue only when the evidence supports the next checkpoint.",
             "sourceIds": []
           },
           {
@@ -17945,7 +17945,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Use a two-person check when the consequence is meaningful. One person should offer a pressure-free opt-out; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "text": "For this checkpoint, offer a pressure-free opt-out. Observe the real condition rather than the ideal one. A practical record includes product, ingredients, amount, food pairing, storage condition, and guest feedback. If one of those details is unavailable, note the consequence of guessing before continuing.",
             "sourceIds": []
           },
           {
@@ -18138,7 +18138,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-3094863ae3a0c7",
       "editorial-9da7830d173e02"
     ],
-    "takeaway": "Treat chili tasting pace: offer water, portions, and a no-press... as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
+    "takeaway": "A durable chili tasting pace: offer water, portions, and a no-press... workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
     "title": "Chili Cooling Check: Portion Leftovers Before Refrigeration",
@@ -18459,7 +18459,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Leftover Label Check: Date Every Container Before Storage",
-    "seoTitle": "Chili Leftover Label Check: Date Every Container Before S...",
+    "seoTitle": "Chili Leftover Label Check: Date Every Container Before Storage",
     "slug": "chili-leftover-label-check-date-every-container-before-storage",
     "publishDate": "2026-11-11",
     "publishAt": "2026-11-11T09:00:00-05:00",
@@ -18775,8 +18775,8 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "Treat leftovers as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Reheat Check: Bring Leftovers Back to a Safe Servin...",
-    "seoTitle": "Chili Reheat Check: Bring Leftovers Back to a Safe Servin...",
+    "title": "Chili Reheat Check Bring Leftovers Back To A Safe Serving Plan",
+    "seoTitle": "Chili Reheat Check Bring Leftovers Back To A Safe Serving Plan",
     "slug": "chili-reheat-check-bring-leftovers-back-to-a-safe-serving-plan",
     "publishDate": "2026-11-12",
     "publishAt": "2026-11-12T09:00:00-05:00",
@@ -18792,11 +18792,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Start here",
         "body": [
           {
-            "text": "chili reheat check: bring leftovers back to a safe servin... often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "text": "Planning chili reheat check: bring leftovers back to a safe servin... is an exercise in controlled execution. The goal is a repeatable result without overrunning safety, permission, fit, quality, or capacity limits. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
             "sourceIds": []
           },
           {
-            "text": "Use this guide when a concrete chili reheat check: bring leftovers back to a safe servin... decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "text": "Use this guide when a concrete chili reheat check bring leftovers back to a safe serving plan decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
             "sourceIds": []
           }
         ]
@@ -18831,7 +18831,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Prepare with evidence that can change the decision",
         "body": [
           {
-            "text": "Build the evidence packet around the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Keep it small enough to use during the work. Label each source with its date and scope, and separate a controlling requirement from a preference.",
+            "text": "Walk through the actual setting and gather the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not substitute a product page, generic summary, or remembered dimension for something you can observe directly. Photograph or note the condition that is easiest to misremember.",
             "sourceIds": []
           },
           {
@@ -18860,7 +18860,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Before performing this step, say the plan aloud: screen allergens and cross-contact concerns. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because chili reheat check: bring leftovers back to a safe servin... can drift when people improvise without noticing that the original conditions changed.",
+            "text": "Practice this step on one measured taste served with neutral food: screen allergens and cross-contact concerns. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
             "sourceIds": []
           },
           {
@@ -18872,7 +18872,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Practice this step on one measured taste served with neutral food: prepare a small measured flavor-first serving. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
+            "text": "Use a two-person check when the consequence is meaningful. One person should prepare a small measured flavor-first serving; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
             "sourceIds": []
           },
           {
@@ -18884,7 +18884,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Make “keep utensils and temperature controls separate” a pass/fail gate. State the acceptable range, then compare it with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not average a failed constraint against convenience. The right response to a conflict is to pause chili reheat check: bring leftovers back to a safe servin..., resolve the source of truth, and document the decision.",
+            "text": "Use a two-person check when the consequence is meaningful. One person should keep utensils and temperature controls separate; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
             "sourceIds": []
           },
           {
@@ -18896,7 +18896,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Make “offer a pressure-free opt-out” a pass/fail gate. State the acceptable range, then compare it with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Do not average a failed constraint against convenience. The right response to a conflict is to pause chili reheat check: bring leftovers back to a safe servin..., resolve the source of truth, and document the decision.",
+            "text": "Use a two-person check when the consequence is meaningful. One person should offer a pressure-free opt-out; the other should compare the action with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
             "sourceIds": []
           },
           {
@@ -18908,7 +18908,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Practice this step on one measured taste served with neutral food: stop and record any tolerance or food-safety concern. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
+            "text": "Treat this as the handoff checkpoint: stop and record any tolerance or food-safety concern. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the chili reheat check: bring leftovers back to a safe servin... instruction is not finished.",
             "sourceIds": []
           },
           {
@@ -18921,7 +18921,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Run one representative small test",
         "body": [
           {
-            "text": "Use one measured taste served with neutral food and change only one meaningful variable. Define the expected result and the stopping signal before beginning. If an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears, end the test and return to the last acceptable condition.",
+            "text": "The first implementation should be one measured taste served with neutral food. Make it realistic enough to expose the hard condition but limited enough to reverse. Record product, ingredients, amount, food pairing, storage condition, and guest feedback so the result can guide the next attempt.",
             "sourceIds": []
           },
           {
@@ -18972,7 +18972,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Review the result and make it reusable",
         "body": [
           {
-            "text": "Review product, ingredients, amount, food pairing, storage condition, and guest feedback. Compare the observation with the result statement, not with the effort invested. Decide to adopt, adjust, obtain qualified help, or stop.",
+            "text": "At the review, ask three questions: What changed? What remained uncertain? Did an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor occur or nearly occur? Assign one owner and date to every follow-up.",
             "sourceIds": []
           },
           {
@@ -19089,11 +19089,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-3094863ae3a0c7",
       "editorial-9da7830d173e02"
     ],
-    "takeaway": "chili reheat check: bring leftovers back to a safe servin... often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
+    "takeaway": "Planning chili reheat check: bring leftovers back to a safe servin... is an exercise in controlled execution. The goal is a repeatable result without overrunning safety, permission, fit, quality, or capacity limits. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
     "title": "Chili Hot-Holding Check: Keep the Serving Plan Within Safe Limits",
-    "seoTitle": "Chili Hot-Holding Check: Keep the Serving Plan Within Saf...",
+    "seoTitle": "Chili Hot-Holding Check: Keep the Serving Plan Within Safe Limits",
     "slug": "chili-hot-holding-check-keep-the-serving-plan-within-safe-limits",
     "publishDate": "2026-11-13",
     "publishAt": "2026-11-13T09:00:00-05:00",
@@ -19410,7 +19410,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Serving Temperature Check: Verify Hot Holding Before the First Bowl",
-    "seoTitle": "Chili Serving Temperature Check: Verify Hot Holding Befor...",
+    "seoTitle": "Chili Serving Temperature Check: Verify Hot Holding Before the First Bowl",
     "slug": "chili-serving-temperature-check-verify-hot-holding-before-the-first-bowl",
     "publishDate": "2026-11-16",
     "publishAt": "2026-11-16T09:00:00-05:00",
@@ -19727,7 +19727,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Allergen Card Check: Make Every Ingredient Easy to Find",
-    "seoTitle": "Chili Allergen Card Check: Make Every Ingredient Easy to...",
+    "seoTitle": "Chili Allergen Card Check: Make Every Ingredient Easy to Find",
     "slug": "chili-allergen-card-check-make-every-ingredient-easy-to-find",
     "publishDate": "2026-11-17",
     "publishAt": "2026-11-17T09:00:00-05:00",
