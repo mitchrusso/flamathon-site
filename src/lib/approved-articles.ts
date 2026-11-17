@@ -547,7 +547,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-28T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/what-are-spicy-sauces.svg",
-    "excerpt": "What Are Spicy Sauces: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for spicy sauces gu...",
+    "excerpt": "Understand spicy sauces by pepper type, heat source, acidity, sweetness, texture, intended use, label details, and a practical tasting sequence.",
     "keywords": [
       "what are spicy sauces"
     ],
@@ -1065,7 +1065,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-29T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/5-types-of-sauces-explained.svg",
-    "excerpt": "5 Types of Sauces Explained: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for spicy sau...",
+    "excerpt": "Compare five broad sauce styles by ingredients, texture, heat, acidity, sweetness, cooking use, and the foods each style complements.",
     "keywords": [
       "5 types of sauces explained"
     ],
@@ -1583,7 +1583,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-30T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/hot-sauce-scoville-scale-explained.svg",
-    "excerpt": "Hot Sauce Scoville Scale Explained: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for sp...",
+    "excerpt": "Learn what Scoville ratings can and cannot tell you about hot sauce, including test methods, serving size, perception, ingredients, and safe tasting.",
     "keywords": [
       "hot sauce scoville scale explained"
     ],
@@ -2101,7 +2101,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-31T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/mild-vs-medium-vs-hot-sauce.svg",
-    "excerpt": "Mild vs Medium vs Hot Sauce: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for spicy sau...",
+    "excerpt": "Compare mild, medium, and hot sauces using pepper type, serving size, label cues, sweetness, acidity, guest tolerance, and a gradual tasting plan.",
     "keywords": [
       "mild vs medium vs hot sauce"
     ],
@@ -2619,7 +2619,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-03T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/most-popular-spicy-foods-around-the-world.svg",
-    "excerpt": "Most Popular Spicy Foods Around the World: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
+    "excerpt": "Explore popular spicy foods from around the world through their peppers, aromatics, cooking methods, condiments, regional context, and serving traditions.",
     "keywords": [
       "most popular spicy foods around the world"
     ],
@@ -3137,7 +3137,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-04T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/side-effects-of-eating-too-much-spicy-food.svg",
-    "excerpt": "Side Effects of Eating Too Much Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklis...",
+    "excerpt": "Review common reactions to excessive spicy food, safer pacing, portion awareness, hydration, individual tolerance, and when symptoms warrant medical advice.",
     "keywords": [
       "side effects of eating too much spicy food"
     ],
@@ -3655,7 +3655,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-05T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/best-drink-to-drink-with-spicy-food.svg",
-    "excerpt": "Best Drink to Drink with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for d...",
+    "excerpt": "Choose drinks for spicy food by considering dairy, sweetness, acidity, alcohol, carbonation, temperature, personal tolerance, and the meal itself.",
     "keywords": [
       "best drink to drink with spicy food"
     ],
@@ -4173,7 +4173,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-06T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/does-milk-help-with-spicy-food.svg",
-    "excerpt": "Does Milk Help with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for drinks...",
+    "excerpt": "Understand why milk may reduce capsaicin discomfort, which dairy options differ, what alternatives can help, and how to pace a spicy tasting.",
     "keywords": [
       "does milk help with spicy food"
     ],
@@ -4691,7 +4691,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-07T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/wine-pairing-with-spicy-food.svg",
-    "excerpt": "Wine Pairing with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for drinks w...",
+    "excerpt": "Pair wine with spicy food by balancing sweetness, acidity, alcohol, tannin, serving temperature, sauce intensity, and the dish's dominant flavors.",
     "keywords": [
       "wine pairing with spicy food"
     ],
@@ -5209,7 +5209,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-10T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/non-alcoholic-drinks-with-spicy-food.svg",
-    "excerpt": "Non-Alcoholic Drinks with Spicy Food: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for...",
+    "excerpt": "Match non-alcoholic drinks to spicy food using sweetness, dairy, acidity, carbonation, temperature, flavor intensity, and guest preferences.",
     "keywords": [
       "non-alcoholic drinks with spicy food"
     ],
@@ -5989,7 +5989,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-09-08T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/hot-sauce-label-checklist-allergens-sodium-and-serving-size.svg",
-    "excerpt": "Plan safety and hosting with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Hot Sauce Label Checklist: Allergens, Sodium, and Serving Size. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "hot sauce label checklist"
     ],
@@ -8639,7 +8639,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/hot-sauce-travel-packing-leaks-labels-and-cold-storage.svg",
     "imageAlt": "Hot Sauce Travel Packing: Leaks, Labels, and Cold Storage topic field map",
-    "excerpt": "Plan safety and hosting with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Hot Sauce Travel Packing: Leaks, Labels, and Cold Storage. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "hot sauce travel packing"
     ],
@@ -9907,7 +9907,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/chili-cook-off-temperatures-a-practical-holding-plan.svg",
     "imageAlt": "Chili Cook-Off Temperatures: A Practical Holding Plan topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Cook-Off Temperatures: A Practical Holding Plan. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili cook off food temperatures"
     ],
@@ -10224,7 +10224,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/build-your-own-chili-bar-separate-allergen-friendly-options.svg",
     "imageAlt": "Build-Your-Own Chili Bar: Separate Allergen-Friendly Options topic field map",
-    "excerpt": "Plan allergen planning with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Build-Your-Own Chili Bar: Separate Allergen-Friendly Options. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili bar allergen options"
     ],
@@ -10541,7 +10541,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/leftover-chili-cool-store-and-reheat-safely.svg",
     "imageAlt": "Leftover Chili: Cool, Store, and Reheat Safely topic field map",
-    "excerpt": "Plan leftovers with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Leftover Chili: Cool, Store, and Reheat Safely. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "leftover chili food safety"
     ],
@@ -10858,7 +10858,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/heat-level-tasting-give-guests-an-easy-opt-out.svg",
     "imageAlt": "Heat-Level Tasting: Give Guests an Easy Opt-Out topic field map",
-    "excerpt": "Plan guest comfort with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Heat-Level Tasting: Give Guests an Easy Opt-Out. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "spicy food tasting opt out"
     ],
@@ -11492,7 +11492,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/hot-sauce-storage-keep-labels-and-dates-with-the-bottle.svg",
     "imageAlt": "Hot Sauce Storage: Keep Labels and Dates With the Bottle topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Hot Sauce Storage: Keep Labels and Dates With the Bottle. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "hot sauce storage labels"
     ],
@@ -11809,7 +11809,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/chili-potluck-setup-keep-cold-foods-cold.svg",
     "imageAlt": "Chili Potluck Setup: Keep Cold Foods Cold topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Potluck Setup: Keep Cold Foods Cold. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili potluck cold food safety"
     ],
@@ -12126,7 +12126,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/spicy-leftovers-label-chill-and-reheat-with-care.svg",
     "imageAlt": "Spicy Leftovers: Label, Chill, and Reheat With Care topic field map",
-    "excerpt": "Plan leftovers with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Spicy Leftovers: Label, Chill, and Reheat With Care. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "spicy leftovers food safety"
     ],
@@ -12443,7 +12443,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-spoons-reduce-cross-contact-during-a-buffet.svg",
     "imageAlt": "Chili Serving Spoons: Reduce Cross-Contact During a Buffet topic field map",
-    "excerpt": "Plan allergen planning with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Serving Spoons: Reduce Cross-Contact During a Buffet. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili buffet cross contact"
     ],
@@ -12760,7 +12760,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/spicy-event-water-station-help-guests-pace-the-heat.svg",
     "imageAlt": "Spicy Event Water Station: Help Guests Pace the Heat topic field map",
-    "excerpt": "Plan guest comfort with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Spicy Event Water Station: Help Guests Pace the Heat. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "spicy food event guest comfort"
     ],
@@ -13077,7 +13077,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/chili-event-cleanup-cool-food-and-clean-shared-tools-safely.svg",
     "imageAlt": "Chili Event Cleanup: Cool Food and Clean Shared Tools Safely topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Event Cleanup: Cool Food and Clean Shared Tools Safely. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili event cleanup"
     ],
@@ -13387,14 +13387,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Serving Plan: Track Time, Temperature, and Allergen Tools",
-    "seoTitle": "Chili Serving Plan: Track Time, Temperature, and Allergen...",
+    "seoTitle": "Chili Serving Time, Temperature, and Allergen Plan",
     "slug": "chili-serving-plan-track-time-temperature-and-allergen-tools",
     "publishDate": "2026-10-20",
     "publishAt": "2026-10-20T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-track-time-temperature-and-allergen-tools.svg",
     "imageAlt": "Chili Serving Plan: Track Time, Temperature, and Allergen Tools topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Serving Plan: Track Time, Temperature, and Allergen Tools. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili serving food safety"
     ],
@@ -13704,14 +13704,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Garnish Station: Separate Utensils and Ingredient Labels",
-    "seoTitle": "Chili Garnish Station: Separate Utensils and Ingredient L...",
+    "seoTitle": "Chili Garnish Station Utensil and Label Plan",
     "slug": "chili-garnish-station-separate-utensils-and-ingredient-labels",
     "publishDate": "2026-10-21",
     "publishAt": "2026-10-21T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-garnish-station-separate-utensils-and-ingredient-labels.svg",
     "imageAlt": "Chili Garnish Station: Separate Utensils and Ingredient Labels topic field map",
-    "excerpt": "Plan allergen planning with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Garnish Station: Separate Utensils and Ingredient Labels. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili garnish allergen safety"
     ],
@@ -14021,14 +14021,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Thermometer Check: Verify Food Temperatures Before Serving",
-    "seoTitle": "Chili Thermometer Check: Verify Food Temperatures Before...",
+    "seoTitle": "Chili Thermometer Check Before Serving",
     "slug": "chili-thermometer-check-verify-food-temperatures-before-serving",
     "publishDate": "2026-10-22",
     "publishAt": "2026-10-22T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-thermometer-check-verify-food-temperatures-before-serving.svg",
     "imageAlt": "Chili Thermometer Check: Verify Food Temperatures Before Serving topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Thermometer Check: Verify Food Temperatures Before Serving. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili food thermometer check"
     ],
@@ -14345,7 +14345,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/chili-leftover-label-mark-date-allergens-and-reheat-plan.svg",
     "imageAlt": "Chili Leftover Label: Mark Date, Allergens, and Reheat Plan topic field map",
-    "excerpt": "Plan leftovers with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Leftover Label: Mark Date, Allergens, and Reheat Plan. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili leftovers label"
     ],
@@ -14662,7 +14662,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Spicy Sauces",
     "image": "/images/chili-pot-temperature-log-record-checks-before-serving.svg",
     "imageAlt": "Chili Pot Temperature Log: Record Checks Before Serving topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Pot Temperature Log: Record Checks Before Serving. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili serving temperature log"
     ],
@@ -14972,14 +14972,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Refill Plan: Replace Service Utensils Before Cross-Contact",
-    "seoTitle": "Chili Refill Plan: Replace Service Utensils Before Cross...",
+    "seoTitle": "Chili Refill Plan to Reduce Cross-Contact",
     "slug": "chili-refill-plan-replace-service-utensils-before-cross-contact",
     "publishDate": "2026-10-27",
     "publishAt": "2026-10-27T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-refill-plan-replace-service-utensils-before-cross-contact.svg",
     "imageAlt": "Chili Refill Plan: Replace Service Utensils Before Cross-Contact topic field map",
-    "excerpt": "Plan allergen planning with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Refill Plan: Replace Service Utensils Before Cross-Contact. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili refill cross contact"
     ],
@@ -15289,14 +15289,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Serving Label Check: Keep Ingredients Visible at Refill Time",
-    "seoTitle": "Chili Serving Label Check: Keep Ingredients Visible at Re...",
+    "seoTitle": "Chili Serving Label Check at Refill Time",
     "slug": "chili-serving-label-check-keep-ingredients-visible-at-refill-time",
     "publishDate": "2026-10-28",
     "publishAt": "2026-10-28T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-label-check-keep-ingredients-visible-at-refill-time.svg",
     "imageAlt": "Chili Serving Label Check: Keep Ingredients Visible at Refill Time topic field map",
-    "excerpt": "Plan allergen planning with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Serving Label Check: Keep Ingredients Visible at Refill Time. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili serving ingredient labels"
     ],
@@ -15606,14 +15606,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Holding Check: Keep the Service Plan Within Safe Limits",
-    "seoTitle": "Chili Holding Check: Keep the Service Plan Within Safe Li...",
+    "seoTitle": "Chili Holding Check for Safe Service Limits",
     "slug": "chili-holding-check-keep-the-service-plan-within-safe-limits",
     "publishDate": "2026-10-29",
     "publishAt": "2026-10-29T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-holding-check-keep-the-service-plan-within-safe-limits.svg",
     "imageAlt": "Chili Holding Check: Keep the Service Plan Within Safe Limits topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Holding Check: Keep the Service Plan Within Safe Limits. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili hot holding safety"
     ],
@@ -15923,14 +15923,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Halloween Chili Service Check: Label Allergens and Keep Hot Food Safe",
-    "seoTitle": "Halloween Chili Service Check: Label Allergens and Keep H...",
+    "seoTitle": "Halloween Chili Allergen and Hot-Holding Check",
     "slug": "halloween-chili-service-check-label-allergens-and-keep-hot-food-safe",
     "publishDate": "2026-10-30",
     "publishAt": "2026-10-30T09:00:00-04:00",
     "category": "Spicy Sauces",
     "image": "/images/halloween-chili-service-check-label-allergens-and-keep-hot-food-safe.svg",
     "imageAlt": "Halloween Chili Service Check: Label Allergens and Keep Hot Food Safe topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Halloween Chili Service Check: Label Allergens and Keep Hot Food Safe. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "halloween chili food safety"
     ],
@@ -16240,14 +16240,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Event Follow-Up: Store Leftovers and Record Food-Safety Notes",
-    "seoTitle": "Chili Event Follow-Up: Store Leftovers and Record Food-Sa...",
+    "seoTitle": "Chili Event Leftover and Food-Safety Follow-Up",
     "slug": "chili-event-follow-up-store-leftovers-and-record-food-safety-notes",
     "publishDate": "2026-11-02",
     "publishAt": "2026-11-02T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-event-follow-up-store-leftovers-and-record-food-safety-notes.svg",
     "imageAlt": "Chili Event Follow-Up: Store Leftovers and Record Food-Safety Notes topic field map",
-    "excerpt": "Plan food safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Chili Event Follow-Up: Store Leftovers and Record Food-Safety Notes. Use the checklist to verify preparation, labels, safety controls, stop conditions, and event follow-through.",
     "keywords": [
       "chili leftovers food safety"
     ],
@@ -16556,14 +16556,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "Treat food safety as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Service Reset: Replace Utensils and Refresh Allerge...",
-    "seoTitle": "Chili Service Reset: Replace Utensils and Refresh Allerge...",
+    "title": "Chili Service Reset: Replace Utensils and Refresh Allergen Labels",
+    "seoTitle": "Chili Service Utensil and Allergen Label Reset",
     "slug": "chili-service-reset-replace-utensils-and-refresh-allergen-labels",
     "publishDate": "2026-11-03",
     "publishAt": "2026-11-03T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-service-reset-replace-utensils-and-refresh-allergen-labels.svg",
-    "imageAlt": "Chili Service Reset: Replace Utensils and Refresh Allerge... topic field map",
+    "imageAlt": "Chili service utensil and allergen label reset field map",
     "excerpt": "Use a practical six-step chili buffet cross contact workflow with evidence checks, cautions, and a reusable review checklist.",
     "keywords": [
       "chili buffet cross contact"
@@ -17197,7 +17197,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-11-06T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-allergen-check-refresh-labels-before-guests-serve-themselves.svg",
-    "imageAlt": "Chili Allergen Check: Refresh Labels Before Guests Serve... topic field map",
+    "imageAlt": "Chili allergen label refresh field map",
     "excerpt": "Use a practical six-step chili allergen labels workflow with evidence checks, cautions, and a reusable review checklist.",
     "keywords": [
       "chili allergen labels"
@@ -17514,7 +17514,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-11-09T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-tasting-pace-offer-water-portions-and-a-no-pressure-exit.svg",
-    "imageAlt": "Chili Tasting Pace: Offer Water, Portions, and a No-Press... topic field map",
+    "imageAlt": "Chili tasting pace, water, and portion field map",
     "excerpt": "Use a practical six-step spicy food tasting pace workflow with evidence checks, cautions, and a reusable review checklist.",
     "keywords": [
       "spicy food tasting pace"
@@ -18465,7 +18465,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-11-12T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-reheat-check-bring-leftovers-back-to-a-safe-serving-plan.svg",
-    "imageAlt": "Chili Reheat Check: Bring Leftovers Back to a Safe Servin... topic field map",
+    "imageAlt": "Chili leftover reheat and serving temperature field map",
     "excerpt": "Use a practical six-step chili leftover reheating workflow with evidence checks, cautions, and a reusable review checklist.",
     "keywords": [
       "chili leftover reheating"
@@ -21312,14 +21312,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible",
-    "seoTitle": "Chili Serving Plan: Keep Allergen Details and Mild Options",
+    "seoTitle": "Chili Serving Allergen and Mild-Option Plan",
     "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible",
     "publishDate": "2026-11-25",
     "publishAt": "2026-11-25T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible.svg",
     "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible topic field map",
-    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible workflow with evidence checks, cautions, and a reusable review check.",
+    "excerpt": "Plan chili service with visible allergen details, clearly marked mild options, separate utensils, safe temperatures, and an easy guest opt-out.",
     "keywords": [
       "chili serving plan keep allergen details and mild options visible"
     ],
@@ -21628,15 +21628,15 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "The difficult part of chili serving plan: keep allergen details and mild options visible is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (Nov 2026)",
-    "seoTitle": "Chili Serving Plan: Keep Allergen Details and Mild Options",
+    "title": "Chili Mild-Option Station: Labels, Utensils, and Guest Choice",
+    "seoTitle": "Chili Mild-Option Station Setup",
     "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible-nov-2026",
     "publishDate": "2026-11-26",
     "publishAt": "2026-11-26T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible-nov-2026.svg",
     "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (Nov 2026) topic field map",
-    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible nov 2026 workflow with evidence checks, cautions, and a reusable rev.",
+    "excerpt": "Set up a mild chili option with visible ingredients, separate serving utensils, temperature controls, refill rules, and low-pressure guest guidance.",
     "keywords": [
       "chili serving plan keep allergen details and mild options visible nov 2026"
     ],
@@ -22262,15 +22262,15 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "Planning chili serving plan: keep allergen details and mild options visible (nov 2026) is an exercise in controlled execution. The goal is a repeatable result without overrunning safety, permission, fit, quality, or capacity limits. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (2026-11-30)",
-    "seoTitle": "Chili Serving Plan: Keep Allergen Details and Mild Options",
+    "title": "Chili Allergen Card Check Before Guests Arrive",
+    "seoTitle": "Chili Allergen Card Check Before Service",
     "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible-2026-11-30",
     "publishDate": "2026-11-30",
     "publishAt": "2026-11-30T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible-2026-11-30.svg",
     "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (2026-11-30) topic field map",
-    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible 2026 11 30 workflow with evidence checks, cautions, and a reusable r.",
+    "excerpt": "Review chili allergen cards against recipes, toppings, utensils, substitutions, refill containers, and the final serving layout before guests arrive.",
     "keywords": [
       "chili serving plan keep allergen details and mild options visible 2026 11 30"
     ],

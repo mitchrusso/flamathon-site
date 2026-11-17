@@ -49,7 +49,7 @@ const articlePlan = [
   ["How to Run a Spicy Noodle Flight", "how-to-run-a-spicy-noodle-flight", "2026-07-10", "Spicy Ramen", images.ramenVariety, ["spicy ramen challenge", "spicy noodle flight", "ramen tasting party"]],
   ["Chili Crisp Buying Guide", "chili-crisp-buying-guide", "2026-07-13", "Chili Crisp and Oils", images.chili, ["best chili crisp", "spicy chili oil", "chili crisp gift set"]],
   ["Chili Crisp vs Hot Sauce", "chili-crisp-vs-hot-sauce", "2026-07-14", "Chili Crisp and Oils", images.chiliJar, ["chili crisp vs hot sauce", "spicy condiment", "chili oil"]],
-  ["Spicy BBQ Rub vs Wing Sauce", "spicy-bbq-rub-vs-wing-sauce", "2026-07-15", "BBQ and Wings", images.grill, ["spicy BBQ rub", "hot wing sauce", "spicy grilling sauce"]],
+  ["How to Choose Between Spicy BBQ Rub and Wing Sauce", "spicy-bbq-rub-vs-wing-sauce", "2026-07-15", "BBQ and Wings", images.grill, ["spicy BBQ rub", "hot wing sauce", "spicy grilling sauce"]],
   ["Best Wing Night Hot Sauce Setup", "best-wing-night-hot-sauce-setup", "2026-07-16", "BBQ and Wings", images.wings, ["wing night hot sauce", "hot sauce tasting party", "spicy wing sauce"]],
   ["Food Safety for Spicy Wing Night", "food-safety-for-spicy-wing-night", "2026-07-17", "BBQ and Wings", images.wings, ["food safety for wings", "spicy wing night", "party food safety"]],
   ["Allergen Checks for Spicy Snacks", "allergen-checks-for-spicy-snacks", "2026-07-20", "Safety and Hosting", images.party, ["spicy food allergy labels", "food allergen labels", "sesame allergen"]],

@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { approvedResourceArticles } from "../src/lib/approved-articles";
 
 const routes = [
   "/",
@@ -13,6 +14,21 @@ const routes = [
   "/terms-and-conditions",
   "/amazon-disclosure",
 ];
+
+test("scheduled resource metadata remains unique and complete", () => {
+  const seoTitles = approvedResourceArticles.map((article) => article.seoTitle ?? article.title);
+  const descriptions = approvedResourceArticles.map((article) => article.excerpt);
+
+  expect(new Set(seoTitles).size).toBe(seoTitles.length);
+  expect(new Set(descriptions).size).toBe(descriptions.length);
+  for (const article of approvedResourceArticles) {
+    for (const value of [article.title, article.seoTitle ?? "", article.excerpt, article.imageAlt ?? ""]) {
+      expect(value).not.toContain("...");
+    }
+    expect(article.excerpt.length).toBeGreaterThanOrEqual(50);
+    expect(article.excerpt.length).toBeLessThanOrEqual(220);
+  }
+});
 
 test.describe("SEO route health", () => {
   for (const route of routes) {
@@ -57,6 +73,14 @@ test.describe("SEO route health", () => {
     expect(jsonLd.join("\n")).toContain('"Article"');
     expect(jsonLd.join("\n")).toContain('"FAQPage"');
     expect(jsonLd.join("\n")).not.toContain('"Product"');
+  });
+
+  test("BBQ resource and comparison routes target distinct search intents", async ({ page }) => {
+    await page.goto("/resources/spicy-bbq-rub-vs-wing-sauce");
+    const resourceTitle = await page.title();
+    await page.goto("/compare/spicy-bbq-rub-vs-wing-sauce");
+    const comparisonTitle = await page.title();
+    expect(resourceTitle).not.toBe(comparisonTitle);
   });
 
   test("Amazon links use the Flameathon affiliate tag and safe external attributes", async ({ page }) => {
