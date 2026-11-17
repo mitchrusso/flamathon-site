@@ -11,23 +11,13 @@ export type TopicHub = {
   relatedArticleSlugs: string[];
 };
 
-const challengeSetImage = "/images/products/thoughtfully-hot-sauce-challenge-10-pack-optimized.jpg";
-const superhotSauceImage = "/images/products/ghost-pepper-carolina-reaper-gift-set.jpg";
-const ramenImage = "/images/products/kf-goodies-buldak-spicy-ramen-variety-box.jpg";
-const chiliOilImage = "/images/products/fly-by-jing-chili-crisp-starter-set.jpg";
-const grillImage = "/images/products/spicy-bbq-rub-wing-sauce-kit.jpg";
-const tastingSuppliesImage = "/images/products/spicy-tasting-recovery-pairings-optimized.jpg";
-const hotHoneyImage = "/images/products/mikes-hot-honey-original-extra-hot-combo.jpg";
-const pepperFlakesImage = "/images/products/flatiron-pepper-co-four-pepper-blend.jpg";
-const spicyPicklesImage = "/images/products/famous-daves-sweet-spicy-pickle-chips.jpg";
-
 export const topicHubs: TopicHub[] = [
   {
     title: "Hot Sauce Challenge Sets",
     slug: "hot-sauce-challenge-sets",
     eyebrow: "Mild to Wild",
     description: "Choose hot sauce challenge kits by heat ladder, label clarity, serving rules, and gift value.",
-    image: challengeSetImage,
+    image: "/images/topic-hot-sauce-challenge-sets.svg",
     keywords: ["hot sauce challenge set", "mild to wild hot sauce", "hot sauce gift set"],
     featuredProductSlugs: ["thoughtfully-hot-sauce-challenge-10-pack", "ass-kickin-hot-sauce-challenge-book", "melindas-pepper-sauce-challenge-collection"],
     relatedArticleSlugs: ["how-to-host-a-hot-sauce-challenge-safely", "best-hot-sauce-challenge-set-features", "ghost-pepper-vs-carolina-reaper"],
@@ -45,7 +35,7 @@ export const topicHubs: TopicHub[] = [
     slug: "superhot-sauces",
     eyebrow: "Ghost Pepper and Reaper",
     description: "Compare ghost pepper, Carolina Reaper, scorpion pepper, and other superhot sauces by flavor and responsible serving.",
-    image: superhotSauceImage,
+    image: "/images/topic-superhot-sauces.svg",
     keywords: ["ghost pepper sauce", "Carolina Reaper sauce", "superhot hot sauce"],
     featuredProductSlugs: ["ghost-pepper-carolina-reaper-gift-set", "daves-gourmet-ghost-pepper-jolokia-sauce", "elijahs-xtreme-ghost-pepper-hot-sauce"],
     relatedArticleSlugs: ["ghost-pepper-vs-carolina-reaper", "how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans"],
@@ -63,7 +53,7 @@ export const topicHubs: TopicHub[] = [
     slug: "ghost-pepper-sauces",
     eyebrow: "Smoky Superhot",
     description: "Shop ghost pepper sauces by heat, smoke, fruit, vinegar balance, extract use, and safer tiny-portion serving.",
-    image: superhotSauceImage,
+    image: "/images/topic-ghost-pepper-sauces.svg",
     keywords: ["ghost pepper sauce", "best ghost pepper hot sauce", "ghost pepper gift set"],
     featuredProductSlugs: ["yellowbird-classic-ghost-pepper-hot-sauce", "melindas-ghost-pepper-hot-sauce", "daves-gourmet-ghost-pepper-jolokia-sauce", "bravado-ghost-pepper-blueberry-hot-sauce", "melindas-creamy-ghost-pepper-wing-sauce", "melindas-ghost-pepper-black-truffle-hot-sauce"],
     relatedArticleSlugs: ["ghost-pepper-vs-carolina-reaper", "how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans"],
@@ -82,7 +72,7 @@ export const topicHubs: TopicHub[] = [
     slug: "spicy-ramen",
     eyebrow: "Noodle Flights",
     description: "Shop spicy ramen variety packs by flavor, heat, sodium, allergens, and party-friendly serving size.",
-    image: ramenImage,
+    image: "/images/topic-spicy-ramen.svg",
     keywords: ["spicy ramen variety pack", "Buldak ramen challenge", "hot noodle sampler"],
     featuredProductSlugs: ["buldak-spicy-ramen-variety-box", "samyang-buldak-hot-chicken-ramen-variety-pack"],
     relatedArticleSlugs: ["spicy-ramen-variety-pack-guide", "how-to-run-a-spicy-noodle-flight", "allergen-checks-for-spicy-snacks"],
@@ -100,7 +90,7 @@ export const topicHubs: TopicHub[] = [
     slug: "chili-crisp-and-oils",
     eyebrow: "Crunch and Heat",
     description: "Compare chili crisp, chili oil, salsa macha, and crunchy spicy condiments for everyday meals.",
-    image: chiliOilImage,
+    image: "/images/topic-chili-crisp-and-oils.svg",
     keywords: ["best chili crisp", "spicy chili oil", "chili crisp gift set"],
     featuredProductSlugs: ["fly-by-jing-chili-crisp-starter-set", "sauce-up-extra-spicy-chili-crisp"],
     relatedArticleSlugs: ["chili-crisp-buying-guide", "chili-crisp-vs-hot-sauce", "allergen-checks-for-spicy-snacks"],
@@ -118,7 +108,7 @@ export const topicHubs: TopicHub[] = [
     slug: "bbq-heat",
     eyebrow: "Grill and Wing Night",
     description: "Shop spicy BBQ rubs, wing sauces, marinades, and table sauces by flavor, sugar, salt, and serving control.",
-    image: grillImage,
+    image: "/images/topic-bbq-heat.svg",
     keywords: ["spicy BBQ rub", "hot wing sauce", "spicy grilling sauce"],
     featuredProductSlugs: ["spicy-bbq-rub-wing-sauce-kit", "kosmos-q-hot-dirty-bird-bbq-rub", "melindas-creamy-ghost-pepper-wing-sauce"],
     relatedArticleSlugs: ["spicy-bbq-rub-vs-wing-sauce", "best-wing-night-hot-sauce-setup", "food-safety-for-spicy-wing-night"],
@@ -136,7 +126,7 @@ export const topicHubs: TopicHub[] = [
     slug: "tasting-gear-and-recovery",
     eyebrow: "Host Better",
     description: "Build a responsible spicy tasting setup with spoons, gloves, plain foods, dairy or alternatives, labels, and cleanup.",
-    image: tastingSuppliesImage,
+    image: "/images/topic-tasting-gear-and-recovery.svg",
     keywords: ["hot sauce tasting party", "spicy challenge recovery", "hot sauce tasting spoons"],
     featuredProductSlugs: ["spicy-tasting-recovery-pairings", "thoughtfully-hot-sauce-challenge-10-pack", "torchbearer-best-sellers-mini-bottle-pack"],
     relatedArticleSlugs: ["how-to-host-a-hot-sauce-challenge-safely", "what-to-serve-with-hot-sauce-flights", "capsaicin-safety-for-spicy-food-fans"],
@@ -154,7 +144,7 @@ export const topicHubs: TopicHub[] = [
     slug: "hot-honey",
     eyebrow: "Sweet Heat",
     description: "Compare hot honey bottles and combos for pizza, fried chicken, BBQ, cheese boards, cocktails, and easy gifting.",
-    image: hotHoneyImage,
+    image: "/images/topic-hot-honey.svg",
     keywords: ["best hot honey", "hot honey for pizza", "spicy honey gift"],
     featuredProductSlugs: ["mikes-hot-honey-original-extra-hot-combo", "melindas-ghost-hot-honey", "spicy-bbq-rub-wing-sauce-kit"],
     relatedArticleSlugs: ["spicy-bbq-rub-vs-wing-sauce", "what-to-serve-with-hot-sauce-flights", "mild-to-wild-hot-sauce-gifts"],
@@ -172,7 +162,7 @@ export const topicHubs: TopicHub[] = [
     slug: "pepper-flakes-and-powders",
     eyebrow: "Pantry Fire",
     description: "Shop dry pepper flakes, ghost pepper blends, Carolina Reaper powders, and pizza-ready shakers by heat, flavor, and handling caution.",
-    image: pepperFlakesImage,
+    image: "/images/topic-pepper-flakes-and-powders.svg",
     keywords: ["ghost pepper flakes", "Carolina Reaper powder", "best hot pepper flakes"],
     featuredProductSlugs: ["flatiron-pepper-co-four-pepper-blend", "kosmos-q-hot-dirty-bird-bbq-rub", "daves-gourmet-ghost-pepper-jolokia-sauce"],
     relatedArticleSlugs: ["how-to-read-scoville-ratings", "capsaicin-safety-for-spicy-food-fans", "chili-crisp-vs-hot-sauce"],
@@ -190,7 +180,7 @@ export const topicHubs: TopicHub[] = [
     slug: "spicy-pickles-and-snacks",
     eyebrow: "Crunchy Heat",
     description: "Build snack boards, burger sides, and party spreads with spicy pickles, chips, nuts, jerky, and heat-forward pantry snacks.",
-    image: spicyPicklesImage,
+    image: "/images/topic-spicy-pickles-and-snacks.svg",
     keywords: ["spicy pickles", "spicy snack box", "hot chips variety pack"],
     featuredProductSlugs: ["famous-daves-sweet-spicy-pickle-chips", "mikes-hot-honey-original-extra-hot-combo", "flatiron-pepper-co-four-pepper-blend"],
     relatedArticleSlugs: ["allergen-checks-for-spicy-snacks", "what-to-serve-with-hot-sauce-flights", "food-safety-for-spicy-wing-night"],
