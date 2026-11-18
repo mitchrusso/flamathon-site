@@ -21312,14 +21312,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible",
-    "seoTitle": "Chili Serving Allergen and Mild-Option Plan",
+    "seoTitle": "Chili Serving Plan: Keep Allergen Details and Mild Options",
     "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible",
     "publishDate": "2026-11-25",
     "publishAt": "2026-11-25T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible.svg",
     "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible topic field map",
-    "excerpt": "Plan chili service with visible allergen details, clearly marked mild options, separate utensils, safe temperatures, and an easy guest opt-out.",
+    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible workflow with evidence checks, cautions, and a reusable review check.",
     "keywords": [
       "chili serving plan keep allergen details and mild options visible"
     ],
@@ -21628,15 +21628,15 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "The difficult part of chili serving plan: keep allergen details and mild options visible is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Mild-Option Station: Labels, Utensils, and Guest Choice",
-    "seoTitle": "Chili Mild-Option Station Setup",
+    "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (Nov 2026)",
+    "seoTitle": "Chili Serving Plan: Allergen Details and Mild Options (Nov)",
     "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible-nov-2026",
     "publishDate": "2026-11-26",
     "publishAt": "2026-11-26T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible-nov-2026.svg",
     "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (Nov 2026) topic field map",
-    "excerpt": "Set up a mild chili option with visible ingredients, separate serving utensils, temperature controls, refill rules, and low-pressure guest guidance.",
+    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible nov 2026 workflow with evidence checks, cautions, and a reusable rev.",
     "keywords": [
       "chili serving plan keep allergen details and mild options visible nov 2026"
     ],
@@ -22262,15 +22262,15 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "Planning chili serving plan: keep allergen details and mild options visible (nov 2026) is an exercise in controlled execution. The goal is a repeatable result without overrunning safety, permission, fit, quality, or capacity limits. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   },
   {
-    "title": "Chili Allergen Card Check Before Guests Arrive",
-    "seoTitle": "Chili Allergen Card Check Before Service",
+    "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (2026-11-30)",
+    "seoTitle": "Chili Serving Plan: Allergen Details and Mild Options (Nov 30)",
     "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible-2026-11-30",
     "publishDate": "2026-11-30",
     "publishAt": "2026-11-30T09:00:00-05:00",
     "category": "Spicy Sauces",
     "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible-2026-11-30.svg",
     "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (2026-11-30) topic field map",
-    "excerpt": "Review chili allergen cards against recipes, toppings, utensils, substitutions, refill containers, and the final serving layout before guests arrive.",
+    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible 2026 11 30 workflow with evidence checks, cautions, and a reusable r.",
     "keywords": [
       "chili serving plan keep allergen details and mild options visible 2026 11 30"
     ],
@@ -22577,5 +22577,322 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-9da7830d173e02"
     ],
     "takeaway": "Planning chili serving plan: keep allergen details and mild options visible (2026-11-30) is an exercise in controlled execution. The goal is a repeatable result without overrunning safety, permission, fit, quality, or capacity limits. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
+  },
+  {
+    "title": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (2026-12-01)",
+    "seoTitle": "Chili Serving Plan: Allergen Details and Mild Options (Dec 1)",
+    "slug": "chili-serving-plan-keep-allergen-details-and-mild-options-visible-2026-12-01",
+    "publishDate": "2026-12-01",
+    "publishAt": "2026-12-01T09:00:00-05:00",
+    "category": "Spicy Sauces",
+    "image": "/images/chili-serving-plan-keep-allergen-details-and-mild-options-visible-2026-12-01.svg",
+    "imageAlt": "Chili Serving Plan: Keep Allergen Details and Mild Options Visible (2026-12-01) topic field map",
+    "excerpt": "Use a practical six-step chili serving plan keep allergen details and mild options visible 2026 12 01 workflow with evidence checks, cautions, and a reusable r.",
+    "keywords": [
+      "chili serving plan keep allergen details and mild options visible 2026 12 01"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "Most chili serving plan: keep allergen details and mild options visible (2026-12-01) failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance.",
+            "sourceIds": []
+          },
+          {
+            "text": "Use this guide when a concrete chili serving plan: keep allergen details and mild options visible (2026-12-01) decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "At a glance: six checkpoints for chili serving plan: keep allergen details and mild options visible (2026-12-01)",
+        "body": [
+          {
+            "text": "1. Read the complete ingredient and storage label. 2. Screen allergens and cross-contact concerns. 3. Prepare a small measured flavor-first serving. 4. Keep utensils and temperature controls separate. 5. Offer a pressure-free opt-out. 6. Stop and record any tolerance or food-safety concern.",
+            "sourceIds": []
+          },
+          {
+            "text": "Read the list once before acting. Mark the checkpoint with the weakest evidence. That is where the plan needs attention; later refinement cannot rescue a decision built on an unresolved early constraint.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Define the result and the stop rule",
+        "body": [
+          {
+            "text": "Describe the result in observable terms. Include the person, object, or business process affected; the real environment; the acceptable range; and the point at which the work must stop. For chili serving plan: keep allergen details and mild options visible (2026-12-01), an unacceptable outcome includes an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor.",
+            "sourceIds": []
+          },
+          {
+            "text": "Separate hard constraints from preferences. A hard constraint can disqualify the method even when it is faster or cheaper. Write assumptions as assumptions, attach an owner, and give high-consequence unknowns a deadline for resolution.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Prepare with evidence that can change the decision",
+        "body": [
+          {
+            "text": "Build the evidence packet around the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Keep it small enough to use during the work. Label each source with its date and scope, and separate a controlling requirement from a preference.",
+            "sourceIds": []
+          },
+          {
+            "text": "Set up the workspace and communication path before the demanding step. Read the complete ingredient and storage label; then confirm that screen allergens and cross-contact concerns. Make the stop authority explicit. The person who notices a problem should not need to negotiate permission while the exposure or failure is growing.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "The complete walkthrough",
+        "body": [
+          {
+            "text": "1. Read the complete ingredient and storage label.",
+            "sourceIds": []
+          },
+          {
+            "text": "Before performing this step, say the plan aloud: read the complete ingredient and storage label. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because chili serving plan: keep allergen details and mild options visible (2026-12-01) can drift when people improvise without noticing that the original conditions changed.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “screen allergens and cross-contact concerns,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "2. Screen allergens and cross-contact concerns.",
+            "sourceIds": []
+          },
+          {
+            "text": "Start by turning “screen allergens and cross-contact concerns” into a fact someone can verify. Use the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. Record the source date with the conclusion so a later reviewer can separate verified facts from recollection. For chili serving plan: keep allergen details and mild options visible (2026-12-01), this checkpoint is complete only when the next operator knows what is confirmed and what remains unknown.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “prepare a small measured flavor-first serving,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "3. Prepare a small measured flavor-first serving.",
+            "sourceIds": []
+          },
+          {
+            "text": "Before performing this step, say the plan aloud: prepare a small measured flavor-first serving. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because chili serving plan: keep allergen details and mild options visible (2026-12-01) can drift when people improvise without noticing that the original conditions changed.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “keep utensils and temperature controls separate,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "4. Keep utensils and temperature controls separate.",
+            "sourceIds": []
+          },
+          {
+            "text": "Before performing this step, say the plan aloud: keep utensils and temperature controls separate. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because chili serving plan: keep allergen details and mild options visible (2026-12-01) can drift when people improvise without noticing that the original conditions changed.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “offer a pressure-free opt-out,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "5. Offer a pressure-free opt-out.",
+            "sourceIds": []
+          },
+          {
+            "text": "Ask what would make this action wrong in the present setting, then offer a pressure-free opt-out. Compare the answer with the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “stop and record any tolerance or food-safety concern,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "6. Stop and record any tolerance or food-safety concern.",
+            "sourceIds": []
+          },
+          {
+            "text": "For this checkpoint, stop and record any tolerance or food-safety concern. Observe the real condition rather than the ideal one. A practical record includes product, ingredients, amount, food pairing, storage condition, and guest feedback. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “schedule the next inspection or review,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Run one representative small test",
+        "body": [
+          {
+            "text": "Use one measured taste served with neutral food and change only one meaningful variable. Define the expected result and the stopping signal before beginning. If an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor appears, end the test and return to the last acceptable condition.",
+            "sourceIds": []
+          },
+          {
+            "text": "Keep the test honest. Do not add help, favorable conditions, or expert intervention that will be absent during normal use. If the difficult case cannot be tested responsibly, escalate it to the qualified person or authority who can evaluate it.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Five mistakes that weaken a chili serving plan: keep allergen details and mild options visible (2026-12-01) plan",
+        "body": [
+          {
+            "text": "- Choosing a tool, product, setting, contract form, or template before the chili serving plan: keep allergen details and mild options visible (2026-12-01) requirement is defined. - Testing only the easiest condition and assuming the result represents normal chili serving plan: keep allergen details and mild options visible (2026-12-01) use. - Changing several variables together, which hides the cause of success or failure. - Continuing after an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor because time or money has already been invested. - Finishing the visible task without recording product, ingredients, amount, food pairing, storage condition, and guest feedback.",
+            "sourceIds": []
+          },
+          {
+            "text": "When a mistake appears, stabilize first. Protect the person, material, rights, equipment, food, environment, or client experience involved. Return to the first checkpoint contradicted by the evidence, revise one variable, and create a new stop rule before trying again.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Safety, permission, and professional boundaries",
+        "body": [
+          {
+            "text": "Food and tolerance caution: check every ingredient label for allergen and cross-contact warnings, keep perishable foods within safe time and temperature limits, and never pressure someone to exceed their stated heat tolerance. Capsaicin can irritate skin, eyes, and the digestive tract. People with medical concerns should seek individualized clinical guidance; urgent symptoms require prompt help.",
+            "sourceIds": []
+          },
+          {
+            "text": "Authoritative starting points:",
+            "sourceIds": []
+          },
+          {
+            "text": "- FDA food-allergen guidance - USDA food-storage guidance - Poison Control capsaicin guidance",
+            "sourceIds": [
+              "editorial-deae295be6a004",
+              "editorial-3094863ae3a0c7",
+              "editorial-9da7830d173e02"
+            ]
+          },
+          {
+            "text": "Confirm that a source applies to the exact model, jurisdiction, land manager, product category, transaction, clinical situation, or activity. Save the access date and pair general guidance with current manufacturer instructions or individualized professional advice when appropriate.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Review the result and make it reusable",
+        "body": [
+          {
+            "text": "Review product, ingredients, amount, food pairing, storage condition, and guest feedback. Compare the observation with the result statement, not with the effort invested. Decide to adopt, adjust, obtain qualified help, or stop.",
+            "sourceIds": []
+          },
+          {
+            "text": "Turn the final note into a short checklist for the next person. Include the six checkpoints, the approved range, a photograph or example where useful, the stop rule, and the escalation contact. A workflow is not delegated until another person can recognize both a good result and a reason to stop.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Your next 20 minutes",
+        "body": [
+          {
+            "text": "Write the desired result and the unacceptable outcome. Complete checkpoint one using a current source or direct observation. Then prepare one measured taste served with neutral food. If the critical evidence is missing, use the time to send one precise question instead of improvising.",
+            "sourceIds": []
+          },
+          {
+            "text": "The goal of this short session is not to finish chili serving plan: keep allergen details and mild options visible (2026-12-01). It is to reach the first defensible action with the stop rule already in place.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Related practical guides",
+        "body": [
+          {
+            "text": "- hot-sauce tasting-flight guide - ingredient-label checklist - spicy-food resource library",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "body": [
+          {
+            "text": "What should be verified first?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Verify the fact that could disqualify the entire approach. In this workflow that usually means read the complete ingredient and storage label, followed by a check that you can screen allergens and cross-contact concerns under real conditions.",
+            "sourceIds": []
+          },
+          {
+            "text": "How detailed should the written plan be?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Detailed enough that another capable person can perform the next checkpoint and recognize an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor. For most situations, one page plus the controlling sources and product, ingredients, amount, food pairing, storage condition, and guest feedback is more useful than a long narrative.",
+            "sourceIds": []
+          },
+          {
+            "text": "When is a small test not appropriate?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Skip informal testing when a recall, emergency, legal restriction, clinical concern, structural question, food-safety uncertainty, unknown hazardous material, or manufacturer prohibition requires an authoritative response first.",
+            "sourceIds": []
+          },
+          {
+            "text": "What evidence should be saved afterward?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Save product, ingredients, amount, food pairing, storage condition, and guest feedback. Add the source date, the person who approved the result, and the date or trigger for the next review.",
+            "sourceIds": []
+          },
+          {
+            "text": "What if the first attempt fails?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Stop, protect the affected people and property, and preserve the evidence. Identify the earliest failed checkpoint, change one variable, and decide whether a second bounded test or qualified professional review is the responsible next step.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Decision table for the current attempt",
+      "columns": [
+        "Decision point",
+        "Evidence to check",
+        "Continue when",
+        "Stop when"
+      ],
+      "rows": [
+        [
+          "Opening evidence",
+          "the complete ingredient label, serving size, preparation method, storage history, and each guest’s stated limits",
+          "source, date, and scope are recorded",
+          "a controlling fact is missing"
+        ],
+        [
+          "Small test",
+          "one measured taste served with neutral food",
+          "the test represents the difficult condition",
+          "an allergen uncertainty, unsafe storage, escalating irritation, or heat that obscures flavor"
+        ],
+        [
+          "Owner",
+          "the host or cook controlling the serving",
+          "one person can stop or escalate the work",
+          "ownership is assumed but not named"
+        ],
+        [
+          "Completion record",
+          "product, ingredients, amount, food pairing, storage condition, and guest feedback",
+          "the next reviewer can repeat the decision",
+          "the result depends on memory"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-deae295be6a004",
+      "editorial-3094863ae3a0c7",
+      "editorial-9da7830d173e02"
+    ],
+    "takeaway": "Most chili serving plan: keep allergen details and mild options visible (2026-12-01) failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A good spicy-food plan protects flavor, food safety, and everyone’s individual tolerance."
   }
 ];
